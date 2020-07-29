@@ -1,0 +1,195 @@
+body {
+	background: #99f url("http://fi.somethingawful.com/byob/cat.gif") top left no-repeat;
+}
+
+a {
+	color: #066;
+}
+
+a:hover {
+	color: #600;
+}
+
+body,a:visited {
+	color: #000;
+}
+
+a:active {
+	color: #f09;
+}
+
+#thread td.postbody {
+	font-family: "comic sans ms";
+	font-size: 19px;
+	font-weight: normal;
+}
+
+#textads li {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#textads li a {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+tr.textads_ab_row,tr.textads_row {
+	background-color: #cfc;
+}
+
+#notregistered,#searchboxes {
+	background: none;
+}
+
+#forum th,#forum th a,div.threadbar,div.forumbar {
+	color: #fff;
+}
+
+#thread div.quote {
+	border-color: #aaa;
+}
+
+#forum th,div.threadbar,div.forumbar {
+	background: gray;
+}
+
+#forum td.icon,#forum td.author,#forum td.views,#forum td.lastpost,#thread li.post,#subforums td.topics,#forum td.votes,#forum.asktell td.icon2,table.standard tr td.altcolor2 {
+	background: #ccf;
+}
+
+#thread li.post.even,#subforums,#subforums td,#forum,#forum td,#forum td.star,#forum td.title,#forum td.replies,#forum td.rating,#filter,table#thread tr.even td,#forum.asktell td.icon,#thread.review td,table.standard tr td.altcolor1 {
+	background: #cff;
+}
+
+/* Threadlist - seen threads */
+#forum tr.seen td.icon,#forum tr.seen td.author,#forum tr.seen td.views,#forum tr.seen td.lastpost {
+	background: #bbccdd;
+}
+#forum tr.seen td.star,#forum tr.seen td.title,#forum tr.seen td.replies,#forum tr.seen td.rating {
+	background: #d2e2f2;
+}
+
+/* Restore icon border */
+#forum tr td:nth-child(2) {
+	border-width: 1px;
+}
+
+div.threadbar,#subforums,#subforums td,#forum,#forum th,#forum td,#filter,div.forumbar,#thread table.post,#thread table.post td {
+	border: 1px solid #033;
+}
+
+#thread dl.userinfo dt.author {
+	color: #666;
+}
+
+#thread dd.registered {
+	color: #060!important;
+}
+
+#thread div.title {
+	font: normal normal normal 10px Verdana,Arial,sans-serif;
+	margin-top: 1em;
+}
+
+#thread dd.title {
+	overflow: hidden;
+}
+
+.thread td.title_sticky a.thread_title {
+	padding-left: 28px;
+	background: left no-repeat url('http://fi.somethingawful.com/sticky-byob.png');
+}
+
+#hat {
+	display: none;
+	position: absolute;
+	left: -300px;
+	top: -20px;
+}
+
+#hat img {
+	display: block;
+}
+
+table.standard {
+	background: black;
+	border: 1px black solid;
+}
+
+table.standard td {
+	border: 1px black solid;
+}
+
+.standard h2,table.standard th {
+	background: #8080a6;
+	color: white;
+	border: 0;
+}
+
+table.standard td {
+	background: #ccf;
+}
+
+div.standard,div.standard .inner {
+	background: #ccf;
+}
+
+table.standard tr td.altcolor1,.altcolor1,tr.altcolor1 td,td.altcolor1, tr.altcolor1 td.userinfo, tr.altcolor1 td.postdate {
+	background-color:#ccf
+}
+
+table.standard tr td.altcolor2,.altcolor2,tr.altcolor2 td,td.altcolor2, tr.altcolor2 td.userinfo, tr.altcolor2 td.postdate {
+	background-color:#cff
+}
+
+table.post tr.seen1 td, table.post tr.seen1 td.userinfo, table.post tr.seen1 td.postdate {
+	background-color:#c7b9e7
+}
+
+table.post tr.seen2 td, table.post tr.seen2 td.userinfo, table.post tr.seen2 td.postdate {
+	background-color:#b9e7e7
+}
+
+td.title a.newposts {
+	margin-top: 2px;
+	height: 19px;
+	border-style: dotted;
+	text-align: right;
+	background: right no-repeat url('http://fi.somethingawful.com/style/postpenguin.gif');
+}
+
+td.title a.newposts b {
+	font-size: 14px;
+	margin-right: 2px;
+	text-align: center;
+	color: #fa6496;
+}
+
+.online_users,.online_users a {
+	color: #fce263;
+	font-weight: bold;
+}
+
+div.pages a,div.pages .curpage {
+	font-size: 12px;
+	color: 000;
+	padding: 2px 1px 1px;
+	margin: 4px 2px;
+	text-decoration: none;
+}
+
+div.pages .curpage {
+	color: #000;
+}
+
+div.pages a {
+	border-bottom: 1px #999 solid;
+}
+
+div.pages a:hover {
+	background: #cff;
+	color: #000;
+	padding: 2px 3px 1px;
+	margin: 4px 0;
+}
