@@ -1,9 +1,3 @@
-
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,900,400italic,500italic,700italic);
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
 	-webkit-font-smoothing: subpixel-antialiased !important;
 	text-rendering: optimizeLegibility;
@@ -101,11 +95,12 @@ img#button_bookmark
 }
 
 span.online_users, span.online_users a {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 span.online_users {
-	padding-left: 8px;
+  padding-left: 8px;
+  white-space: nowrap;
 }
 
 span.online_users a {
@@ -580,10 +575,17 @@ form.forum_jump
 	padding: 0 10px;
 }
 
-#mp_bar
+.forumdisplay #mp_bar
 {
-  visibility: visible !important;
-  height: 25px !important;
+  margin-top: 10px;
+  clear: both;
+}
+
+#mods {
+  line-height: 18px;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 #filter
@@ -979,8 +981,8 @@ div.mainbodytextsmall
   margin-bottom:10px;
   float: left;
   clear: both;
-  }
-  
+}
+
 .forumhome div.mainbodytextsmall {
 	font-size: 13px;
 	margin: 0;
@@ -1197,6 +1199,7 @@ tr.category2 td.star div,td.star.bm2 div
 .breadcrumbs span.mainbodytextlarge, .usercp div.breadcrumbs, .member_account_features div.breadcrumbs, .privfolder div.breadcrumbs, .bookmark_threads div.breadcrumbs, .modifyprofile div.breadcrumbs, .modifyoptions div.breadcrumbs, .modifypassword div.breadcrumbs, .listedit div.breadcrumbs {
 	/* ---- Make text a little bigger ----- */
     font-size: 15px;
+    white-space: nowrap;
 }
 
 .showthread .breadcrumbs span.mainbodytextlarge {
@@ -1234,25 +1237,6 @@ ul#usercpnav li a {
 
 .modifyprofile table.standard, .modifyoptions table.standard {
 	width: 100%;
-}
-
-/* --------------- FYAD Tweaks ---------------- */
-.forum_26 .post td.postdate {
-	width: 180px !important;
-    display: inline-table;
-}
-
-.forum_26 #thread table.post td {
-	display: inline-table;
-}
-
-.forum_666 .post td.postdate {
-	width: 180px !important;
-    display: inline-table;
-}
-
-.forum_666 #thread table.post td {
-	display: inline-table;
 }
 
 #forum td.button_remove
@@ -1418,7 +1402,6 @@ ul#usercpnav li a {
   margin-top:-26px;
   margin-right:10px;
   display:inline-block;
-  padding-bottom:0;
 }
 
 .usercp #cpmain div.pages a.pagenumber
@@ -1761,7 +1744,7 @@ ul#usercpnav li a {
   padding:5px;
 }
 
-.modifyprofile .standard th,.modifyoptions .standard th,.modifypassword .standard h2,.listedit .standard h2,.member_account_features .standard h2,.dictionary_show .standard h2,.gloryhole .standard h2,.banlist .standard h2,.supportmail .standard h2,#main_full th,.getinfo .standard th,.newthread .standard h2,.online_users .standard h2,.newreply .standard h2,.editpost .standard h2,.threads_editthread .standard th
+.modifyprofile .standard th,.modifyoptions .standard th,.modifypassword .standard h2,.listedit .standard h2,.member_account_features .standard h2,.dictionary_show .standard h2,.gloryhole .standard h2,.banlist .standard h2,.supportmail .standard h2,#main_full th,.getinfo .standard th,.newthread .standard h2,.online_users .standard h2,.priv_sendprivmsg .standard h2,.newreply .standard h2,.editpost .standard h2,.threads_editthread .standard th
 {
   font-size: 10px;
   font-size: 13px;
@@ -2238,6 +2221,7 @@ div.pages a, div.pages span.disabled,.dictionary_show .letternav li a,.dictionar
   line-height:18px;
   display:inline-block;
   font-size:12px;
+  font-weight:400;
   margin:0;
   padding:0 4px;
 }
@@ -2372,26 +2356,6 @@ div.breadcrumbs a.up span a
 {
   display:block;
   margin-top:4px;
-}
-
-body#something_awful.forum_154 tr.seen1 td.userinfo,body#something_awful.forum_154 tr.seen1 td.postdate
-{
-  background-color:#DBE8F5;
-}
-
-body#something_awful.forum_154 tr.seen2 td.userinfo,body#something_awful.forum_154 tr.seen2 td.postdate
-{
-  background-color:#E7EFF5;
-}
-
-body#something_awful.forum_154 .altcolor2 td.userinfo,body#something_awful.forum_154 .altcolor2 td.postdate
-{
-  background-color:#FCC;
-}
-
-body#something_awful.forum_154 .altcolor1 td.userinfo,body#something_awful.forum_154 .altcolor1 td.postdate
-{
-  background-color:#FCF;
 }
 
 body.searchresults #mp_bar
@@ -2580,6 +2544,7 @@ div.bottom_forms form#ac_timemachine
 	display: none;
 }
 
+/* gas chamber */
 .forumhome #forums tr.forum_25 td.icon,.forumhome #forums tr.forum_25 td.title,.forumhome #forums tr.forum_25 td.moderators
 {
   background-color:#c0e1c1;
@@ -2594,6 +2559,7 @@ div.bottom_forms form#ac_timemachine
   background-color:#9dca9e;
 }
 
+/* goldmine */
 .forumhome #forums tr.forum_21 td.icon,.forumhome #forums tr.forum_21 td.title,.forumhome #forums tr.forum_21 td.moderators
 {
   background-image:url(https://fi.somethingawful.com/images/goldmine_bg.png);
@@ -2636,6 +2602,7 @@ div.pages a:last-child,.modqueue #main_full div.pages a
   word-spacing:0;
 }
 
+/* more gas chamber */
 .forum_25 div#thread
 {
   box-shadow:0 0 12px #072c09;
@@ -2873,6 +2840,7 @@ body.forum_25
   background-image:url(//fi.somethingawful.com/images/gas-background.jpg);
   box-shadow:2px 2px 9px #043405;
   border-color:#043405;
+  background-repeat: repeat;
 }
 
 .forum_25 .bbc-block blockquote
@@ -2913,6 +2881,7 @@ body.forum_25
   color:#053D08;
 }
 
+/* more goldmine */
 .forum_21 #thread table.post
 {
   border:1px solid #BBB;
@@ -3024,6 +2993,7 @@ body.forum_21
   border-collapse: separate;
 }
 
+/* film dump */
 .forum_133 #forum.threadlist thead tr th,.privfolder thead tr th,.privfolder tfoot tr td,.bookmark_threads thead tr th,.modifyprofile tbody tr th,.modifyoptions tbody tr th
 {
   box-shadow:inset 0 2px 0 #8298a1,inset 0 -2px 0 #2e444d;
@@ -3079,6 +3049,7 @@ to
   font-size: 13px;
 }
 
+/* yet more gas chamber */
 .forum_25 #nav_purchase a,.forum_25 ul.navigation a
 {
   color:#d6beab;
@@ -3096,6 +3067,7 @@ to
   padding:0;
 }
 
+/* still more gas chamber */
 .forum_25 .navigation,.forum_25 #nav_purchase
 {
   background-color:#4D280C;
@@ -3117,11 +3089,13 @@ body.forum_25 div#gc_overlay
   pointer-events:none;
 }
 
+/* imp zone */
 body.forum_267
 {
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshi.jpg) #cedbf0;
 }
 
+/* fast food */
 body.forum_669
 {
   background:url(//fi.somethingawful.com/images/mcd4.png) #c7191b;
@@ -3272,6 +3246,7 @@ body#something_awful.forum_669 #copyright
   padding:0 4px 0 0;
 }
 
+/* cspam */
 .forum_269 .author.op:after
 {
   content:"";
@@ -3361,7 +3336,6 @@ body#something_awful.forum_669 #copyright
   line-height:16px;
   margin-right:4px;
   text-shadow:none;
-  color:transparent;
   padding:0;
 }
 
@@ -3382,11 +3356,6 @@ body#something_awful.forum_669 #copyright
 }
 
 .forum_267 #thread td.postdate .lastseen_icon img
-{
-  display:none;
-}
-
-.forum_669 #thread td.postdate .lastseen_icon img
 {
   display:none;
 }
@@ -3468,6 +3437,7 @@ body#something_awful.forum_669 #copyright
   margin:0 0 0 100px;
 }
 
+/* plat icons without a specific class */
 #thread .userid-180223 dt.author
 {
   padding-left:18px;
@@ -3478,12 +3448,6 @@ body#something_awful.forum_669 #copyright
 {
   padding-left:18px;
   background:url(//fi.somethingawful.com/images/avatars/icon-bolt.png) no-repeat left 2px;
-}
-
-.forum_188 #thread .userid-182864 dl.userinfo dt.author
-{
-  color:rgba(0,0,0,0.5);
-  text-shadow:4px 0 1px cyan, -2px 0 1px red, -2px 0 1px red, 4px 0 1px #0FF;
 }
 
 #thread .userid-41916 dt.author,#thread .userid-180849 dt.author
@@ -3968,84 +3932,17 @@ body#something_awful  #copyright {
 
 /* ---------------- BYOB Tweaks ------------------- */
 
-.forum_268.forumdisplay #forum.threadlist td.title.title_sticky div.info a.thread_title, .forum_268 #thread dl.userinfo dt.author, .forum_268 #forum td.title a, .forum_268 #thread table.post td, .forum_268 div.breadcrumbs a.bclast, .forum_268 div.breadcrumbs a.up, .forum_268 #forum td, .forum_268  #forum th, .forum_268  .mainbodytextlarge, .forum_268 #forum thead th a, .forum_268 .online_users {
-	font-family: "comic sans ms";
+/* BYOB Spaceship - grey forums mode, purple primary hybrid version */
+#forum tr#thread3918699 td.title {
+	background: #ccf;
 }
 
-.forum_268 #forum {
-	border-collapse: collapse;
-	border: 1px solid #999;
+#forum tr#thread3918699 td.star, #forum tr#thread3918699 td.icon, #forum tr#thread3918699 td.author, #forum tr#thread3918699 td.views,#forum tr#thread3918699 td.lastpost,#forum tr#thread3918699 td.button_remove {
+	background: #b9e7e7;
 }
 
-.forum_268 #forum td.star {
-	border: 1px solid #AAA;
-}
-
-.forum_268 #forum thead th a {
-	background-color: inherit;
-}
-
-.forum_268 #forum td {
-	border: 1px solid #AAA;
-}
-
-.forum_268  .mainbodytextlarge, .forum_268 .online_users, .forum_268 .online_users a, .forum_268 #forum td.title a {
-	font-size: 15px;
-}
-
-.forum_268 #thread table.post td {
-	font-size: 16px;
-}
-
-.forum_268 #thread td.postbody {
-	line-height: 25px;
-}
-
-.forum_268 #thread table.post td {
-	border: 0px solid #828C8C;
-}
-
-.forum_268 #thread table.post {
-	border-top-color: #9DB0C3;
-	border-right-color: #7878C8;
-	border-left-color: #7878C8;
-}
-
-.forum_268 div.threadbar.bottom, .forum_268 div.threadbar.top {
-	box-shadow: inset 2px 2px 0 #B6B6B6,inset -2px -2px 0 #545454;
-}
-
-/* ------------- FYAD Tweaks ------------------- */
-
-.forum_26 .altcolor2 td.userinfo, .forum_26 .altcolor2 td.postdate, .forum_26 .altcolor1 td.userinfo, .forum_26 .altcolor1 td.postdate {
-	background-color: inherit;
-}
-
-.forum_26 .thread td.title_sticky a.thread_title {
-	background: left no-repeat url(//i.somethingawful.com/images/fyad-sticky.png);
-}
-
-.forum_26 td.title div.lastseen {
-	background: bottom right no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-1.png) #acff80;
-}
-
-.forum_26 #forum td.title div.lastseen a.x {
-	background: bottom left no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-x.png);
-}
-.forum_666 .altcolor2 td.userinfo, .forum_26 .altcolor2 td.postdate, .forum_26 .altcolor1 td.userinfo, .forum_26 .altcolor1 td.postdate {
-	background-color: inherit;
-}
-
-.forum_666 .thread td.title_sticky a.thread_title {
-	background: left no-repeat url(//i.somethingawful.com/images/fyad-sticky.png);
-}
-
-.forum_666 td.title div.lastseen {
-	background: bottom right no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-1.png) #acff80;
-}
-
-.forum_666 #forum td.title div.lastseen a.x {
-	background: bottom left no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-x.png);
+#forum tr#thread3918699 td.rating, #forum tr#thread3918699 td.replies {
+	background: #B8B8E6;
 }
 
 /* ------------- CP Tweaks --------------------- */
@@ -4288,11 +4185,18 @@ div.breadcrumbs a.up:hover span
   margin:0 auto;
 }
 
-.dictionary_show #main_full,.newthread div.standard
+.dictionary_show #main_full,.newthread div.standard, .priv_sendprivmsg div.standard
 {
   width:auto;
 }
 
+/* override the margin-top for PM previews since there's already a big gap */
+.priv_sendprivmsg div.standard
+{
+  margin-top: 0;
+}
+
+/* more imp zone */
 .getinfo table.standard,.forum_267 #thread
 {
   clear:both;
@@ -4379,12 +4283,24 @@ a.bbtag_img, a.bbtag_video {
 
 }
 
+#thread dl.userinfo dt.role-ik
+{
+  background-image:url(//downloads.somethingawful.com/misc/gray_star.svg);
+  background-size: 15px;
+}
+
 #thread dl.userinfo dt.role-mod
 {
 /*
   background-image:url(//fi.somethingawful.com/star_moderator_user.png);
   */
   background-image:url(//downloads.somethingawful.com/misc/blue_star.svg);
+  background-size: 15px;
+}
+
+#thread dl.userinfo dt.role-supermod
+{
+  background-image:url(//downloads.somethingawful.com/misc/supermod_star.svg);
   background-size: 15px;
 }
 
@@ -4628,14 +4544,23 @@ a.bbtag_img, a.bbtag_video {
 #thread dl.userinfo dt.blindsally
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/blindsally.svg);
-  background-size: 20px;
+  background-size: 18px;
+  line-height: 18px !important;
 }
 
 #thread dl.userinfo dt.gear
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/gear.svg);
   background-size: 20px;
-  padding-left:20px!important;
+  padding-left:22px!important;
+  line-height:20px!important;
+}
+
+#thread dl.userinfo dt.gear-black
+{
+  background-image:url(https://fi.somethingawful.com/images/svgs/gear-black.svg);
+  background-size: 20px;
+  padding-left:22px!important;
   line-height:20px!important;
 }
 
@@ -4724,6 +4649,14 @@ a.bbtag_img, a.bbtag_video {
   line-height:20px!important;
 }
 
+#thread dl.userinfo dt.commie-blue
+{
+  background-image:url(https://fi.somethingawful.com/images/svgs/commie-darkerblue.svg);
+  background-size:20px;
+  padding-left:20px!important;
+  line-height:20px!important;
+}
+
 #thread dl.userinfo dt.feather
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/feather.svg);
@@ -4782,7 +4715,7 @@ a.bbtag_img, a.bbtag_video {
 #thread dl.userinfo dt.raccoon
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/raccoon.svg);
-  background-size 15px;
+  background-size: 15px;
 }
 
 #thread dl.userinfo dt.baloogan
@@ -4814,10 +4747,9 @@ a.bbtag_img, a.bbtag_video {
 #thread dl.userinfo dt.lightning
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/lightning2.png);
-  background-size:auto;
-  padding-left:20px!important;
+  background-size:26px;
+  padding-left:26px!important;
   line-height:30px!important;
-
 }
 
 #thread dl.userinfo dt.zdr
@@ -4835,19 +4767,19 @@ a.bbtag_img, a.bbtag_video {
 #thread dl.userinfo dt.tankie
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/tank.svg);
-  background-size 25px;
+  background-size: 25px;
 }
 
 #thread dl.userinfo dt.atomic
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/atomic.svg);
-  background-size 20px;
+  background-size: 20px;
 }
 
 #thread dl.userinfo dt.manhattan
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/manhattan.svg);
-  background-size 30px;
+  background-size: 30px;
 }
 
 #thread dl.userinfo dt.larry
@@ -4911,7 +4843,68 @@ a.bbtag_img, a.bbtag_video {
     line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.belt {
+  background-image: url(https://fi.somethingawful.com/images/svgs/belt.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 16px !important;
+}
 
+#thread dl.userinfo dt.polaroid {
+  background-image: url(https://fi.somethingawful.com/images/svgs/polaroid.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 16px !important;
+}
+
+#thread dl.userinfo dt.bee {
+  background-image: url(https://fi.somethingawful.com/images/svgs/bee.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.bee-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/bee-darkblue.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.unreal-black {
+  background-image: url(https://fi.somethingawful.com/images/svgs/unreal-black.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.unreal-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/unreal-blue.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.thunk-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/thunkface2-blue.svg);
+  background-size: 22px;
+  padding-left: 24px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.ant-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ant2-blue.svg);
+  background-size: 22px;
+  padding-left: 22px !important;
+  line-height: 22px !important;
+}
+
+#thread dl.userinfo dt.mcnally-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/mcnally-blue.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 25px !important;
+}
 
 #thread dl.userinfo dt.lowtax
 {
@@ -5200,32 +5193,23 @@ div.breadcrumbs
     margin-bottom: 0;
     line-height: 37px;
     height: auto !important;
-    vertical-align: middle;
-    display: inline-block;
-	white-space: nowrap;
+    /* vertical-align: middle; */
+    display: block;
+    /* white-space: nowrap; */
     text-overflow: ellipsis;
 }
 
 div.pages, div.pages span.disabled
 {
   padding-top:0;
-  padding-bottom:12px;
+  padding-bottom:0;
   min-width: 24px;
 }
 
 div.pages.top, div.pages.bottom {
-	line-height: 38px;
-	display: inline-block;
-}
-
-div.pages.top {
 	line-height: 33px;
-	margin-top: 0 !important;
-}
-
-div.pages.top, div.pages.bottom, div.pages a:hover {
-    margin-bottom: 0;
-    padding-bottom: 0;
+	margin: 0;
+	display: inline-block;
 }
 
 div.pages a, div.pages span.disabled, div.pages a:hover {
@@ -5252,11 +5236,7 @@ div.pages select {
 }
 
 div.pages a:hover {
-	font-size: 15px;
 	background-color: #B05042;
-	border: 1px solid #666;
-    border-radius: 6px;
-    padding: 6px 8px;
 	margin-bottom: 0;
 	margin-top: 0;
 }
@@ -5280,11 +5260,6 @@ body.priv_sendprivmsg textarea, body.priv_sendprivmsg input.bginput {
 	display: block !important;
 	height: auto !important;
 	line-height: 35px !important;
-}
-
-.showthread div.pages.bottom {
-	padding-top: 0;
-	margin-top: 0;
 }
 
 div.breadcrumbs:nth-child(3) {
