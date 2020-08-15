@@ -465,7 +465,8 @@ table#modqueue tr.header th {
 }
 
 .modqueue div.queue_info div.pages {
-	padding-bottom: 0
+	padding-bottom: 0;
+	margin-bottom: 6px;
 }
 
 div.process_button {
