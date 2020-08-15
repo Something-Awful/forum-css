@@ -45,11 +45,10 @@ div.breadcrumbs a.bclast
   border-width:0;
 }
 
-.
- div.breadcrumbs a.bclast, .showthread  div.breadcrumbs a.up span a, .showthread  div.breadcrumbs a.up
+div.breadcrumbs a.bclast, .showthread  div.breadcrumbs a.up span a, .showthread div.breadcrumbs a.up
 {
   font-size: 15px;
-text-decoration: none;
+  text-decoration: none;
 }
 
 .showthread #bookmark_link
@@ -2782,6 +2781,11 @@ body.forum_25
   padding:0;
 }
 
+.forum_21 .thread_bookmark
+{
+  visibility: visible;
+}
+
 .forum_25 .online_users,.forum_25 .online_users a
 {
   color:#043604;
@@ -3211,16 +3215,16 @@ body#something_awful.forum_669 #copyright
   left:-25px;
 }
 
-#.forum_267 #thread dl.userinfo dt.author.role-mod
+.forum_267 #thread dl.userinfo dt.author.role-mod
 {
   background-image:url(data:image/gif;base64,R0lGODlhCgAQAJEDAO3+/hWP5i5LYAAAACH5BAEAAAMALAAAAAAKABAAAAItnCdyK5CLAAhBmSZpja3qlFGCiH1k6FWleE6sOrmjqjmeMmvbpVtH8oAgfIMCADs=);
-  padding-left:14px;
+  padding-left:18px;
 }
 
-#.forum_267 #thread dl.userinfo dt.author.role-admin
+.forum_267 #thread dl.userinfo dt.author.role-admin
 {
   background-image:url(data:image/gif;base64,R0lGODlhCgAQAJEDANtHSpkgJf/S0gAAACH5BAEAAAMALAAAAAAKABAAAAItnBdxG5KLhABAmSZpja3qlFGBiH1k6FWleE6sOrmjqjmeMmvbpVtH8oAgfIMCADs=);
-  padding-left:14px;
+  padding-left:18px;
 }
 
 .forum_267 .thread td.title_sticky a.thread_title,.forum_267 .author.op:before
@@ -4768,18 +4772,21 @@ a.bbtag_img, a.bbtag_video {
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/tank.svg);
   background-size: 25px;
+  padding-left: 27px !important;
 }
 
 #thread dl.userinfo dt.atomic
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/atomic.svg);
   background-size: 20px;
+  padding-left: 24px !important;
 }
 
 #thread dl.userinfo dt.manhattan
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/manhattan.svg);
   background-size: 30px;
+  padding-left: 30px !important;
 }
 
 #thread dl.userinfo dt.larry
