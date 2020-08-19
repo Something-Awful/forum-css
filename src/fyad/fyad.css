@@ -1,3 +1,55 @@
+/* --------------- FYAD Tweaks ---------------- */
+.forum_26 .post td.postdate {
+	width: 180px !important;
+    display: inline-table;
+}
+
+.forum_26 #thread table.post td {
+	display: inline-table;
+}
+
+.forum_666 .post td.postdate {
+	width: 180px !important;
+    display: inline-table;
+}
+
+.forum_666 #thread table.post td {
+	display: inline-table;
+}
+
+/* ------------- FYAD Tweaks ------------------- */
+
+.forum_26 .altcolor2 td.userinfo, .forum_26 .altcolor2 td.postdate, .forum_26 .altcolor1 td.userinfo, .forum_26 .altcolor1 td.postdate {
+	background-color: inherit;
+}
+
+.forum_26 .thread td.title_sticky a.thread_title {
+	background: left no-repeat url(//i.somethingawful.com/images/fyad-sticky.png);
+}
+
+.forum_26 td.title div.lastseen {
+	background: bottom right no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-1.png) #acff80;
+}
+
+.forum_26 #forum td.title div.lastseen a.x {
+	background: bottom left no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-x.png);
+}
+.forum_666 .altcolor2 td.userinfo, .forum_26 .altcolor2 td.postdate, .forum_26 .altcolor1 td.userinfo, .forum_26 .altcolor1 td.postdate {
+	background-color: inherit;
+}
+
+.forum_666 .thread td.title_sticky a.thread_title {
+	background: left no-repeat url(//i.somethingawful.com/images/fyad-sticky.png);
+}
+
+.forum_666 td.title div.lastseen {
+	background: bottom right no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-1.png) #acff80;
+}
+
+.forum_666 #forum td.title div.lastseen a.x {
+	background: bottom left no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-x.png);
+}
+
 body {
 	background-color: #f99;
 	background-image: url(//i.somethingawful.com/images/IM4OR83.jpg);
@@ -328,6 +380,7 @@ table.post tr.seen1 {
 }
 
 /* override gradient below postdate */
-.altcolor1 td.postdate, .altcolor2 td.postdate {
-	background-image: none;
+.altcolor1 td.postdate, .altcolor2 td.postdate, table.post tr.seen1 td.postdate, table.post tr.seen2 td.postdate {
+	background-image: initial;
+	background-color: inherit;
 }
