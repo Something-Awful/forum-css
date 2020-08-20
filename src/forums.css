@@ -5717,6 +5717,12 @@ ul#navigation.navigation {
 	margin-top: 0 !important;
 }
 
+/* Show lock icon for locked-for-archiving threads */
+.arch .info .thread_title {
+	padding-left: 22px;
+	background: left no-repeat url(//i.somethingawful.com/core/icon/fsilk/lock.png);
+}
+
 /* --------------- Remove ads from gas chamber -------------------------- */
 
 .forum_1 div.oma_pal, .forum_1 div#unregskyscraper, .forum_1 div.adbot {
