@@ -1,0 +1,6 @@
+*.sublime-*
+.idea
+node_modules/
+.gitattributes
+.vscode/
+dist/
