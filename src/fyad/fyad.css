@@ -389,3 +389,8 @@ table.post tr.seen1 {
 	background-image: initial;
 	background-color: inherit;
 }
+
+/* make sure post links in showpost wrap to a new line */
+.showpost tbody td.postlinks {
+	display: block;
+}
