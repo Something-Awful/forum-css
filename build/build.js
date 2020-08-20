@@ -1,6 +1,6 @@
 const { resolve, extname, basename } = require('path');
 const fs = require('fs');
-var CleanCSS = require('clean-css');
+const CleanCSS = require('clean-css');
 const { createGzip } = require('zlib');
 const { pipeline } = require('stream');
 const cssOptions = { };
@@ -22,8 +22,8 @@ async function getFiles(dir) {
 	const files = await Promise.all(dirents.map((dirent) => {
 		const res = resolve(dir, dirent.name);
 		if (dirent.isDirectory()) {
-			let distSubDir = res.replace('src', 'dist');
 			// Ensure we have valid dist/ subdirectories for later in the build
+			let distSubDir = res.replace('src', 'dist');
 			if (!fs.existsSync(distSubDir)) {
 				fs.mkdirSync(distSubDir);
 			}
@@ -51,7 +51,7 @@ files.then((cssinput) => {
 		});
 
 		// Minify it
-		var cssOutput = new CleanCSS(cssOptions).minify([cssFile]);
+		let cssOutput = new CleanCSS(cssOptions).minify([cssFile]);
 		fs.writeFileSync(min, cssOutput.styles);
 		console.log('wrote minified ' + friendlyName);
 
