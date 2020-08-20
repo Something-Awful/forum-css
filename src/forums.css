@@ -347,14 +347,14 @@ td.postlinks ul.profilelinks li a,.dictnav a,#main_full td a
   color:#444;
 }
 
-.bbc-spoiler img.timg 
-{ 
-  visibility: hidden; 
+.bbc-spoiler img.timg
+{
+  visibility: hidden;
 }
 
-.bbc-spoiler.stay img.timg, .bbc-spoiler.reveal img.timg 
-{ 
-  visibility: visible; 
+.bbc-spoiler.stay img.timg, .bbc-spoiler.reveal img.timg
+{
+  visibility: visible;
 }
 
 #thread table.post p.editedby span,#thread table.post p.attachment span
@@ -1210,7 +1210,7 @@ tr.category2 td.star div,td.star.bm2 div
 }
 
 .showthread .breadcrumbs span.mainbodytextlarge a.bclast {
-	
+
 }
 
 .showthread .breadcrumbs span.mainbodytextlarge a.index {
@@ -2141,9 +2141,9 @@ div.posticon img
   border:1px solid #AAA;
   border-width:1px 0 0;
 }
-.floodcheck 
+.floodcheck
 {
-	
+	/* empty rule */
 }
 div.postinfo div.save-state a
 {
@@ -2335,6 +2335,11 @@ div.threadrate ul.rating_buttons li:hover
 div.threadrate ul.rating_buttons li:first-child
 {
   margin-left:0;
+}
+
+/* override main.css select fontsize */
+.threadbar #rateform select {
+	font-size: 14px;
 }
 
 div.breadcrumbs a.up span
@@ -3088,12 +3093,11 @@ body.forum_25 div#gc_overlay
   bottom:0;
   right:0;
   background-image:url(//fi.somethingawful.com/images/gas-overlay-4.png);
-  -webkit-animation:slide 30s linear infinite;
-  animation:slide 30s linear infinite;
   pointer-events:none;
 }
 
 /* imp zone */
+/* ddrd remix by obstipator */
 body.forum_267
 {
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshi.jpg) #cedbf0;
@@ -3195,11 +3199,6 @@ body#something_awful.forum_669 #copyright
   display:inline-block;
   top:0;
   left:-16px;
-  -webkit-animation:hand .5s linear infinite alternate;
-  -moz-animation:hand .5s linear infinite alternate;
-  -ms-animation:hand .5s linear infinite alternate;
-  -o-animation:hand .5s linear infinite alternate;
-  animation:hand .5s linear infinite alternate;
 }
 
 .forum_669 a:hover:before,.forum_669 .rating_buttons li:hover:before
@@ -3442,22 +3441,20 @@ body#something_awful.forum_669 #copyright
 }
 
 /* plat icons without a specific class */
+/* note that these rules have the same specificity as the plat icon, and
+    since the plat icon rule comes afterwards, these are overridden. */
+/* former fyad IK "Budget Prefuse" */
 #thread .userid-180223 dt.author
 {
   padding-left:18px;
   background:url(//fi.somethingawful.com/images/avatars/icon-haruhi.png) no-repeat left 2px;
 }
 
+/* "Dejan Bimble" */
 #thread .userid-133705 dt.author
 {
   padding-left:18px;
   background:url(//fi.somethingawful.com/images/avatars/icon-bolt.png) no-repeat left 2px;
-}
-
-#thread .userid-41916 dt.author,#thread .userid-180849 dt.author
-{
-  padding-left:18px;
-  background:url(//fi.somethingawful.com/images/avatars/ylls-spotter.png) no-repeat left 2px;
 }
 
 div#flag_container
@@ -3848,12 +3845,12 @@ body#something_awful  #copyright {
 /*  -moz-animation:    threaddestroyerimg 3s infinite; /* Fx 5+ */
 /*  -o-animation:      threaddestroyerimg 3s infinite; /* Opera 12+ */
 /*  animation:         threaddestroyerimg 3s infinite; /* IE 10+, Fx 29+ */
- 
+
 /*}
 
 .forum_44.thread_3717961 dd.title img.img {
   content: url("//i.somethingawful.com/images/Explode_fire.gif");
-  
+
   -webkit-animation: threaddestroyerimg 30s infinite; /* Safari 4+ */
 /*  -moz-animation:    threaddestroyerimg 30s infinite; /* Fx 5+ */
 /*  -o-animation:      threaddestroyerimg 30s infinite; /* Opera 12+ */
@@ -3898,7 +3895,7 @@ body#something_awful  #copyright {
 }
 /*
 #forum #thread3717961 td.rating img {
-	content: url("https://fi.somethingawful.com/rate/default/1stars.gif"); 
+	content: url("https://fi.somethingawful.com/rate/default/1stars.gif");
 	content: url("https://fi.somethingawful.com//images/smilies/smugdon.png");
 }
 */
@@ -4453,7 +4450,7 @@ a.bbtag_img, a.bbtag_video {
 #thread dl.userinfo dt.astral
 {
  background-image:url(//fi.somethingawful.com/images/avatars/astral.png);
- background-size: 16px; 
+ background-size: 16px;
 }
 
 #thread dl.userinfo dt.kensei
@@ -4915,7 +4912,7 @@ a.bbtag_img, a.bbtag_video {
 
 #thread dl.userinfo dt.lowtax
 {
-  
+	/* empty rule */
 }
 
 /* User was quoted */
@@ -4963,7 +4960,7 @@ td.title div.lastseen {
   width: 100%;
   height: 100%;
   overflow: hidden;
- 
+
 }
 
 .forumdisplay.forum_273 .channing b {
@@ -4976,7 +4973,7 @@ td.title div.lastseen {
   -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate, spin 4s linear infinite;
   -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate, spin 4s linear infinite;
   animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate, spin 4s linear infinite;
-  z-index: 101; 
+  z-index: 101;
 }
 
 
@@ -5013,9 +5010,9 @@ td.title div.lastseen {
 
 /*
 body.forum_1 {
-	
+
 	background-image: url('https://fi.somethingawful.com/images/who_let_the_dogs_in.gif');
-	
+
 }
 */
 /*
@@ -5033,19 +5030,19 @@ dt.author.platinum.op.rowdy, dt.author.platinum.rowdy {
 	color:#ff0000!important;
 }
 
-a.radioimage { 
-	border: 1px solid black; 
-	display: inline-block; 
-	height: 50px; 
-	margin-right: 10px; 
-	text-decoration: none; 
-	width: 50px; 
+a.radioimage {
+	border: 1px solid black;
+	display: inline-block;
+	height: 50px;
+	margin-right: 10px;
+	text-decoration: none;
+	width: 50px;
 }
 
-.radiohidden {   
-	left: -10000px;   
-	position: absolute;   
-	top: -1000px; 
+.radiohidden {
+	left: -10000px;
+	position: absolute;
+	top: -1000px;
 }
 
 div.adbot {
@@ -5062,7 +5059,7 @@ div.adbot {
 }
 
 .testo {
-	height:600px; 
+	height:600px;
 	width:160px;
 	z-index: 1 !important;
 }
@@ -5084,8 +5081,8 @@ div.adbot {
   -o-transform:rotateY(180deg);
   -ms-transform:rotateY(180deg);
   unicode-bidi:bidi-override;
-  direction:rtl; 
-} 
+  direction:rtl;
+}
 
 /* ------------------- Donation custom title crapola --------------------- */
 
@@ -5113,7 +5110,7 @@ ul.emoji-list * {
       -ms-user-select: none;
       user-select: none;
     }
-	
+
 img.emoji {
   display: inline;
   font-size: 24px;
@@ -5331,7 +5328,7 @@ div.breadcrumbs:nth-child(3) {
 }
 
 .navigation li {
-	
+
 }
 
 .navigation li a, #nav_purchase a {
@@ -5359,13 +5356,13 @@ div.breadcrumbs:nth-child(3) {
     line-height: 36px;
     vertical-align: middle;
  }
- 
+
  #main_full .smalltext input[name="parseurl"], #main_full .smalltext input[name="bookmark"], #main_full .smalltext input[name="disablesmilies"], #main_full .smalltext input[name="signature"] {
 	line-height: 13px;
     height: 13px;
     vertical-align: middle;
  }
- 
+
 .forumdisplay .forumbar ul.postbuttons li {
     display: inline-block;
     margin-left: 12px;
@@ -5375,26 +5372,26 @@ div.breadcrumbs:nth-child(3) {
     display: inline-block;
     margin-right: 12px;
  }
- 
+
  .showthread .threadbar.top ul.postbuttons li#bookmark_button {
 	float: left;
 	display: inline-block;
 	margin-top: 5px;
         margin-right: 4px;
  }
- 
+
 .showthread .threadbar.top ul.postbuttons li img.bookmark {
 	margin-top: 0;
 	margin-bottom: 0;
     display: inline-block;
     text-align: left;
 }
- 
+
 .showthread .threadbar.top ul.postbuttons li a, .showthread .threadbar.top ul.postbuttons li form {
 	line-height: 36px;
 	display: inline-block !important;
 }
-  
+
 .showthread .threadbar.top ul.postbuttons li img, .showthread .threadbar.top ul.postbuttons li form input[type="image"] {
 	display: inline-block;
     line-height: 36px;
@@ -5424,7 +5421,7 @@ div.breadcrumbs:nth-child(3) {
 }
 
 .forumdisplay div.thread_tags a.if {
-	
+
 }
 
 .searchresults div.forumlist_container {
@@ -5542,7 +5539,7 @@ div.breadcrumbs:nth-child(3) {
 }
 
 .banlist table.standard.full tr:nth-child(odd) {
-	background: #f4f4f4;	
+	background: #f4f4f4;
 }
 
 .banlist table.standard.full td:nth-child(1) {
@@ -5597,7 +5594,7 @@ div#container {
 
 /* -- Style the bottom breadcrumbs -- */
 .showthread div#content div.breadcrumbs:last-child {
-	
+
 }
 
 .showthread div#content {
@@ -5666,7 +5663,7 @@ ul#navigation.navigation {
 }
 
 .showthread table#main_full {
-	margin-top: 13px !important;	
+	margin-top: 13px !important;
 	margin-bottom: 13px !important;
 }
 
@@ -5678,7 +5675,7 @@ ul#navigation.navigation {
 .showthread form input.bginput[value="Vote!"] {
 	font-size: 15px;
     padding: 6px 10px;
-    margin-right: 12px;	
+    margin-right: 12px;
 }
 
 .showthread form[action="poll.php"] div a {
@@ -5713,7 +5710,7 @@ ul#navigation.navigation {
 }
 
 .pollresults table.standard tr td.graphbar {
-	
+
 }
 
 .pollresults ul.navigation {
@@ -5785,7 +5782,7 @@ tr.adbot div.adbot {
     vertical-align: middle;
     float: right;
 }
-	
+
 .showthread div.threadbar.bottom ul.postbuttons li {
 	display: inline-block;
 	height: 100%;
@@ -5814,7 +5811,7 @@ tr.adbot div.adbot {
 	line-height: inherit;
 }
 
-.showthread div.threadbar.bottom div.threadrate ul.rating_buttons li {	
+.showthread div.threadbar.bottom div.threadrate ul.rating_buttons li {
 	width: 28px;
 	height: 28px;
 	line-height: 28px;
@@ -5829,7 +5826,7 @@ tr.adbot div.adbot {
 	text-align:center;
 	background-color:rgba(247, 247, 247, 0.9);
 	vertical-align:bottom !important;
-} 
+}
 
 .showthread ul.rating_buttons li:nth-child(1) {
 	background: #b3c179; /* Old browsers */
@@ -5910,8 +5907,8 @@ td.userid-143128 dd.special_title::after {
 
 .forumdisplay #forum.threadlist tbody tr.thread:first-child, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.star, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.icon, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.title, .forumdisplay #forum.thctr qwww-suwqa yvr UHYTS2W0W0WREb a wwwiiiiiiiiiwiiij jjwjjjjjjiiwreadlist tbody tr.thread:first-child td.author, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.replies, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.views, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.rating, .forumdisplay #forum.threadlist tbody tr.thread:first-child td.lastpost {
 	background-image:url('http://i.somethingawful.com/images/important_thread_bg_002.png') !important; mpwmeaewe mite
-	
-	background-position: bottom !important; 
+
+	background-position: bottom !important;
 	background-repeat: repeat-x !important;
 }
 
@@ -5921,6 +5918,6 @@ td.userid-143128 dd.special_title::after {
 
 @media screen and (max-width: 480px) {
 	body {
-		
+
 	}
 }
