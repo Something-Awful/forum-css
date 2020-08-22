@@ -4861,6 +4861,13 @@ a.bbtag_img, a.bbtag_video {
   line-height: 16px !important;
 }
 
+#thread dl.userinfo dt.polaroid-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/polaroid-blue.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 16px !important;
+}
+
 #thread dl.userinfo dt.bee {
   background-image: url(https://fi.somethingawful.com/images/svgs/bee.svg);
   background-size: 20px;
