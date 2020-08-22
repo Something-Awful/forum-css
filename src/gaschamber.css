@@ -148,7 +148,7 @@ body.forum_25
 
 .forum_25 #thread table.post td.userinfo,.forum_25 #thread table.post tr.seen1 td.userinfo,.forum_25 #thread table.post tr.seen2 td.userinfo,.forum_25 #thread table.post td.postbody,.forum_25 #thread table.post tr.seen1 td.postbody,.forum_25 #thread table.post tr.seen2 td.postbody
 {
-	font-family:"Comic Sans MS",cursive,sans-serif;
+	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, "Roboto", sans-serif;
 	font-size:16px;
 	color:#054105;
 	line-height:23px;
@@ -159,7 +159,7 @@ body.forum_25
 
 .forum_25 #forum td.title a,.forum_25 td.title div.title_pages,.forum_25 #forum.threadlist td
 {
-	font-family:"Comic Sans MS",cursive,sans-serif;
+	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, "Roboto", sans-serif;
 }
 
 .forum_25 #thread table.post td.postdate,.forum_25 #thread table.post tr.seen1 td.postdate,.forum_25 #thread table.post tr.seen2 td.postdate,.forum_25 #thread table.post td.postlinks,.forum_25 #thread table.post tr.seen1 td.postlinks,.forum_25 #thread table.post tr.seen2 td.postlinks
