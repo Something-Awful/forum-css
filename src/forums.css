@@ -4929,13 +4929,6 @@ a.bbtag_img, a.bbtag_video {
 	background: #FFFEBA none repeat-x !important;
 }
 
-@media only screen and max-device-width 480px {
-  #flag_container
-  {
-    display:none!important;
-  }
-}
-
 td.title div.title_inner {
   position: relative;
   padding: 4px 75px 4px 0;
