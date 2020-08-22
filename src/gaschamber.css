@@ -1,0 +1,51 @@
+body {
+	background: #093
+}
+
+a, a:visited, a:hover, a:active {
+	color: #000020
+}
+
+body {
+	color: #000
+}
+
+#notregistered {
+	border-color: #000
+}
+
+#notregistered, #searchboxes {
+	background: none
+}
+
+#forum th, #forum th a, div.threadbar, div.forumbar {
+	color: #630
+}
+
+#thread div.quote {
+	border-color: #aaa
+}
+
+#forum th, div.threadbar, div.forumbar {
+	background: #093
+}
+
+#forum td.icon, #forum td.author, #forum td.views, #forum td.lastpost, #thread li.post, #subforums td.topics, #forum td.votes, #forum.asktell td.icon2 {
+	background: #6c0
+}
+
+#thread li.post.even, #subforums, #subforums td, #forum, #forum td, #filter, table#thread tr.even td, #forum.asktell td.icon {
+	background: #690
+}
+
+div.threadbar, #subforums, #subforums td, #forum, #forum th, #forum td, #filter, div.forumbar, #thread table.post, #thread td {
+	border: 1px solid #660
+}
+
+tr.altcolor1 td {
+	background-color: #690
+}
+
+tr.altcolor2 td {
+	background-color: #6c0
+}
