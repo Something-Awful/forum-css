@@ -1,18 +1,4 @@
 /* gas chamber tweaks from forums.css */
-.forumhome #forums tr.forum_25 td.icon,.forumhome #forums tr.forum_25 td.title,.forumhome #forums tr.forum_25 td.moderators
-{
-	background-color:#c0e1c1;
-	background-image:url(https://fi.somethingawful.com/images/gas-td-top-bg.png),url(https://fi.somethingawful.com/images/gas-td-bg.png),url(https://fi.somethingawful.com/images/forumdisplay-grad-3.png),url(https://fi.somethingawful.com/images/forumindex-gaschamber-bg.png);
-	background-repeat:repeat-x,repeat-x,repeat-x,repeat-x;
-	background-position:top,bottom,bottom,top;
-	border-bottom:1px solid #025305;
-}
-
-.forumhome #forums tr.forum_25 td.icon,.forumhome #forums tr.forum_25 td.moderators
-{
-	background-color:#9dca9e;
-}
-
 .forum_25 div#thread
 {
 	box-shadow:0 0 12px #072c09;

@@ -2548,7 +2548,22 @@ div.bottom_forms form#ac_timemachine
 	display: none;
 }
 
-/* goldmine */
+/* gas chamber index.php styling */
+.forumhome #forums tr.forum_25 td.icon,.forumhome #forums tr.forum_25 td.title,.forumhome #forums tr.forum_25 td.moderators
+{
+	background-color:#c0e1c1;
+	background-image:url(https://fi.somethingawful.com/images/gas-td-top-bg.png),url(https://fi.somethingawful.com/images/gas-td-bg.png),url(https://fi.somethingawful.com/images/forumdisplay-grad-3.png),url(https://fi.somethingawful.com/images/forumindex-gaschamber-bg.png);
+	background-repeat:repeat-x,repeat-x,repeat-x,repeat-x;
+	background-position:top,bottom,bottom,top;
+	border-bottom:1px solid #025305;
+}
+
+.forumhome #forums tr.forum_25 td.icon,.forumhome #forums tr.forum_25 td.moderators
+{
+	background-color:#9dca9e;
+}
+
+/* goldmine index.php styling */
 .forumhome #forums tr.forum_21 td.icon,.forumhome #forums tr.forum_21 td.title,.forumhome #forums tr.forum_21 td.moderators
 {
   background-image:url(https://fi.somethingawful.com/images/goldmine_bg.png);
@@ -2591,6 +2606,7 @@ div.pages a:last-child,.modqueue #main_full div.pages a
   word-spacing:0;
 }
 
+/* more goldmine */
 .forum_21 div.threadbar.top,.forum_21 div.threadbar.bottom,.forum_21 #thread ul.postbuttons,.forum_21 ul.postbuttons,.forum_21 div.forumbar
 {
   visibility:hidden;
@@ -2605,7 +2621,6 @@ div.pages a:last-child,.modqueue #main_full div.pages a
   visibility: visible;
 }
 
-/* more goldmine */
 .forum_21 #thread table.post
 {
   border:1px solid #BBB;
