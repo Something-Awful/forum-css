@@ -1,6 +1,8 @@
+/* We do not style every jquery-ui dialog
 .ui-dialog {
 	font-size: 11px
 }
+*/
 
 div.modqueue_ctl {
 	display: none;
