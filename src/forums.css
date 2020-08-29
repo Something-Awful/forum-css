@@ -4958,12 +4958,19 @@ div.pages a:hover {
 	margin-top: 0;
 }
 
-/* --------------- Various fixes ---------------------------- */
+/* PM Popup */
+.sa-dialog .ui-dialog-titlebar {
+	background-color: #455a63;
+	color: #d0e2eb;
+	font-weight: normal;
+}
 
-/* Don't outline the pm popup text when focused */
 #pm-confirm p {
+	/* Don't outline the pm popup text when focused */
 	outline: none;
 }
+
+/* --------------- Various fixes ---------------------------- */
 
 #forums td.icon, #forums td.title, #forums td.moderators {
 	padding: 3px 8px;
