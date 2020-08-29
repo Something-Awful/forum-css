@@ -4637,6 +4637,20 @@ a.bbtag_img, a.bbtag_video {
   line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.brokenheart {
+  background-image: url(https://fi.somethingawful.com/images/svgs/brokenheart.svg);
+  background-size: 20px;
+  padding-left: 24px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.brokenheart-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/brokenheart-blue.svg);
+  background-size: 20px;
+  padding-left: 24px !important;
+  line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.lowtax
 {
 	/* empty rule */
