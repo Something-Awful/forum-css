@@ -4967,7 +4967,7 @@ div.pages a:hover {
 
 /* PM Popup */
 .sa-dialog .ui-dialog-titlebar {
-	background-color: #455a63;
+	background: #455a63;
 	color: #d0e2eb;
 	font-weight: normal;
 }
