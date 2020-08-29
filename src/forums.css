@@ -4960,6 +4960,11 @@ div.pages a:hover {
 
 /* --------------- Various fixes ---------------------------- */
 
+/* Don't outline the pm popup text when focused */
+#pm-confirm p {
+	outline: none;
+}
+
 #forums td.icon, #forums td.title, #forums td.moderators {
 	padding: 3px 8px;
 	height: 44px;
