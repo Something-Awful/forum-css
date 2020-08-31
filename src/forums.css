@@ -4015,9 +4015,18 @@ a.bbtag_img, a.bbtag_video {
 
 #thread dl.userinfo dt.burrito
 {
-  background-image:url(//fi.somethingawful.com/images/svgs/burrito2.svg);
-  background-size: 20px;
-  line-height:20px!important;
+	background-image:url(//fi.somethingawful.com/images/svgs/burrito2.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.burrito-blue
+{
+	background-image:url(//fi.somethingawful.com/images/svgs/burrito2-bluewrapper.png);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
 }
 
 #thread dl.userinfo dt.palpek
