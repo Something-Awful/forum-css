@@ -4986,6 +4986,11 @@ div.pages a:hover {
 	font-weight: normal;
 }
 
+#pm-confirm .ui-icon-alert {
+	float: left;
+	margin: 15px 12px 15px 0;
+}
+
 #pm-confirm p {
 	/* Don't outline the pm popup text when focused */
 	outline: none;
