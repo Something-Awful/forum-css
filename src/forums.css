@@ -5486,6 +5486,7 @@ form.threadsearch {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 4px;
+	line-height: 34px;
 }
 
 /* IE 10-11 */
