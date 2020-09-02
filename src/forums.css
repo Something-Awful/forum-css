@@ -5492,7 +5492,7 @@ form.threadsearch {
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
-	margin: 0 18px 0 8px;
+	margin: 0 8px 0 8px;
 }
 
 .showthread div.threadbar.bottom div.threadrate {
@@ -5501,6 +5501,7 @@ form.threadsearch {
 	display: inline-block;
 	vertical-align: middle;
 	color: white;
+	margin-left: 10px;
 }
 
 .showthread div.threadbar.bottom div.threadrate ul.rating_buttons {
