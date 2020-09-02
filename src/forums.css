@@ -5485,6 +5485,27 @@ form.threadsearch {
 	float: none;
 	display: inline-block;
 	vertical-align: middle;
+	margin-left: 4px;
+}
+
+/* IE 10-11 */
+.threadsearch input:-ms-input-placeholder {
+	font-style: italic !important;
+	text-align: center !important;
+}
+/* Edge 10+ */
+.threadsearch input::-ms-input-placeholder {
+	font-style: italic;
+	text-align: center;
+}
+/* Edge 12+, older webkit */
+.threadsearch input::-webkit-input-placeholder {
+	font-style: italic;
+	text-align: center;
+}
+.threadsearch input::placeholder {
+	font-style: italic;
+	text-align: center;
 }
 
 .showthread div.threadbar img.thread_bookmark {
