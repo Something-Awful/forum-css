@@ -5140,13 +5140,6 @@ div.breadcrumbs:nth-child(3) {
         margin-right: 4px;
  }
 
-.showthread .threadbar.top ul.postbuttons li img.bookmark {
-	margin-top: 0;
-	margin-bottom: 0;
-    display: inline-block;
-    text-align: left;
-}
-
 .showthread .threadbar.top ul.postbuttons li a, .showthread .threadbar.top ul.postbuttons li form {
 	line-height: 36px;
 	display: inline-block !important;
@@ -5156,11 +5149,6 @@ div.breadcrumbs:nth-child(3) {
 	display: inline-block;
     line-height: 36px;
     vertical-align: middle;
-}
-
-.showthread .threadbar.top ul.postbuttons li:has(img.bookmark) {
-	display: inline-block;
-    float: left;
 }
 
 .modqueue_ctl_postmenu li.item {
@@ -5518,11 +5506,18 @@ tr.adbot div.adbot {
 	overflow: visible;
 }
 
-.showthread div.threadbar.bottom img.thread_bookmark {
+form.threadsearch {
+	/* override float from main.css */
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.showthread div.threadbar img.thread_bookmark {
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
-	margin: 0 18px 0 12px;
+	margin: 0 18px 0 8px;
 }
 
 .showthread div.threadbar.bottom div.threadrate {
@@ -5541,7 +5536,7 @@ tr.adbot div.adbot {
 	vertical-align: middle;
 }
 
-.showthread div.threadbar.bottom ul.postbuttons {
+.showthread div.threadbar ul.postbuttons {
 	display: inline-block;
 	height: 44px;
 	min-height: 44px;
