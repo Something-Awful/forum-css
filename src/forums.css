@@ -2478,24 +2478,6 @@ img.timg.complete
   margin:3px 0;
 }
 
-img.thread_bookmark
-{
-  cursor:pointer;
-  float:left;
-  margin-left:4px;
-}
-
-div.threadbar.bottom img.thread_bookmark
-{
-  margin-top:3px;
-  margin-right:18px;
-}
-
-div.threadbar.top img.thread_bookmark
-{
-  margin-top: 0;
-}
-
 div.bottom_forms
 {
   /* position: relative; */
@@ -5133,13 +5115,6 @@ div.breadcrumbs:nth-child(3) {
     margin-right: 12px;
  }
 
- .showthread .threadbar.top ul.postbuttons li#bookmark_button {
-	float: left;
-	display: inline-block;
-	margin-top: 5px;
-        margin-right: 4px;
- }
-
 .showthread .threadbar.top ul.postbuttons li a, .showthread .threadbar.top ul.postbuttons li form {
 	line-height: 36px;
 	display: inline-block !important;
@@ -5514,6 +5489,7 @@ form.threadsearch {
 }
 
 .showthread div.threadbar img.thread_bookmark {
+	cursor: pointer;
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
