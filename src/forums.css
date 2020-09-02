@@ -5087,6 +5087,7 @@ div.breadcrumbs:nth-child(3) {
 
 .showthread div.threadbar.top {
 	padding: 0px 4px!important;
+	min-height: 36px;
 	line-height: 36px!important;
 	vertical-align: middle !important;
 }
