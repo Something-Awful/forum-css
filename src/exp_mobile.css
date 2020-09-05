@@ -1,0 +1,46 @@
+/* moderator/IKs: replace fat FYAD buttons */
+@media screen and (max-width: 1337px) {
+	.forum_26 .threadbar img[src="//fi.somethingawful.com/images/buttons/sa-beecock.gif"] {
+		background-image: url("http://i.somethingawful.com/images/sa-beecock-small.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 22px;
+		height: 20px;
+		padding-left: 22px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.forum_26 .threadbar img[src="https://fi.somethingawful.com/images/trollin.png"] {
+		background-image: url("https://i.somethingawful.com/images/trollin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+	.forum_26 .threadbar img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+		background-image: url("https://i.somethingawful.com/images/bowlin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+}
+
+/* Thread lists */
+@media screen and (max-width: 1024px) {
+	#forum th.views, #forum td.views, #forum th.rate, #forum td.rating {
+		display: none;
+	}
+}
+@media screen and (max-width: 800px) {
+	#forum th.replies, #forum td.replies {
+		display: none;
+	}
+}
+@media screen and (max-width: 640px) {
+	#forum th.author, #forum td.author {
+		display: none;
+	}
+}
