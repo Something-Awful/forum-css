@@ -45,7 +45,7 @@
 		display: none;
 	}
 }
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 886px) {
 	/* Hide top reply button entirely */
 	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(8) {
 		display: none;
