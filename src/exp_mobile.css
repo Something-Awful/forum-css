@@ -27,6 +27,28 @@
 		padding-left: 70px;
 	}
 }
+@media screen and (max-width: 1048px) {
+	/* Reclaim 4px from the left side of the thread search box */
+	.forum_26 form.threadsearch {
+		margin-left: 0px;
+	}
+	/* Narrow the gap between the top threadbar buttons */
+	.forum_26 .threadbar.top ul.postbuttons li {
+		margin-right: 9px;
+	}
+}
+@media screen and (max-width: 1012px) {
+	/* Hide top post button entirely */
+	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(8) {
+		display: none;
+	}
+}
+@media screen and (max-width: 930px) {
+	/* Hide top reply button entirely */
+	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(9) {
+		display: none;
+	}
+}
 
 /* Thread lists */
 @media screen and (max-width: 1024px) {
