@@ -30,12 +30,12 @@
 
 /* Thread lists */
 @media screen and (max-width: 1024px) {
-	#forum th.views, #forum td.views, #forum th.rate, #forum td.rating {
+	#forum th.views, #forum td.views, #forum th.replies, #forum td.replies {
 		display: none;
 	}
 }
 @media screen and (max-width: 800px) {
-	#forum th.replies, #forum td.replies {
+	#forum th.rate, #forum td.rating {
 		display: none;
 	}
 }
