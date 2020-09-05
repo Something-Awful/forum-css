@@ -1,4 +1,5 @@
 /* moderator/IKs: replace fat FYAD buttons */
+/* Beecock button shouldn't really shrink.
 @media screen and (max-width: 1337px) {
 	.forum_26 .threadbar img[src="//fi.somethingawful.com/images/buttons/sa-beecock.gif"] {
 		background-image: url("http://i.somethingawful.com/images/sa-beecock-small.png");
@@ -9,8 +10,9 @@
 		padding-left: 22px;
 	}
 }
-@media screen and (max-width: 1280px) {
-	.forum_26 .threadbar img[src="https://fi.somethingawful.com/images/trollin.png"] {
+*/
+@media screen and (max-width: 1240px) {
+	.forum_26 .threadbar li:nth-of-type(7) img[src="https://fi.somethingawful.com/images/trollin.png"] {
 		background-image: url("https://i.somethingawful.com/images/trollin.png");
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
@@ -18,7 +20,7 @@
 		height: 20px;
 		padding-left: 70px;
 	}
-	.forum_26 .threadbar img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+	.forum_26 .threadbar li:nth-of-type(8) img[src="https://fi.somethingawful.com/images/bowlin.png"] {
 		background-image: url("https://i.somethingawful.com/images/bowlin.png");
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
@@ -27,7 +29,7 @@
 		padding-left: 70px;
 	}
 }
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 1000px) {
 	/* Reclaim 4px from the left side of the thread search box */
 	.forum_26 form.threadsearch {
 		margin-left: 0px;
@@ -37,15 +39,15 @@
 		margin-right: 9px;
 	}
 }
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 966px) {
 	/* Hide top post button entirely */
-	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(8) {
+	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(7) {
 		display: none;
 	}
 }
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 896px) {
 	/* Hide top reply button entirely */
-	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(9) {
+	.forum_26 .threadbar.top ul.postbuttons li:nth-of-type(8) {
 		display: none;
 	}
 }
