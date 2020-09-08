@@ -394,3 +394,62 @@ table.post tr.seen1 {
 .showpost tbody td.postlinks {
 	display: block;
 }
+
+/* Push the setseen etc. icons away from the page edge */
+td.postdate {
+	margin-left: 5px;
+}
+
+/* moderator/IKs: replace fat FYAD buttons */
+/* Beecock button shouldn't really shrink.
+@media screen and (max-width: 1337px) {
+	.forum_26 .threadbar img[src="//fi.somethingawful.com/images/buttons/sa-beecock.gif"] {
+		background-image: url("http://i.somethingawful.com/images/sa-beecock-small.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 22px;
+		height: 20px;
+		padding-left: 22px;
+	}
+}
+*/
+@media screen and (max-width: 1240px) {
+	.showthread .threadbar.top li:nth-of-type(7) img[src="https://fi.somethingawful.com/images/trollin.png"] {
+		background-image: url("https://i.somethingawful.com/images/trollin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+	.showthread .threadbar.top li:nth-of-type(8) img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+		background-image: url("https://i.somethingawful.com/images/bowlin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	/* Reclaim 4px from the left side of the thread search box */
+	form.threadsearch {
+		margin-left: 0px;
+	}
+	/* Narrow the gap between the top threadbar buttons */
+	.showthread .threadbar.top ul.postbuttons li {
+		margin-right: 9px;
+	}
+}
+@media screen and (max-width: 966px) {
+	/* Hide top post button entirely */
+	.threadbar.top ul.postbuttons li:nth-of-type(7) {
+		display: none;
+	}
+}
+@media screen and (max-width: 886px) {
+	/* Hide top reply button entirely */
+	.threadbar.top ul.postbuttons li:nth-of-type(8) {
+		display: none;
+	}
+}
