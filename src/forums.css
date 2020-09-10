@@ -4656,6 +4656,13 @@ a.bbtag_img, a.bbtag_video {
   line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.ant3 {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ant3.svg);
+  background-size: 20px;
+  padding-left: 20px !important;
+  line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.ant3-blue {
   background-image: url(https://fi.somethingawful.com/images/svgs/ant3-blue.svg);
   background-size: 20px;
