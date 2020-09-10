@@ -4558,6 +4558,20 @@ a.bbtag_img, a.bbtag_video {
   line-height: 16px !important;
 }
 
+#thread dl.userinfo dt.polaroid2 {
+  background-image: url(https://fi.somethingawful.com/images/svgs/polaroid2.svg);
+  background-size: 24px;
+  padding-left: 22px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.polaroid2-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/polaroid2-blue.svg);
+  background-size: 24px;
+  padding-left: 22px !important;
+  line-height: 18px !important;
+}
+
 #thread dl.userinfo dt.bee {
   background-image: url(https://fi.somethingawful.com/images/svgs/bee.svg);
   background-size: 20px;
@@ -4639,6 +4653,13 @@ a.bbtag_img, a.bbtag_video {
   background-image: url(https://fi.somethingawful.com/images/svgs/brokenheart-blue.svg);
   background-size: 20px;
   padding-left: 24px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.ant3-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ant3-blue.svg);
+  background-size: 20px;
+  padding-left: 20px !important;
   line-height: 20px !important;
 }
 
