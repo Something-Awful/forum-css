@@ -3943,6 +3943,11 @@ a.bbtag_img, a.bbtag_video {
 	font-size:100%;
 }
 
+.gifv_video video, .gfy_video video, .sa_video video {
+	max-width: 100%;
+	max-height: 95vh;
+}
+
 /* ------------------------------------- CUSTOM POSTING ICONS ------------------------------------- */
 
 #thread dl.userinfo dt.platinum, #thread dl.userinfo dt.coder, #thread dl.userinfo dt.idiotking, #thread dl.userinfo dt.diamond, #thread dl.userinfo dt.redpill, #thread dl.userinfo dt.award, #thread dl.userinfo dt.role-mod, #thread dl.userinfo dt.role-supermod, #thread dl.userinfo dt.role-admin
