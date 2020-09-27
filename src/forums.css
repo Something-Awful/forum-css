@@ -4687,6 +4687,41 @@ a.bbtag_img, a.bbtag_video {
 	padding-left: 22px !important;
 }
 
+#thread dl.userinfo dt.ten-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ten-blue.png);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.ten-red {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ten-red.png);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.ten {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ten.png);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.roth-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/roth-blue.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.roth {
+  background-image: url(https://fi.somethingawful.com/images/svgs/roth-black.svg);
+  background-size: 20px;
+  padding-left: 22px !important;
+  line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.lowtax
 {
 	/* empty rule */
