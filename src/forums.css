@@ -2183,7 +2183,7 @@ div.postinfo div.save-state a
   visibility:visible;
 }
 
-.bbc-spoiler.reveal li,.bbc-spoiler.reveal,.bbc-spoiler.stay
+.bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay, .bbc-spoiler.stay li
 {
   background-color:#FAFAFA;
   cursor:pointer;
