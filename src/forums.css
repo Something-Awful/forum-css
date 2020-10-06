@@ -4626,6 +4626,13 @@ a.bbtag_img, a.bbtag_video {
   line-height: 25px !important;
 }
 
+#thread dl.userinfo dt.point {
+  background-image: url(https://fi.somethingawful.com/images/svgs/point.svg);
+  background-size: 20px;
+  padding-left: 20px !important;
+  line-height: 22px !important;
+}
+
 #thread dl.userinfo dt.point-blue {
   background-image: url(https://fi.somethingawful.com/images/svgs/point-blue.svg);
   background-size: 20px;
