@@ -2167,10 +2167,11 @@ div.postinfo div.save-state a
 
 .bbc-spoiler,.bbc-spoiler li
 {
-  background-color:#222;
-  color:#222;
-  border-radius:0;
-  padding:1px 0 2px;
+	background-color:#222;
+	color:#222;
+	border-radius:0;
+	padding:1px 0 2px;
+	touch-action: manipulation;
 }
 
 .bbc-spoiler img
