@@ -3873,6 +3873,10 @@ div.breadcrumbs a.up:hover span
   width:auto;
 }
 
+.modalert div.standard {
+	width: 45em;
+}
+
 /* override the margin-top for PM previews since there's already a big gap */
 .priv_sendprivmsg div.standard
 {
