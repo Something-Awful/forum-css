@@ -5534,6 +5534,11 @@ ul#navigation.navigation {
 	background: left no-repeat url(//i.somethingawful.com/core/icon/fsilk/lock.png);
 }
 
+/* Prevent archive selector from kicking banner ads around */
+#ad_banner_user {
+	clear: both;
+}
+
 /* --------------- Remove ads from gas chamber -------------------------- */
 
 .forum_1 div.oma_pal, .forum_1 div#unregskyscraper, .forum_1 div.adbot {
