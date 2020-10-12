@@ -4734,11 +4734,6 @@ a.bbtag_img, a.bbtag_video {
   line-height: 20px !important;
 }
 
-#thread dl.userinfo dt.lowtax
-{
-	/* empty rule */
-}
-
 /* User was quoted */
 .userquoted {
 	border: 1px solid #515151 !important;
