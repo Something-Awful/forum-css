@@ -2595,13 +2595,17 @@ div.pages a:last-child,.modqueue #main_full div.pages a
   visibility:hidden;
   height:0;
   border:0;
-  line-height:0;
   padding:0;
 }
 
 .forum_21 .thread_bookmark
 {
   visibility: visible;
+}
+
+.forum_21 .threadsearch
+{
+	visibility: visible;
 }
 
 .forum_21 #thread table.post
