@@ -4927,6 +4927,23 @@ dd.special_title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
+dd.special_title_v2 {
+	border-radius: 15px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 1em;
+	font-weight: bolder;
+	height: 1.5em;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	background-color: #c6d5ea;
+	letter-spacing: .05em;
+	color: rgba(0, 0, 0, 0.72)!important;
+	text-shadow: -1px -1px 0px rgba(250, 250, 250, 0.55), 2px 2px 0px rgba(0, 0, 0, 0.12);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
 ul.emoji-list * {
       -webkit-user-select: none;
       -moz-user-select: none;
