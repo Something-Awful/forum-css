@@ -4000,6 +4000,12 @@ a.bbtag_img, a.bbtag_video {
   background-size: 15px;
 }
 
+#thread dl.userinfo dt.role-coder
+{
+  background-image:url(//downloads.somethingawful.com/misc/coder_star.svg);
+  background-size: 15px;
+}
+
 #thread dl.userinfo dt.role-admin
 {
         /*
