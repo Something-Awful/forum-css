@@ -3959,7 +3959,7 @@ a.bbtag_img, a.bbtag_video {
 
 /* ------------------------------------- CUSTOM POSTING ICONS ------------------------------------- */
 
-#thread dl.userinfo dt.platinum, #thread dl.userinfo dt.coder, #thread dl.userinfo dt.idiotking, #thread dl.userinfo dt.diamond, #thread dl.userinfo dt.redpill, #thread dl.userinfo dt.award, #thread dl.userinfo dt.role-mod, #thread dl.userinfo dt.role-supermod, #thread dl.userinfo dt.role-admin
+#thread dl.userinfo dt.platinum, #thread dl.userinfo dt.coder, #thread dl.userinfo dt.role-coder, #thread dl.userinfo dt.idiotking, #thread dl.userinfo dt.diamond, #thread dl.userinfo dt.redpill, #thread dl.userinfo dt.award, #thread dl.userinfo dt.role-mod, #thread dl.userinfo dt.role-supermod, #thread dl.userinfo dt.role-admin
 {
   padding-left:20px!important;
   line-height:16px!important;
