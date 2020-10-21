@@ -4275,6 +4275,14 @@ a.bbtag_img, a.bbtag_video {
   line-height:20px!important;
 }
 
+#thread dl.userinfo dt.ldgear
+{
+  background-image: url(https://fi.somethingawful.com/images/svgs/ldgear.svg);
+  background-size: 15px;
+  padding-left: 18px !important;
+  line-height: 15px !important;
+}
+
 #thread dl.userinfo dt.reene
 {
   background-image:url(https://fi.somethingawful.com/images/svgs/reene.png);
