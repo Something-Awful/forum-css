@@ -866,6 +866,7 @@ div.forumbar ul.postbuttons
   text-decoration:underline;
 }
 
+/* red */
 #forum tr.thread.category1 td.title
 {
   background-color:#F5EBEA;
@@ -881,6 +882,7 @@ div.forumbar ul.postbuttons
   background-color:#E6D5D3;
 }
 
+/* yellow */
 #forum tr.thread.category2 td.title
 {
   background-color:#FFFBAD;
@@ -896,6 +898,7 @@ div.forumbar ul.postbuttons
   background-color:#E3DE94;
 }
 
+/* bad tan */
 #forum tr.thread.category0 td.title
 {
   background-color:#ffe1b7;
@@ -909,6 +912,54 @@ div.forumbar ul.postbuttons
 #forum tr.thread.category0 td.replies,#forum tr.thread.category0 td.rating,#forum tr.thread.category0 td.votes
 {
   background-color:#f5cd94;
+}
+
+/* cyan */
+#forum tr.thread.category3 td.title
+{
+  background-color:#D9FFFF;
+}
+
+#forum tr.thread.category3 td.star,#forum tr.thread.category3 td.icon,#forum tr.thread.category3 td.icon2,#forum tr.thread.category3 td.author,#forum tr.thread.category3 td.views,#forum tr.thread.category3 td.lastpost,#forum tr.thread.category3 td.button_remove
+{
+  background-color:#c2f2f2;
+}
+
+#forum tr.thread.category3 td.replies,#forum tr.thread.category3 td.rating,#forum tr.thread.category3 td.votes
+{
+  background-color:#b9e7e7;
+}
+
+/* green */
+#forum tr.thread.category4 td.title
+{
+  background-color:#D4FFCC;
+}
+
+#forum tr.thread.category4 td.star,#forum tr.thread.category4 td.icon,#forum tr.thread.category4 td.icon2,#forum tr.thread.category4 td.author,#forum tr.thread.category4 td.views,#forum tr.thread.category4 td.lastpost,#forum tr.thread.category4 td.button_remove
+{
+  background-color:#BFE6B8;
+}
+
+#forum tr.thread.category4 td.replies,#forum tr.thread.category4 td.rating,#forum tr.thread.category4 td.votes
+{
+  background-color:#B5D9AD;
+}
+
+/* lavender */
+#forum tr.thread.category5 td.title
+{
+  background-color:#DBD9FF;
+}
+
+#forum tr.thread.category5 td.star,#forum tr.thread.category5 td.icon,#forum tr.thread.category5 td.icon2,#forum tr.thread.category5 td.author,#forum tr.thread.category5 td.views,#forum tr.thread.category5 td.lastpost,#forum tr.thread.category5 td.button_remove
+{
+  background-color:#C5C3E6;
+}
+
+#forum tr.thread.category5 td.replies,#forum tr.thread.category5 td.rating,#forum tr.thread.category5 td.votes
+{
+  background-color:#BAB8D9;
 }
 
 #pm
@@ -1158,6 +1209,21 @@ tr.category1 td.star div,td.star.bm1 div
 tr.category2 td.star div,td.star.bm2 div
 {
   background-image:url(//fi.somethingawful.com/images/stars/bookmark-star-yellow.png);
+}
+
+tr.category3 td.star div,td.star.bm3 div
+{
+  background-image:url(//fi.somethingawful.com/images/stars/bookmark-star-cyan.png);
+}
+
+tr.category4 td.star div,td.star.bm4 div
+{
+  background-image:url(//fi.somethingawful.com/images/stars/bookmark-star-green.png);
+}
+
+tr.category5 td.star div,td.star.bm5 div
+{
+  background-image:url(//fi.somethingawful.com/images/stars/bookmark-star-purple.png);
 }
 
 .usercp #cpmain div.standard.bookmarked_threads
