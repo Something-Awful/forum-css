@@ -4275,6 +4275,12 @@ a.bbtag_img, a.bbtag_video {
   line-height:20px!important;
 }
 
+#thread dl.userinfo dt.exile
+{
+  background-image:url(https://fi.somethingawful.com/images/svgs/exile.svg);
+  background-size: 20px;
+}
+
 #thread dl.userinfo dt.ldgear
 {
   background-image: url(https://fi.somethingawful.com/images/svgs/ldgear.svg);
