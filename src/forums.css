@@ -90,7 +90,17 @@ img#button_bookmark
 }
 
 #thread td.postbody {
-	overflow: overlay;
+	/* allow scrolling, shows scrollbars if necessary */
+	overflow: auto;
+	/* force long words to break, but start a new line */
+	overflow-wrap: break-word;
+	/* force long words to break, and keep them on the same line even if a natural break could occur later */
+	/* word-break: break-all; */
+}
+
+.postbody code, .postbody pre {
+	/* allow special blocks to have a scroll bar */
+	overflow: auto;
 }
 
 span.online_users, span.online_users a {
