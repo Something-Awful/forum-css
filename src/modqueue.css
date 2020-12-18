@@ -254,21 +254,24 @@ table#modqueue tr.header th {
 
 .action .data {}
 
-.modname {
+#modqueue .moderator .modname {
+	display: block;
 	padding-left: 18px;
-	background: no-repeat 0 2px
+	background: no-repeat 0 2px;
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk/user_orange.png');
+	background-position: left;
 }
 
-.modname {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk/user_orange.png')
+#modqueue .moderator .usergroup6 {
+	background-image: url('https://fi.somethingawful.com/star_admin.gif');
 }
 
-.modname.usergroup6 {
-	background-image: url('http://fi.somethingawful.com/star_admin.gif')
+#modqueue .moderator .usergroup112 {
+	background-image: url('https://fi.somethingawful.com/star_moderator.gif');
 }
 
-.modname.usergroup112 {
-	background-image: url('http://fi.somethingawful.com/star_moderator.gif')
+#modqueue .moderator .usergroup147 {
+	background-image: url('https://fi.somethingawful.com/star_moderator.gif');
 }
 
 .notes .nbox {
