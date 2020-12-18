@@ -84,7 +84,7 @@ div.mqresults .noresults {
 	font-size: 16px;
 	color: #722;
 	padding-left: 28px;
-	background: no-repeat 6px 0 url('http://i.somethingawful.com/core/icon/fsilk/error.png')
+	background: no-repeat 6px 0 url('https://i.somethingawful.com/core/icon/fsilk/error.png')
 }
 
 div.pages {
@@ -177,19 +177,19 @@ table#modqueue tr.header th {
 }
 
 #modqueue tr.request.accepted td.status h3 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/accept.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/accept.png')
 }
 
 #modqueue tr.request.declined td.status h3 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/delete.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/delete.png')
 }
 
 #modqueue tr.request.retracted td.status h3 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/exclamation.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/exclamation.png')
 }
 
 #modqueue tr.request.queued td.status h3 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/hourglass.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/hourglass.png')
 }
 
 #modqueue td.requestid {
@@ -209,7 +209,7 @@ table#modqueue tr.header th {
 #modqueue td.username a {
 	display: block;
 	padding-left: 19px;
-	background: no-repeat url('http://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 2px
+	background: no-repeat url('https://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 2px
 }
 
 #modqueue td.date {}
@@ -287,7 +287,7 @@ table#modqueue tr.header th {
 .notes .nbox h6 {
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/note.png');
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/note.png');
 	margin: 0;
 	padding: 0;
 	padding-left: 15px;
@@ -304,15 +304,15 @@ table#modqueue tr.header th {
 .notes .nbox.reason h6 {}
 
 .notes .nbox.modnote h6 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/comment.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/comment.png')
 }
 
 .notes .nbox.processed h6 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/cog.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/cog.png')
 }
 
 .notes .nbox.origin h6 {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk-tiny/12/house.png')
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/house.png')
 }
 
 div.process_button {
@@ -334,11 +334,11 @@ div.process_button input {
 	background-color: #fff;
 	border: 0;
 	height: 48px;
-	background-image: url('http://i.somethingawful.com/core/jquery-ui/pbar-ani.gif')
+	background-image: url('https://i.somethingawful.com/core/jquery-ui/pbar-ani.gif')
 }
 
 .retract-ctl {
-	background-image: url('http://i.somethingawful.com/core/icon/fsilk/arrow_rotate_clockwise.png');
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk/arrow_rotate_clockwise.png');
 	background-repeat: no-repeat;
 	background-position: .3em center;
 	text-transform: capitalize;
@@ -527,7 +527,7 @@ div.process_button {
 	padding: 0 3px;
 	text-align: center;
 	border-radius: 6px;
-	background-image: url(http://i.somethingawful.com/images/30x5black.png);
+	background-image: url(https://i.somethingawful.com/images/30x5black.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	text-shadow: 1px 1px 0 #EEE;
