@@ -4777,6 +4777,20 @@ a.bbtag_img, a.bbtag_video {
   line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.mushroom {
+  background-image: url(https://fi.somethingawful.com/images/svgs/mushroom.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.mushroom-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/mushroom-blue.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
 /* User was quoted */
 .userquoted {
 	border: 1px solid #515151 !important;
