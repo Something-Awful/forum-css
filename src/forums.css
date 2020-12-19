@@ -2199,7 +2199,7 @@ div.postinfo div.save-state a
   padding-left:8px;
 }
 
-.bbc-spoiler,.bbc-spoiler li
+.bbc-spoiler, .bbc-spoiler li, .bbc-spoiler code, .bbc-spoiler pre, .bbc-spoiler blockquote
 {
 	background-color:#222;
 	color:#222;
@@ -2218,7 +2218,7 @@ div.postinfo div.save-state a
   visibility:visible;
 }
 
-.bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay, .bbc-spoiler.stay li
+.bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay, .bbc-spoiler.stay li, .bbc-spoiler.reveal code, .bbc-spoiler.reveal pre, .bbc-spoiler.stay code, .bbc-spoiler.stay pre, .bbc-spoiler.reveal blockquote, .bbc-spoiler.stay blockquote
 {
   background-color:#FAFAFA;
   cursor:pointer;
