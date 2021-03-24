@@ -2934,45 +2934,6 @@ body#something_awful.forum_669 #copyright
   padding:0 4px 0 0;
 }
 
-/* cspam */
-.forum_269 .author.op:after
-{
-  content:"";
-  margin-left: 5px;
-  background-image: url(//fi.somethingawful.com/images/svgs/verified.png);
-  background-size: 16px;
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  line-height: 16px !important;
-  background-position: left center;
-  background-repeat: no-repeat;
-}
-
-.forum_269 .postbody a.quote_link:before {
-  content: "Sources close to ";
-}
-
-@font-face {
-  font-family: 'ChomskyRegular';
-  src: url('https://fontlibrary.org/assets/fonts/chomsky/e1c2f677c3ac28093f04c77fceafa88d/b5fc230a2b74c4eda45e4b6c8c67c652/ChomskyRegular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.forum_269 #nav_title {
-  font-size:4rem;
-  font-family:ChomskyRegular;
-  text-align:center;
-}
-
-.forum_269 #nav_subtitle {
-  margin-top: -4px;
-  font-size:x-large;
-  font-family: serif;
-  font-style: italic;
-  font-weight:bold;
-}
 .forum_669 .author.op:before
 {
   content:'';
