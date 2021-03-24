@@ -4022,6 +4022,12 @@ a.bbtag_img, a.bbtag_video {
  background-size: 15px;
 }
 
+#thread dl.userinfo dt.filmroll-black
+{
+ background-image:url(//downloads.somethingawful.com/misc/filmroll-black.svg);
+ background-size: 15px;
+}
+
 #thread dl.userinfo dt.jojo
 {
  background-image:url(//downloads.somethingawful.com/misc/jojo2.svg);
@@ -4747,6 +4753,34 @@ a.bbtag_img, a.bbtag_video {
 
 #thread dl.userinfo dt.mushroom-blue {
   background-image: url(https://fi.somethingawful.com/images/svgs/mushroom-blue.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.x-black {
+  background-image: url(https://fi.somethingawful.com/images/svgs/x-black.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.x-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/x-blue.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.shutter-black {
+  background-image: url(https://fi.somethingawful.com/images/svgs/shutter-black.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.shutter-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/shutter-blue.svg);
   background-size: 18px;
   padding-left: 20px !important;
   line-height: 18px !important;
