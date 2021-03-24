@@ -4786,6 +4786,41 @@ a.bbtag_img, a.bbtag_video {
   line-height: 18px !important;
 }
 
+#thread dl.userinfo dt.tentacle-black {
+  background-image: url(https://fi.somethingawful.com/images/svgs/tentacle-black.svg);
+  background-size: 22px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.tentacle-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/tentacle-blue.svg);
+  background-size: 22px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.ohio-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/ohio-blue.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.nib-black {
+  background-image: url(https://fi.somethingawful.com/images/svgs/nib-black.svg);
+  background-size: 20px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.nib-blue {
+  background-image: url(https://fi.somethingawful.com/images/svgs/nib-blue.svg);
+  background-size: 20px;
+  padding-left: 20px !important;
+  line-height: 18px !important;
+}
+
 /* User was quoted */
 .userquoted {
 	border: 1px solid #515151 !important;
