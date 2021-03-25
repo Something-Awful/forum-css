@@ -4077,6 +4077,12 @@ a.bbtag_img, a.bbtag_video {
   background-size: 15px;
 }
 
+#thread dl.userinfo dt.fiftyblessings-black
+{
+  background-image:url(//downloads.somethingawful.com/misc/50_blessings_black.png);
+  background-size: 15px;
+}
+
 #thread dl.userinfo dt.matoi
 {
   background-image:url(//fi.somethingawful.com/images/matoi.png);
