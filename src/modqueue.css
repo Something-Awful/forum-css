@@ -103,12 +103,31 @@ div.queue_info {
 	margin-top: 4px
 }
 
+.modqueue #content {
+	max-width: 120em;
+	margin: auto;
+}
+
 table#modqueue {
 	border-collapse: collapse;
 	margin: 0 auto;
 	width: 100%;
 	border: 1px #ccc solid;
 	clear: both;
+	table-layout: fixed;
+}
+
+#modqueue .status-header {
+	width: 8em;
+}
+#modqueue .action-header {
+	width: 11em;
+}
+#modqueue .reqby-header {
+	width: 14em;
+}
+#modqueue .username-header {
+	width: 14em;
 }
 
 table#modqueue th {
@@ -198,24 +217,17 @@ table#modqueue tr.header th {
 	text-align: center
 }
 
-#modqueue td.status {}
-
-#modqueue td.action {}
-
 #modqueue td.username {
-	font-weight: bold
+	font-weight: bold;
 }
 
 #modqueue td.username a {
 	display: block;
 	padding-left: 19px;
-	background: no-repeat url('https://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 2px
-}
-
-#modqueue td.date {}
-
-#modqueue td.moderator {
-	font-weight: bold
+	background: no-repeat url('https://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 50%;
+	white-space: inherit;
+	height: auto;
+	overflow-wrap: break-word;
 }
 
 #modqueue td.notes {
@@ -255,11 +267,15 @@ table#modqueue tr.header th {
 .action .data {}
 
 #modqueue .moderator .modname {
+	font-weight: bold;
 	display: block;
 	padding-left: 18px;
 	background: no-repeat 0 2px;
 	background-image: url('https://i.somethingawful.com/core/icon/fsilk/user_orange.png');
 	background-position: left;
+	white-space: inherit;
+	height: auto;
+	overflow-wrap: break-word;
 }
 
 #modqueue .moderator .usergroup6 {
@@ -281,7 +297,8 @@ table#modqueue tr.header th {
 	color: #444;
 	border: 1px solid #d6d6df;
 	border-radius: 3px;
-	-moz-border-radius: 3px
+	-moz-border-radius: 3px;
+	word-wrap: break-word;
 }
 
 .notes .nbox h6 {
@@ -375,10 +392,6 @@ div.process_button input {
 	float: left
 }
 
-.modqueue table#modqueue {
-	width: auto
-}
-
 .modqueue table#modqueue td {
 	padding-left: 0;
 	padding-right: 0
@@ -420,7 +433,10 @@ table#modqueue td {
 	border: 1px solid #AAA
 }
 
-#modqueue tr.request td.notes div.nbox.reason, #modqueue tr.request td.notes div.nbox.origin, #modqueue tr.request td.notes .nbox.processed {
+#modqueue tr.request td.notes div.nbox.reason,
+#modqueue tr.request td.notes div.nbox.origin,
+#modqueue tr.request td.notes div.nbox.modnote,
+#modqueue tr.request td.notes .nbox.processed {
 	padding: 6px 8px 8px 10px
 }
 
