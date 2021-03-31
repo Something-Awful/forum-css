@@ -4827,6 +4827,13 @@ a.bbtag_img, a.bbtag_video {
   line-height: 18px !important;
 }
 
+#thread dl.userinfo dt.toshimo {
+  background-image: url(https://fi.somethingawful.com/images/svgs/toshimo.svg);
+  background-size: 18px;
+  padding-left: 20px !important;
+  line-height: 17px !important;
+}
+
 /* User was quoted */
 .userquoted {
 	border: 1px solid #515151 !important;
