@@ -5888,6 +5888,26 @@ td.userid-143128 dd.special_title::after {
 
 -- */
 
+/* search highlighting */
+.highlight1 {
+	background-color: #ff0;
+}
+.highlight2 {
+	background-color: #f0f;
+}
+.highlight3 {
+	background-color: #0ff;
+}
+.highlight4 {
+	background-color: #f99;
+}
+.highlight5 {
+	background-color: #9f9;
+}
+.highlight6 {
+	background-color: #d0f;
+}
+
 /* ---------------- Mobile test shit that will fuck crap up ------------------- */
 
 @media screen and (max-width: 480px) {
