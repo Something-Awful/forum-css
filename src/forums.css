@@ -1792,19 +1792,19 @@ ul#usercpnav li a {
   line-height:20px;
 }
 
-.dictionary_show .letternav li
+.letternav li
 {
   margin-right:2px;
   padding:0;
 }
 
-.dictionary_show .standard ul.letternav
+.standard ul.letternav
 {
   padding-left:0;
   padding-top:8px;
 }
 
-.dictionary_show h1.topic
+h1.topic
 {
   text-shadow:1px 1px 0 #FFF;
   font-size:28px;
@@ -1812,7 +1812,7 @@ ul#usercpnav li a {
   margin-bottom:24px;
 }
 
-.dictionary_show .dictnav
+.dictnav
 {
   padding-bottom:0;
   margin-bottom:0;
@@ -2246,7 +2246,7 @@ div.postinfo div.save-state a
   padding:0 8px;
 }
 
-div.pages a, div.pages span.disabled,.dictionary_show .letternav li a,.dictionary_show .letternav li a:hover,.messages_nextprev a,.modqueue #main_full div.pages a
+div.pages a, div.pages span.disabled,.letternav li a,.letternav li a:hover,.messages_nextprev a,.modqueue #main_full div.pages a
 {
   border:1px solid #666;
   background:#EEE none repeat-x;
@@ -2298,7 +2298,7 @@ div.pages .curpage
   margin:4px 6px;
 }
 
-.dictionary_show .letternav li a
+.letternav li a
 {
   box-shadow:none;
   width:24px;
@@ -2606,7 +2606,7 @@ div.pages a,div.breadcrumbs a.index,.letternav li a,.messages_nextprev a,.modque
   box-shadow:inset 1px 1px 1px #FFF,inset -1px -1px 1px #BBB,2px 2px 2px rgba(26,26,26,0.39);
 }
 
-div.pages a:hover,div.breadcrumbs a.index:hover,.dictionary_show .letternav li a:hover,.modqueue #main_full div.pages a:hover,.modqueue div.process_button input:hover
+div.pages a:hover,div.breadcrumbs a.index:hover,.letternav li a:hover,.modqueue #main_full div.pages a:hover,.modqueue div.process_button input:hover
 {
   box-shadow:inset 1px 1px 1px #FD735F,inset -1px -1px 1px #8a3023,2px 2px 2px rgba(26,26,26,0.39);
 }
@@ -3113,7 +3113,7 @@ b,#forum td.title div.lastseen a.count b,.usercp #cpmain h2 b,.modifyoptions .st
   font-weight:700;
 }
 
-#forum td,#forum th,#subforums td,.usercp #cpmain div:last-child div.inner,.whoposted div.standard div.inner,.dictionary_show .letternav li a:hover
+#forum td,#forum th,#subforums td,.usercp #cpmain div:last-child div.inner,.whoposted div.standard div.inner,.letternav li a:hover
 {
   padding:0;
 }
@@ -3777,7 +3777,7 @@ div.breadcrumbs a.up:hover span
   border-bottom-width:1px;
 }
 
-#buddylist dl a.pm:hover,div.pages a:hover,td.title div.title_pages a:hover,.dictionary_show .letternav li a:hover,.messages_nextprev a:hover,div.breadcrumbs a.index:hover,.modqueue #main_full div.pages a:hover,.modqueue div.process_button input:hover
+#buddylist dl a.pm:hover,div.pages a:hover,td.title div.title_pages a:hover,.letternav li a:hover,.messages_nextprev a:hover,div.breadcrumbs a.index:hover,.modqueue #main_full div.pages a:hover,.modqueue div.process_button input:hover
 {
   border:1px #3D1C17 solid;
   background-color:#B05042;
