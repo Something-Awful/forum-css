@@ -36,26 +36,21 @@ tt.bbc {
 	margin: 12px 32px;
 }
 
-.bbc-block, .bbc-block h5 {
-	border-bottom: 1px #999 solid;
-}
-
 .bbc-block h4, .bbc-block h5 {
 	display: block;
 	color: #555;
 	margin: 0;
 	padding: 0;
+	font-size: 13px;
 }
 
 .bbc-block h4 {
 	padding: 8px 0 2px 0;
-	border-top: 1px #999 solid;
-	font-size: 13px;
 	font-style: italic;
 }
 
 .bbc-block h5 {
-	font-size: 12px;
+	border-bottom: 1px #999 solid;
 }
 
 /*
