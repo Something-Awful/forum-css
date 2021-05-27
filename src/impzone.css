@@ -1,29 +1,39 @@
-/* imp zone */
-/* ddrd remix by obstipator */
-body.forum_267
+body
 {
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshi.jpg) #cedbf0;
 }
 
-.forum_267 #container
+#thread {
+  clear:both;
+}
+
+.alertbutton a, .postbuttons a, .thread .icon a {
+  display:inline-block;
+}
+
+a:hover, .rating_buttons li:hover {
+  position:relative;
+}
+
+#container
 {
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshiBottom.png) repeat-x bottom;
   padding-bottom:50px;
 }
 
-.forum_267 #copyright a
+#copyright a
 {
   color:#fff;
   font-weight:700;
 }
 
-body#something_awful.forum_267 #copyright
+body#something_awful #copyright
 {
   color:#fff;
   text-shadow:0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000;
 }
 
-.forum_267 .breadcrumbs a.up,.forum_267 .breadcrumbs a.bclast,.forum_267 .breadcrumbs .online_users,.forum_267 .breadcrumbs .mainbodytextlarge b
+.breadcrumbs a.up, .breadcrumbs a.bclast, .breadcrumbs .online_users,.breadcrumbs .mainbodytextlarge b
 {
   font-weight:400;
   text-decoration:none;
@@ -36,7 +46,7 @@ body#something_awful.forum_267 #copyright
   padding:2px 8px;
 }
 
-.forum_267 .postbody b a[href^="/banlist.php?userid="]:after
+.postbody b a[href^="/banlist.php?userid="]:after
 {
   content:'';
   display:inline-block;
@@ -51,7 +61,7 @@ body#something_awful.forum_267 #copyright
   padding:0 4px 0 0;
 }
 
-.forum_267 img.bookmark
+img.bookmark
 {
   height:0;
   width:20px;
@@ -61,7 +71,7 @@ body#something_awful.forum_267 #copyright
   background-size:100%;
 }
 
-.forum_267 img.unbookmark
+img.unbookmark
 {
   height:0;
   width:20px;
@@ -71,7 +81,7 @@ body#something_awful.forum_267 #copyright
   background-size:100%;
 }
 
-.forum_267 a:hover:before,.forum_267 .rating_buttons li:hover:before
+a:hover:before, .rating_buttons li:hover:before
 {
   pointer-events:none;
   position:absolute;
@@ -84,25 +94,25 @@ body#something_awful.forum_267 #copyright
   left:-16px;
 }
 
-.forum_267 #thread dl.userinfo dt.author.role-mod
+#thread dl.userinfo dt.author.role-mod
 {
   background-image:url(data:image/gif;base64,R0lGODlhCgAQAJEDAO3+/hWP5i5LYAAAACH5BAEAAAMALAAAAAAKABAAAAItnCdyK5CLAAhBmSZpja3qlFGCiH1k6FWleE6sOrmjqjmeMmvbpVtH8oAgfIMCADs=);
   padding-left:18px;
 }
 
-.forum_267 #thread dl.userinfo dt.author.role-admin
+#thread dl.userinfo dt.author.role-admin
 {
   background-image:url(data:image/gif;base64,R0lGODlhCgAQAJEDANtHSpkgJf/S0gAAACH5BAEAAAMALAAAAAAKABAAAAItnBdxG5KLhABAmSZpja3qlFGBiH1k6FWleE6sOrmjqjmeMmvbpVtH8oAgfIMCADs=);
   padding-left:18px;
 }
 
-.forum_267 .thread td.title_sticky a.thread_title,.forum_267 .author.op:before
+.thread td.title_sticky a.thread_title, .author.op:before
 {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAADFBMVEX///8AAABSxhj///9KjO+oAAAAAXRSTlMAQObYZgAAAFtJREFUeF4lxLERQDAYgNFPkTMBOrNkhBT+lpohWMISNGkoXVZQ6E3hcpc7iULzoGgga3eNis5QBjtTr+tGZ8PD5OL7M7p4MNiw0Iv0iL+Fyt8XeUonKiVDJqI/X4gkPOes9IQAAAAASUVORK5CYII=) no-repeat;
   padding-left:20px;
 }
 
-.forum_267 .author.op:before
+.author.op:before
 {
   content:'';
   width:16px;
@@ -112,7 +122,7 @@ body#something_awful.forum_267 #copyright
   padding:0 4px 0 0;
 }
 
-.forum_267 td.postdate a
+#thread td.postdate a
 {
   border:none;
   box-shadow:none;
@@ -130,28 +140,29 @@ body#something_awful.forum_267 #copyright
   padding:0;
 }
 
-.forum_267 td.postdate a:hover
+td.postdate a:hover
 {
   background-color:transparent;
 }
 
-.forum_267 #thread td.postdate .lastseen_icon
+#thread td.postdate .lastseen_icon
 {
   background:url(data:image/gif;base64,R0lGODlhEAANAKIHAP///zkIAGMQCNY5MYwYELUpIe+cnAAAACH5BAEAAAcALAAAAAAQAA0AAANKeLrSESuqNmp98ohhjK0FxAjdZz2QAKwrAbjAwAZAo94rDtGEjNfAHQ/IqrkeOR9Rd0ARBM8nVIBZBAgFU4EgijywhW0100R1FQkAOw==) no-repeat center center;
   margin-right:4px;
 }
 
-.forum_267 #thread td.postdate .lastseen_icon img
+#thread td.postdate .lastseen_icon img
 {
-  display:none;
+  position: relative;
+  z-index: -1;
 }
 
-.forum_267 td.postdate a.user_jump
+td.postdate a.user_jump
 {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEX////YsBiISBBgKADQqCCwgBjgsBjIoBiYYBj46Ij4+PjowDD40Chwesi1AAAAAXRSTlMAQObYZgAAAH9JREFUeF4tyDEKwjAYhuFPPMEPWYpOf5B2FIrOopnsVIO6i2To6KAHyJIruHb8ztJD2QTf6eHFQnLmgBW/c9ML1T4EkZNHFTj39FgPGWOBakY3sBeOEd1DzywQIXmMeIshtY64iSPrj0Vv3EUL3P/cd1dy4y2alFSbZLFsS9sfPcstFrSXD2YAAAAASUVORK5CYII=) no-repeat center center;
 }
 
-.forum_267 td.postdate a.user_jump[title^="R"]
+td.postdate a.user_jump[title^="R"]
 {
   -webkit-transform:rotate(180deg);
   -moz-transform:rotate(180deg);
@@ -160,32 +171,27 @@ body#something_awful.forum_267 #copyright
   transform:rotate(180deg);
 }
 
-.forum_267 td.postdate a[href*="action=showpost"]
+td.postdate a[href*="action=showpost"]
 {
   background:url(data:image/gif;base64,R0lGODlhEAAKAKIFABgYGPj4+Li4uNjY2ICAgAAAAAAAAAAAACH5BAEAAAUALAAAAAAQAAoAAAMuCLrcBSNIJaQNK05QbxDM1inSABSPWGomCqgecaYYJxG4jNLUpuw8Gwa4azCICQA7) no-repeat center center;
 }
 
-.forum_267 td.postdate a[href^="#"]
+td.postdate a[href^="#"]
 {
   background:url(data:image/gif;base64,R0lGODlhDwAQAKIAAAAAAJlOAOqeIojYAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAPABAAAANDCKrTvhC4OaKQIet61dVgAHSjEAiDgJrqop4nG0NqbZtQ88aNCIS2Hsi0mRBjRKJuB8ughruj0vEBUmg2nyai2HIBCQA7) no-repeat center center;
 }
 
-.forum_267 .postbuttons input
-{
-  padding-left:20px;
-}
-
-.forum_267 .postbuttons input[name="submit"]
+.postbuttons input[name="submit"]
 {
   background:url(data:image/gif;base64,R0lGODlhDQANAKIHADFa9wgQSiFCzhAplAgha////7W99wAAACH5BAEAAAcALAAAAAANAA0AAANEeHrUEWs1QOmTwJhKBWQaIBRCBRHCRhWcR1QjQHbB25HFQNtp4auuUkyXEwwgAcAgpyx+AgOjcEA4Lh5RgfESOTy+kQQAOw==) 4px center no-repeat #ddd;
 }
 
-.forum_267 .postbuttons input[name="preview"]
+.postbuttons input[name="preview"]
 {
   background:url(data:image/gif;base64,R0lGODlhDQANAKIHAEqtIRgxADF7EP///ylCEClaCK3enAAAACH5BAEAAAcALAAAAAANAA0AAANBeHrUEWs1QOmTwJhKBWSaMIyFxQibWKiAR1Qq68LjULbB29nF8LqC3coHKEACOxJOEVgVGj/j4rESCIyfyGMbSQAAOw==) 4px center no-repeat #ddd;
 }
 
-.forum_267 #thread tr.ignored dl.userinfo,.forum_267 #thread table.ignored td.postbody a
+#thread tr.ignored dl.userinfo, #thread table.ignored td.postbody a
 {
   background:url(data:image/gif;base64,R0lGODlhFAAUAKIHAAMBBcWNUby6w3BsbYRULlUyIyYeJgAAACH5BAEAAAcALAAAAAAUABQAAANhaLfcviCC0YyM9IwbjeegZIXgR56CQHosN2ylV5jnxY4nXIPFMuAA4KXnsBl+nIcGZhDoJI8NblQoiB4WXCFASDoGs2BgLMw0ZtsxoepS+AyE8Zi9ohLuVeGqsNZzaDsRCQA7) no-repeat 0 0;
   height:20px;
@@ -193,7 +199,7 @@ body#something_awful.forum_267 #copyright
   padding-left:24px;
 }
 
-.forum_267 .bbc-spoiler
+.bbc-spoiler
 {
   text-shadow:none;
   color:transparent;
@@ -201,19 +207,19 @@ body#something_awful.forum_267 #copyright
   outline:1px solid red;
 }
 
-.forum_267 .bbc-spoiler.reveal li,.forum_267 .bbc-spoiler.reveal,.forum_267 .bbc-spoiler.stay
+.bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay
 {
   background:#fff;
   outline:none;
   color:#111;
 }
 
-.forum_267 #thread .post .quote_link[href$="420"]
+#thread .post .quote_link[href$="420"]
 {
   position:static;
 }
 
-.forum_267 #thread .post .quote_link[href$="420"]:after
+#thread .post .quote_link[href$="420"]:after
 {
   content:"You Found: " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAXBAMAAAAMzfkgAAAAJFBMVEX////39/fnxpRKORhCQkrva7X3QkKUlJxKISG9vcaEISFzc4RR+YyQAAAAAXRSTlMAQObYZgAAAKpJREFUeF6Fy7EKwjAQx+GDdugaUMS1TyAW9w6BPkEqPkAO7VZQQu3SQSRrQZC8gJSMXXw9z9jY4uJv+MPHcTAUaZiku2aCK47HSEvcN19ZmRdeXKPI8eIQ8o+61CEzZ5SIHXdgbG4faHckAmUKe2C3FHjJfDMS+5V5ox20UC1N5VQu655+62dLCjPVx8rc+7giBdlJiK1SNEeAYCN8CWkd+/4pGQOAESt4AQWWPMukF4bRAAAAAElFTkSuQmCC) " Magic Cake (Very Rare)";
   display:inline-block;
