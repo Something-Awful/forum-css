@@ -3555,7 +3555,6 @@ body.priv_sendprivmsg textarea, body.priv_sendprivmsg input.bginput {
 }
 
 .showthread tbody td.postlinks {
-	display: block !important;
 	height: auto !important;
 	line-height: 35px !important;
 }
