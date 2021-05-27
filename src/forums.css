@@ -835,31 +835,6 @@ div.forumbar ul.postbuttons
   width: -moz-available;
 }
 
-.forumhome .navigation
-{
-  padding-top:12px;
-  padding-bottom:12px;
-  background-color:#455a63;
-  border:1px solid #34434A;
-}
-
-.forumhome .navigation a
-{
-  color:#D0E2EB;
-  text-shadow:1px 1px #33424A;
-}
-
-.forumhome #navigation.navigation a
-{
-  color:#036;
-  text-shadow:none;
-}
-
-.forumhome .navigation a:hover
-{
-  color:#ececec;
-}
-
 #navigation a:hover
 {
   text-decoration:underline;
@@ -2070,7 +2045,7 @@ h1.topic
   font-family:Arial;
 }
 
-.usercp .navigation,.privfolder .navigation,.member_account_features .navigation,.bookmark_threads .navigation,.modifyprofile .navigation,.modifyoptions .navigation,.modifypassword .navigation,.listedit .navigation,.supportmail .navigation,.getinfo .navigation,.privmsg .navigation,.showthread .navigation,.forumdisplay .navigation,.newthread .navigation,.priv_sendprivmsg .navigation,.standarderror .navigation,.standardredirect .navigation,.online_users .navigation,.gloryhole .navigation,.modalert .navigation,.threads_editthread .navigation
+.navigation
 {
   border:1px solid #AAA;
   margin-top:36px;
@@ -2556,10 +2531,6 @@ div.bottom_forms form#ac_timemachine
 #ac_timemachine input {
 	font-size: 13px;
     padding: 5px;
-}
-
-.nav_new {
-	display: none;
 }
 
 /* gas chamber index.php styling */
@@ -3701,7 +3672,7 @@ table.post tr.seen1 td.userinfo,table.post tr.seen1 td.postbody,table.post tr.se
   color:#666;
 }
 
-#forum td.title div.lastseen a.count:hover,.forumhome #navigation.navigation a:hover,a:hover,.postbody a.quote_link:hover,#forums td.title a.forum:hover,#forums div.subforums a:hover,#forums td.moderators a:hover,#index #pm td a:hover,#index .mainbodytextsmall a:hover,#index #info a:hover,div.breadcrumbs a:hover,#buddylist dl.offline a.user:hover,#buddylist dl.online a.user:hover,.online_users #users a:hover
+#forum td.title div.lastseen a.count:hover,a:hover,.postbody a.quote_link:hover,#forums td.title a.forum:hover,#forums div.subforums a:hover,#forums td.moderators a:hover,#index #pm td a:hover,#index .mainbodytextsmall a:hover,#index #info a:hover,div.breadcrumbs a:hover,#buddylist dl.offline a.user:hover,#buddylist dl.online a.user:hover,.online_users #users a:hover, a.thread_title:hover
 {
   color:#A7392B;
 }
