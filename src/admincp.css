@@ -1059,53 +1059,53 @@ table.announcements {}
 }
 
 /** BANNER ADS **/
-table.bannerads {
+table.goonbas {
   border-collapse: collapse;
   margin-top: 1em
 }
 
-table.bannerads.pretty th {
+table.goonbas.pretty th {
   white-space: nowrap;
   text-align: center
 }
 
-table.bannerads td {
+table.goonbas td {
   border: 1px #ccc solid;
   white-space: nowrap;
   font-family: 'courier new', serif
 }
 
-table.bannerads td.bannerid {
+table.goonbas td.bannerid {
   font-weight: bold
 }
 
-table.bannerads td.image {
+table.goonbas td.image {
   padding: .5em
 }
 
-table.bannerads td.image img {
+table.goonbas td.image img {
   border: 1px blue solid
 }
 
-table.bannerads img.fullsize {
+table.goonbas img.fullsize {
   width: 468px;
   height: 60px
 }
 
-table.bannerads td.status {
+table.goonbas td.status {
   text-align: center;
   font-weight: bold;
   color: white
 }
 
-table.bannerads td.status.active {
+table.goonbas td.status.active {
   background-color: green
 }
 
-table.bannerads td.status.queued {
+table.goonbas td.status.queued {
   background-color: blue
 }
 
-table.bannerads td.status.expired {
+table.goonbas td.status.expired {
   background-color: #944
 }
