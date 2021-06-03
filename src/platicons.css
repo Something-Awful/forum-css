@@ -871,6 +871,20 @@
 	line-height: 18px !important;
 }
 
+#thread dl.userinfo dt.machete-black {
+	background-image: url(https://fi.somethingawful.com/images/svgs/machete-black.svg);
+	background-size: 20px;
+	padding-left: 22px !important;
+	line-height: 20px !important;
+}
+
+#thread dl.userinfo dt.machete-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/machete-blue.svg);
+	background-size: 20px;
+	padding-left: 22px !important;
+	line-height: 20px !important;
+}
+
 /* --------------- BIG HORRIBLE CONTEST RESULTS -------------------- */
 
 #thread dl.userinfo dt.theshortestpath {
