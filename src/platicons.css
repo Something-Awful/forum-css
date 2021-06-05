@@ -628,6 +628,13 @@
 	line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.unreal-red {
+	background-image: url(https://fi.somethingawful.com/images/svgs/unreal.svg);
+	background-size: 20px;
+	padding-left: 22px !important;
+	line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.thunk-blue {
 	background-image: url(https://fi.somethingawful.com/images/svgs/thunkface2-blue.svg);
 	background-size: 22px;
