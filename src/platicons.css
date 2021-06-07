@@ -885,6 +885,20 @@
 	line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.saints-black {
+	background-image: url(https://fi.somethingawful.com/images/svgs/saints-black.svg);
+	background-size: 18px;
+	padding-left: 20px !important;
+	line-height: 18px !important;
+}
+
+#thread dl.userinfo dt.saints-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/saints-blue.svg);
+	background-size: 18px;
+	padding-left: 20px !important;
+	line-height: 18px !important;
+}
+
 /* --------------- BIG HORRIBLE CONTEST RESULTS -------------------- */
 
 #thread dl.userinfo dt.theshortestpath {
