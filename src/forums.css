@@ -2766,10 +2766,6 @@ b,#forum td.title div.lastseen a.count b,.usercp #cpmain h2 b,.modifyoptions .st
 	clear: both;
 }
 
-.forumhome #forums div.subforums a {
-	text-decoration: none;
-}
-
 .forumhome #forums td.title, .forumhome #forum td.title {
 	height: 44px;
 }
