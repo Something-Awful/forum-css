@@ -1016,6 +1016,10 @@ div.mainbodytextsmall
   clear: both;
 }
 
+.forumdesc {
+	padding-top: 2px;
+}
+
 .forumhome div.mainbodytextsmall {
 	font-size: 13px;
 	margin: 0;
