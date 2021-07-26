@@ -1017,7 +1017,8 @@ div.mainbodytextsmall
 }
 
 .forumdesc {
-	padding-top: 2px;
+	font-style: italic;
+	color: #555;
 }
 
 .forumhome div.mainbodytextsmall {
@@ -2977,7 +2978,7 @@ body#something_awful  #copyright {
 
 #thread td.postbody img,.title img, div.postbody img
 {
-  vertical-align:bottom;
+  vertical-align:text-bottom;
   max-width: 100%;
 }
 
@@ -3392,9 +3393,9 @@ ul.emoji-list * {
 
 img.emoji {
   display: inline;
-  font-size: 18px;
-  width: 1.25em;
-  height: 1.25em;
+  font-size: 22px;
+  width: 1em;
+  height: 1em;
   margin: 0px;
   padding: 0px 0.1em 0.05em 0px;
   vertical-align: -0.2em;
