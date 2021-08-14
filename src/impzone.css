@@ -181,14 +181,16 @@ td.postdate a[href^="#"]
   background:url(data:image/gif;base64,R0lGODlhDwAQAKIAAAAAAJlOAOqeIojYAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAPABAAAANDCKrTvhC4OaKQIet61dVgAHSjEAiDgJrqop4nG0NqbZtQ88aNCIS2Hsi0mRBjRKJuB8ughruj0vEBUmg2nyai2HIBCQA7) no-repeat center center;
 }
 
-.postbuttons input[name="submit"]
+.newreply div.postbuttons input[name="submit"]
 {
   background:url(data:image/gif;base64,R0lGODlhDQANAKIHADFa9wgQSiFCzhAplAgha////7W99wAAACH5BAEAAAcALAAAAAANAA0AAANEeHrUEWs1QOmTwJhKBWQaIBRCBRHCRhWcR1QjQHbB25HFQNtp4auuUkyXEwwgAcAgpyx+AgOjcEA4Lh5RgfESOTy+kQQAOw==) 4px center no-repeat #ddd;
+  padding-left: 20px !important;
 }
 
-.postbuttons input[name="preview"]
+.newreply div.postbuttons input[name="preview"]
 {
   background:url(data:image/gif;base64,R0lGODlhDQANAKIHAEqtIRgxADF7EP///ylCEClaCK3enAAAACH5BAEAAAcALAAAAAANAA0AAANBeHrUEWs1QOmTwJhKBWSaMIyFxQibWKiAR1Qq68LjULbB29nF8LqC3coHKEACOxJOEVgVGj/j4rESCIyfyGMbSQAAOw==) 4px center no-repeat #ddd;
+  padding-left: 20px !important;
 }
 
 #thread tr.ignored dl.userinfo, #thread table.ignored td.postbody a
