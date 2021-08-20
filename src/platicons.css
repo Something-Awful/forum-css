@@ -94,6 +94,12 @@
 	background-size: 15px;
 }
 
+#thread dl.userinfo dt.soccerball-black
+{
+	background-image:url(https://fi.somethingawful.com/images/svgs/soccerball-black.svg);
+	background-size: 15px;
+}
+
 #thread dl.userinfo dt.fiftyblessings
 {
 	background-image:url(//downloads.somethingawful.com/misc/50_blessings.png);
