@@ -592,6 +592,15 @@ form.forum_jump
   text-size-adjust: none;
 }
 
+.stafflist {
+	line-height: 18px;
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
 #filter
 {
   background-color:#dfdfdf;
