@@ -759,6 +759,13 @@
 	line-height: 18px !important;
 }
 
+#thread dl.userinfo dt.sun-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/sun-blue.svg);
+	background-size: 20px;
+	padding-left: 22px !important;
+	line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.roth-blue {
 	background-image: url(https://fi.somethingawful.com/images/svgs/roth-blue.svg);
 	background-size: 20px;
