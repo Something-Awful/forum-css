@@ -346,18 +346,17 @@ img.timg.complete {
 }
 
 /* Spoilers */
-.bbc-spoiler, .bbc-spoiler li, .bbc-spoiler code, .bbc-spoiler pre, bbc-spoiler a {
+.bbc-spoiler, .bbc-spoiler li, .bbc-spoiler code, .bbc-spoiler pre {
 	background-color:#777;
-	color:#777;
+	color:rgba(119, 119, 119, 0); /* #7770 */
 }
 
 .bbc-spoiler a, .bbc-spoiler a:link, .bbc-spoiler a:visited, .bbc-spoiler a:active, .bbc-spoiler a:link {
-	color:#777;
+	color:rgba(119, 119, 119, 0); /* #7770 */
 }
 
 .bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay, .bbc-spoiler.stay li, .bbc-spoiler.reveal code, .bbc-spoiler.reveal pre, .bbc-spoiler.stay code, .bbc-spoiler.stay pre {
 	background-color:#1c212a;
-
 	color: #ccc;
 }
 
@@ -383,12 +382,12 @@ blockquote .bbc-spoiler.remain a:not(:hover) {
 }
 
 .bbc-spoiler blockquote a:not(:hover), blockquote .bbc-spoiler a:not(:hover) {
-	color:#304867;
+	color:rgba(48, 72, 103, 0); /* #30485700 */
 }
 
 .bbc-spoiler blockquote, blockquote .bbc-spoiler, blockquote .bbc-spoiler li, .bbc-spoiler blockquote li{
 	background-color:#304867;
-	color:#304867;
+	color:rgba(48, 72, 103, 0); /* #30485700 */
 }
 
 .bbc-spoiler.reveal blockquote, .bbc-spoiler.stay blockquote, .bbc-spoiler:hover blockquote,
