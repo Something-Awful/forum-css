@@ -13,8 +13,8 @@
 	background-repeat: no-repeat;
 }
 
-body {
-	background-image: url('//fi.somethingawful.com/269/cspam-capital-bg.jpg');
+body,#container {
+	background-image: url('//fi.somethingawful.com/269/cspam-capital-bg.jpg')!important;
 	background-size: contain;
 }
 
