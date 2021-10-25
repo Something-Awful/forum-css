@@ -256,8 +256,16 @@
 {
 	background-image:url(https://fi.somethingawful.com/images/svgs/phonecenter.svg);
 	background-size: 20px;
-	padding-left:20px!important;
-	line-height:25px!important;
+	padding-left: 20px!important;
+	line-height: 22px!important;
+}
+
+#thread dl.userinfo dt.phone-black
+{
+	background-image:url(https://fi.somethingawful.com/images/svgs/phone-black.svg);
+	background-size: 20px;
+	padding-left: 20px!important;
+	line-height: 22px!important;
 }
 
 #thread dl.userinfo dt.blindsally
