@@ -19,8 +19,12 @@
 	background-color: #333;
 }
 
-#modqueue tr.request.retracted.alt2 td,tr.request.retracted.alt1 {
-	background-color: #090d0a;;
+#modqueue tr.request.retracted.alt2 td, #modqueue tr.request.retracted.alt1 td {
+	background-color: #090d0a;
+}
+
+#modqueue tr.request.declined.alt2 td, #modqueue tr.request.declined.alt1 td {
+	background-color:#2d0c0c;
 }
 
 #modqueue tr.request.queued td.notes div.nbox.origin, #modqueue tr.request.queued td.notes div.nbox.reason {
@@ -44,6 +48,7 @@ div.mqfilter .statuses label {
 	color: #65a1ee;
 }
 
-#modqueue tr.request.declined.alt2 td, #modqueue tr.request.declined.alt1 td {
-	background-color:#2d0c0c;
+#modqueue tr.request td.notes .nbox {
+	border-color: #304867!important;
+	box-shadow:none!important;
 }
