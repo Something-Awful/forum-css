@@ -1,0 +1,25 @@
+div#debug {
+	background:#1b1c22;
+	border:#304867 1px solid;
+}
+div#debug div.debug_head {
+	background:#1b1c22;
+	border:#304867 1px solid;
+}
+
+div#debug button {
+	border:1px solid #304867;
+	background-image:none;
+	color:#65a1ee;
+	background-color: #1C2029;
+}
+
+div#debug button:active, div#debug button:hover {
+	background-color:#304867;
+	color:#aaa;
+}
+
+div#debug button.state_1:active,
+div#debug button.state_1 {
+	background-image:-webkit-linear-gradient(bottom,#040 0,#240 100%);
+}
