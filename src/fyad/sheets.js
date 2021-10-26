@@ -12,10 +12,10 @@ window.fyadsheets = {
         "path": "night",
         "hours": [21, 22, 23, 0, 1, 2, 3, 4, 5]
     },
-/*    "5": {
-        "name": "Ralp's Awful Theme Don't Click",
-        "path": "ralp" 
-    }, */
+    "ralp": {
+        "name": "Ralp's Theme",
+        "path": "ralp"
+    },
     "5": {
         "name": "Sheep Taking A Shit",
         "path": "sheep"

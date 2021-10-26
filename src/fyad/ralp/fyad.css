@@ -439,4 +439,4 @@ img[title=":pwn:"] {
 	99%  { transform: scale(15); }
 	to   { transform: scale(1); }
 }
-.forumbar #sheetmenu { margin-top: 115px; }
+.forumbar #sheetmenu { position: relative; }
