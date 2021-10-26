@@ -1,5 +1,5 @@
 body {
-	background: #000 url(//forums.somethingawful.com/css/fyad/relatablefall/background.jpg)!important;
+	background: #000 url(https://i.somethingawful.com/css/fyad/relatablefall/background.jpg)!important;
 	background-attachment: fixed!important;
 	background-size: cover!important;
 	text-shadow: 1px -3px 30px rgba(255,217,213,1)
@@ -183,7 +183,7 @@ div#flag_container {
 
 div#flag_container {
 	background-color: #000;
-	background-image: url(http://forums.somethingawful.com/css/fyad/relatablefall/flagbg.png)
+	background-image: url(https://i.somethingawful.com/css/fyad/relatablefall/flagbg.png)
 }
 
 div#flag_container img {
@@ -253,7 +253,7 @@ div.funbox {
 
 div.funbox .tail {
 	background-repeat: no-repeat;
-	background-image: url(../images/funbox-9-bottom-arrow.gif);
+	background-image: url(https://i.somethingawful.com/images/funbox-9-bottom-arrow.gif);
 	background-position: 0 0;
 	position: absolute;
 	bottom: -16px;
