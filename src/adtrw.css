@@ -1,0 +1,19 @@
+body #container {
+	background-color: #fff;
+	background: url("//fi.somethingawful.com/adtrw/anime-truck.jpg") repeat-y;
+	background-size: 100% auto;
+}
+
+#forum {
+	background: #fff;
+}
+
+.breadcrumbs {
+	background-color: #eee;
+	border-style: solid;
+	border-color: #aaaaaa;
+	border-width: 1px;
+	border-radius: 8px;
+	box-shadow: inset -2px -2px 2px #4d4d4d47;
+	padding: 10px 1em 12px 1em !important;
+}
