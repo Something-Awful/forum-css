@@ -1,4 +1,8 @@
 /* --------------- FYAD Tweaks ---------------- */
+.showthread tbody td.postlinks {
+	display: block!important;
+}
+
 .showthread .post td.postdate {
 	width: 180px !important;
 	display: inline-table;
@@ -74,7 +78,7 @@ div.threadbar,#subforums,#forum,#forum td,#filter,#forum.threadlist tbody tr td:
 }
 /*#thread dl.userinfo dt.author{color:#f66!important;padding-left:20px!important;padding-bottom:6px!important;background:url(http://i.somethingawful.com/images/star-fyad.png) no-repeat left 0;line-height:16px!important;}*/
 #thread dl.userinfo dt.author {
-	color: #f66!important;
+	color: #f66;
 }
 
 #thread dd.registered {
