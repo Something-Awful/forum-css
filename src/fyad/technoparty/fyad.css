@@ -1,5 +1,5 @@
 body#something_awful.forum_26{
-background:url(http://forums.somethingawful.com/css/fyad/technoparty/dude.jpg) 0px -150px no-repeat,url(http://forums.somethingawful.com/css/fyad/technoparty/crowd.jpg);
+background:url(https://i.somethingawful.com/css/fyad/technoparty/dude.jpg) 0px -150px no-repeat,url(https://i.somethingawful.com/css/fyad/technoparty/crowd.jpg);
 color:black;
 }
 
@@ -289,7 +289,7 @@ margin-left:-15px;
 
 .seen2 .postbody:before,.altcolor2 .postbody:before{
 float:left;
-content:url(http://forums.somethingawful.com/css/fyad/technoparty/beach.jpg);
+content:url(https://i.somethingawful.com/css/fyad/technoparty/beach.jpg);
 width:100%!important;
 padding-left:9%;
 background-image:url();
@@ -303,7 +303,7 @@ margin-top:10px
 
 .seen1 .postbody:before,.altcolor1 .postbody:after{
 float:left;
-content:url(http://forums.somethingawful.com/css/fyad/technoparty/party.jpg);
+content:url(https://i.somethingawful.com/css/fyad/technoparty/party.jpg);
 padding-left:20%;
 width:100%!important;
 background-image:url();
