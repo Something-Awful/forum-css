@@ -504,11 +504,11 @@ body#something_awful.forum_26 #content div.pages a,body#something_awful.forum_26
 }
 
 #thread dl.userinfo dt.platinum {
-	background-image: url(http://forums.somethingawful.com/css/fyad/relatablefall/a.png)!important
+	background-image: url(https://i.somethingawful.com/css/fyad/relatablefall/a.png)!important
 }
 
 #thread dl.userinfo dt.idiotking {
-	background-image: url(http://forums.somethingawful.com/css/fyad/relatablefall/b.gif)!important
+	background-image: url(https://i.somethingawful.com/css/fyad/relatablefall/b.gif)!important
 }
 
 a.index {
@@ -532,7 +532,7 @@ div.funbox {
 
 div.funbox .tail {
 	background-repeat: no-repeat;
-	background-image: url(http://forums.somethingawful.com/css/fyad/relatablefall/c.gif);
+	background-image: url(https://i.somethingawful.com/css/fyad/relatablefall/c.gif);
 	background-position: 0 0;
 	position: absolute;
 	bottom: -29px;
@@ -602,7 +602,7 @@ th,div.threadbar,div.forumbar #forum th,#forum th.replies,#forum th.author,body 
 
 div.funbox .tail {
 	background-repeat: no-repeat;
-	background-image: url('http://forums.somethingawful.com/css/fyad/relatablefall/c.gif')!important;
+	background-image: url('https://i.somethingawful.com/css/fyad/relatablefall/c.gif')!important;
 	background-position: 0 0;
 	position: absolute;
 	bottom: -29px;
