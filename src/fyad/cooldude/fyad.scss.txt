@@ -4,8 +4,8 @@ $light2: #d8e853;
 
 body#something_awful.forum_26 {
     background:
-        url('http://forums.somethingawful.com/css/fyad/cooldude/logo.gif') 20px 60px no-repeat,
-        url('http://forums.somethingawful.com/css/fyad/cooldude/dudeforumsbg.jpg');
+        url('https://i.somethingawful.com/css/fyad/cooldude/logo.gif') 20px 60px no-repeat,
+        url('https://i.somethingawful.com/css/fyad/cooldude/dudeforumsbg.jpg');
     color: black;
 
     a {
@@ -58,9 +58,9 @@ body#something_awful.forum_26 {
         padding: 2px;
 
         a { color: white !important; }
-        .toggle_tags { color: white !important; }        
+        .toggle_tags { color: white !important; }
         .postbuttons {
-           line-height: 1 !important;            
+           line-height: 1 !important;
         }
     }
 
@@ -169,7 +169,7 @@ body#something_awful.forum_26 {
                 font-size: 1px;
 
                 &:before {
-                    font-size: 13px;                    
+                    font-size: 13px;
                     text-decoration:none !important;
                     color: black;
                 }
@@ -180,7 +180,7 @@ body#something_awful.forum_26 {
             td.rating {
                 width: 49px;
                 height: 20px;
-                background-image: url('http://www.somethingawful.com/css/fyad/cooldude/10plat.png');
+                background-image: url('https://fi.somethingawful.com/fyad/10plat.png');
                 background-repeat: no-repeat;
                 background-position: 7px 6px;
             }
@@ -193,7 +193,7 @@ body#something_awful.forum_26 {
                 width: inherit;
                 height: inherit;
                 background-image: none;
-    
+
                 &:before {
                     content: none;
                 }
@@ -210,7 +210,7 @@ body#something_awful.forum_26 {
         td.title    { background-color: $light1; }
         td.topics   { background-color: $light2; }
         td.posts    { background-color: $light1; }
-    }    
+    }
 
     div.threadbar,
     #subforums,
@@ -225,7 +225,7 @@ body#something_awful.forum_26 {
         dt.author {
             color: $tint !important;
         }
-        border-color: #ffffff !important; 
+        border-color: #ffffff !important;
         border-width: 2px !important;
     }
 
@@ -233,7 +233,7 @@ body#something_awful.forum_26 {
         display: inline;
         color: transparent;
         font-size: 1px;
-        color: black;        
+        color: black;
 
         a {
             font-size: 10px;
