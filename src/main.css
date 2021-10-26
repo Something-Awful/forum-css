@@ -113,14 +113,9 @@ div.breadcrumbs,#subforums td.title dt,#forum td.lastpost a.author,div.threadbar
 }
 #mods,div.pages,#copyright,#forum th,#forum td.lastpost,#forum span.pages,#thread div.postbar,td.postdate,td.postlinks,#thread dl.userinfo dd,#thread tr.postbar td,div.threadrate,div.subscribe {
 	color:#000;
-	font-size:10 px
-}
-div.threadbar form.threadsearch label,div.threadbar form.threadsearch input,#searchboxes,#forum td.icon,#forum td.rating {
-	font-size:10 px
 }
 #thread td.postbody,#thread dl.userinfo,#forum td.replies,#forum td.views,#forum td.author,#subforums {
 	color:#000;
-	font-size:13 px
 }
 #copyright {
 	clear:both;
@@ -1068,7 +1063,10 @@ a.banlink,.postbody a.quote_link {
 	display:inline-block
 }
 .nav_new {
-	font-size:10px;
 	color:red;
 	font-weight:bold
+}
+.purch_new {
+	color:#FF7F7F;
+	font-weight:bold;
 }
