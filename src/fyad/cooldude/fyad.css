@@ -1,0 +1,193 @@
+body#something_awful.forum_26 {
+  background: url("http://forums.somethingawful.com/css/fyad/cooldude/logo.gif") 20px 60px no-repeat, url("http://forums.somethingawful.com/css/fyad/cooldude/dudeforumsbg.jpg");
+  color: black; }
+  body#something_awful.forum_26 a {
+    color: #752121 !important; }
+  body#something_awful.forum_26 #container {
+    margin: 0 !important;
+    padding: 0 !important; }
+  body#something_awful.forum_26 #nav_purchase {
+    background: black !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: none;
+    margin: 0px; }
+  body#something_awful.forum_26 #navigation {
+    background: transparent !important;
+    border: 0 !important;
+    margin-bottom: 180px; }
+  body#something_awful.forum_26 #content {
+    padding: 8px; }
+    body#something_awful.forum_26 #content div.pages a, body#something_awful.forum_26 #content div.pages .disabled {
+      background-color: #29203b !important;
+      border: 2px solid white !important;
+      border-radius: 0 !important;
+      color: white !important;
+      box-shadow: none !important; }
+    body#something_awful.forum_26 #content div.pages .disabled {
+      opacity: .5; }
+  body#something_awful.forum_26 #filter, body#something_awful.forum_26 .forumbar, body#something_awful.forum_26 .navigation, body#something_awful.forum_26 .threadbar {
+    background-color: #29203b !important;
+    border: 2px solid white !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 8px;
+    padding: 2px; }
+    body#something_awful.forum_26 #filter a, body#something_awful.forum_26 .forumbar a, body#something_awful.forum_26 .navigation a, body#something_awful.forum_26 .threadbar a {
+      color: white !important; }
+    body#something_awful.forum_26 #filter .toggle_tags, body#something_awful.forum_26 .forumbar .toggle_tags, body#something_awful.forum_26 .navigation .toggle_tags, body#something_awful.forum_26 .threadbar .toggle_tags {
+      color: white !important; }
+    body#something_awful.forum_26 #filter .postbuttons, body#something_awful.forum_26 .forumbar .postbuttons, body#something_awful.forum_26 .navigation .postbuttons, body#something_awful.forum_26 .threadbar .postbuttons {
+      line-height: 1 !important; }
+  body#something_awful.forum_26 a.index {
+    background-color: #29203b !important;
+    border: 2px solid white !important;
+    border-radius: 0 !important;
+    color: white !important; }
+  body#something_awful.forum_26 div.lastseen {
+    background: none;
+    background-color: #29203b !important;
+    border: 2px solid white !important;
+    border-radius: 0 !important;
+    color: white !important;
+    box-shadow: none !important;
+    top: 1px;
+    right: 1px; }
+    body#something_awful.forum_26 div.lastseen a {
+      background: transparent !important; }
+    body#something_awful.forum_26 div.lastseen .x {
+      color: #d8e853 !important; }
+    body#something_awful.forum_26 div.lastseen .count {
+      color: #b7c72f !important; }
+  body#something_awful.forum_26 .altcolor1 .postbody, body#something_awful.forum_26 .altcolor1 .postdate, body#something_awful.forum_26 .altcolor1 .postlinks, body#something_awful.forum_26 .standard .altcolor1 td .postbody, body#something_awful.forum_26 .standard .altcolor1 td .postdate, body#something_awful.forum_26 .standard .altcolor1 td .postlinks {
+    background: #b7c72f !important; }
+  body#something_awful.forum_26 .standard td {
+    background: #b7c72f !important;
+    border: 2px solid white !important; }
+  body#something_awful.forum_26 .standard th, body#something_awful.forum_26 .standard h2 {
+    background: #29203b !important;
+    color: white !important;
+    border: 2px solid white !important;
+    margin-bottom: 0 !important; }
+  body#something_awful.forum_26 .standard div.postbody {
+    background: #b7c72f !important; }
+  body#something_awful.forum_26 .altcolor2 .postbody, body#something_awful.forum_26 .altcolor2 .postdate, body#something_awful.forum_26 .altcolor2 .postlinks {
+    background: #d8e853 !important; }
+  body#something_awful.forum_26 table.standard .altcolor2 td {
+    background: #d8e853 !important; }
+  body#something_awful.forum_26 td.postdate a, body#something_awful.forum_26 ul.profilelinks li a {
+    background: none !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-weight: bold; }
+  body#something_awful.forum_26 .bbc-block {
+    border-radius: 0 !important;
+    border-top: 1px inset #29203b !important;
+    border-bottom: 1px inset #29203b !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    box-shadow: none !important;
+    background: transparent; }
+  body#something_awful.forum_26 #forum th {
+    background-color: #29203b !important;
+    color: white;
+    border: 2px solid white; }
+    body#something_awful.forum_26 #forum th a {
+      color: white !important;
+      background: transparent !important; }
+    body#something_awful.forum_26 #forum th.title {
+      height: 20px; }
+  body#something_awful.forum_26 #forum td.star {
+    background-color: #d8e853; }
+  body#something_awful.forum_26 #forum td.icon {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 #forum td.title {
+    background-color: #d8e853;
+    padding-left: 4px;
+    height: inherit;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    body#something_awful.forum_26 #forum td.title div.title_inner {
+      min-height: 0; }
+  body#something_awful.forum_26 #forum td.author {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 #forum td.replies {
+    background-color: #d8e853; }
+  body#something_awful.forum_26 #forum td.views {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 #forum td.rating {
+    background-color: #d8e853; }
+  body#something_awful.forum_26 #forum td.lastpost {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 #forum tr.thread td.replies, body#something_awful.forum_26 #forum tr.thread td.views, body#something_awful.forum_26 #forum tr.thread td.rating {
+    color: transparent;
+    font-size: 1px; }
+    body#something_awful.forum_26 #forum tr.thread td.replies:before, body#something_awful.forum_26 #forum tr.thread td.views:before, body#something_awful.forum_26 #forum tr.thread td.rating:before {
+      font-size: 13px;
+      text-decoration: none !important;
+      color: black; }
+  body#something_awful.forum_26 #forum tr.thread td.replies:before {
+    content: "UB40"; }
+  body#something_awful.forum_26 #forum tr.thread td.views:before {
+    content: "A MILLION"; }
+  body#something_awful.forum_26 #forum tr.thread td.rating {
+    width: 49px;
+    height: 20px;
+    background-image: url("http://www.somethingawful.com/css/fyad/cooldude/10plat.png");
+    background-repeat: no-repeat;
+    background-position: 7px 6px; }
+  body#something_awful.forum_26 #forum tr.thread[id^="thread"] td {
+    color: inherit;
+    font-size: inherit;
+    width: inherit;
+    height: inherit;
+    background-image: none; }
+    body#something_awful.forum_26 #forum tr.thread[id^="thread"] td:before {
+      content: none; }
+  body#something_awful.forum_26 #forum tr.thread[id^="thread"] td.lastpost {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px; }
+  body#something_awful.forum_26 #subforums td.title {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 #subforums td.topics {
+    background-color: #d8e853; }
+  body#something_awful.forum_26 #subforums td.posts {
+    background-color: #b7c72f; }
+  body#something_awful.forum_26 div.threadbar,
+  body#something_awful.forum_26 #subforums,
+  body#something_awful.forum_26 #subforums td,
+  body#something_awful.forum_26 #forum,
+  body#something_awful.forum_26 #forum th,
+  body#something_awful.forum_26 #forum td,
+  body#something_awful.forum_26 #filter,
+  body#something_awful.forum_26 div.forumbar,
+  body#something_awful.forum_26 #thread table.post,
+  body#something_awful.forum_26 #thread td {
+    border-color: #ffffff !important;
+    border-width: 2px !important; }
+    body#something_awful.forum_26 div.threadbar dt.author,
+    body#something_awful.forum_26 #subforums dt.author,
+    body#something_awful.forum_26 #subforums td dt.author,
+    body#something_awful.forum_26 #forum dt.author,
+    body#something_awful.forum_26 #forum th dt.author,
+    body#something_awful.forum_26 #forum td dt.author,
+    body#something_awful.forum_26 #filter dt.author,
+    body#something_awful.forum_26 div.forumbar dt.author,
+    body#something_awful.forum_26 #thread table.post dt.author,
+    body#something_awful.forum_26 #thread td dt.author {
+      color: #29203b !important; }
+  body#something_awful.forum_26 .title_pages {
+    display: inline;
+    color: transparent;
+    font-size: 1px;
+    color: black; }
+    body#something_awful.forum_26 .title_pages a {
+      font-size: 10px; }
+      body#something_awful.forum_26 .title_pages a:first-child:before {
+        content: "(\00a0"; }
+      body#something_awful.forum_26 .title_pages a:last-child:after {
+        content: "\00a0)"; }
+      body#something_awful.forum_26 .title_pages a[href$="lastpost"]:before {
+        content: "... ";
+        margin-left: -15px; }

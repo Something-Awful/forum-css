@@ -1,0 +1,1285 @@
+.showthread .post td.postdate {
+	width: 180px!important;
+	display: inline-table
+}
+
+.showthread #thread table.post td {
+	display: inline-table
+}
+
+.showthread .altcolor1 td.postdate,
+.showthread .altcolor1 td.userinfo,
+.showthread .altcolor2 td.postdate,
+.showthread .altcolor2 td.userinfo {
+	background-color: inherit
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow;
+}
+
+.forumdisplay .thread td.title_sticky a.thread_title {
+	background: left no-repeat url(//fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-sticky.png);
+}
+
+body {
+	background-color: #708ec7;
+	background: url(//fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-logo.png) -35px 28px no-repeat, /* Forum logo */
+	 url(//fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-background.gif) fixed !important; /* Tiled Background Image */
+	background-attachment: fixed;
+	/*background-size: auto, 100% 100% !important; */ /* Stretch bg */
+}
+
+/*Highlight Color*/
+::selection {
+  background: #ed843291; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ed843294; /* Gecko Browsers */
+}
+
+/*Link with the Mouse Over It*/
+a:hover {
+	color: #ff8e60 !important;
+	text-shadow: 2px 1px 2px #865206, -1px 1px 3px rgb(248, 74, 163) !important;
+}
+
+a:active {
+	color: #ff29aa;
+}
+
+#notregistered,
+#searchboxes {
+	background: 0 0
+}
+
+/* "Icon"/ "Title" row in threadlist table */
+#forum th,
+#forum th a,
+div.forumbar,
+div.threadbar,
+th.title,
+th.icon {
+	color: #8cf3b6; /* Words"Icon" and "Title"*/
+	font-size: 13px;
+	font-family: "Trebuchet MS" !important;
+	background: #5cb693e0 !important;
+	border-left: 10px #5cb693e0 solid !important;
+	border-right: 10px #5cb693e0 solid !important;
+	border-bottom: 6px #5cb693e0 solid !important;
+	
+}
+/* Round bottom-left and bottom-right of threadlist */
+div.forumbar {
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+#thread div.quote {
+	border-color: #aaa
+}
+
+/* Text that says "Filter Posts" */
+div.toggle_tags {
+	color: #8cf3b6 !important;
+	font-family: "Trebuchet MS" !important;
+}
+
+#filter,
+#forum.threadlist tbody tr td:first-child,
+#subforums,
+#subforums tr.subforum td,
+#thread table.post,
+ {
+	/*Border around posts / Threadlist tables */
+	border-color: #5cb693 !important;
+	border-style: double !important;
+	border-width 15px !imoprtant;
+	border-radius: 25px !important;
+}
+
+/* no rounding on thread titles */
+#forum,
+#forum td,
+div.threadbar {
+	border-color: #5cb693 !important;
+	border-style: double !important;
+	border-width 15px !imoprtant;
+	border-left: 5px solid !important;
+}
+/*Left Margin on sides of Threadlist */
+#forum {
+	border-left: 10px solid !important;
+	border-right: 10px solid !important;
+	border-color: #5cb693 !important;
+}
+
+/* "The Hell Circus" link itself */
+tr.subforum a,
+tr.subforum a:visited{
+	color: #8cf3b6 !important;
+}
+
+#thread table.post {
+	border-bottom-width: 0!important;
+	border-right-width: 2px!important
+}
+
+#thread td.postbody {
+	border-top: none!important;
+}
+
+}
+
+#subforums {
+	clear: left;
+	color: #000!important
+}
+
+#thread dd.registered {
+	color: #060 !important
+}
+
+#flag {
+	margin-bottom: 1em
+}
+
+#forum th {
+	padding: 2px 3px
+}
+
+table.funbox,
+table.funbox td {
+	font: normal normal normal 13px Verdana, Arial, sans-serif;
+	border: none!important
+}
+
+#thread div.title {
+	font: normal normal normal 10px Verdana, Arial, sans-serif !important;
+	margin-top: 1em
+}
+
+p.signature {
+	border: 0;
+	color: #d8d3d9 !important; /* Signature Text Color */
+	font-family: "Trebuchet MS" !important;
+}
+
+.funbox {
+	margin-left: 80px;
+	margin-top: 8px;
+}
+
+table.standard {
+	background: transparent;
+	border: none;
+}
+
+/*Eliminate grey background behind online users list,
+  report page, and forum notification pages eg post redirect page */
+div.standard {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+/* Eliminate grey background behind post typing section*/
+table#main_full.standard {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+/* "Logged in user" on post preview screen */
+table.standard td, table.standard td a {
+	border-width: 4px !important;
+	border-color: #61add0;
+	background: #297cbbbd;
+	color: #8ed2ec;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #235e74,
+        /*Top-right */ 2px -1px 2px #235e74 !important;
+}
+
+/* Post Composing Table top rows where it says "Post Reply" + "Message Preview" */
+.standard h2,
+table.standard th {
+	background: #d48f718f;
+	color: #ffcfbb;
+	font-family: "Trebuchet MS" !important;
+	border-width: 4px !important;
+	border-color: #e4a78e;
+	font-size: 15px !important;
+	border-padding: 50px !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #7f4c25,
+        /*Top-right */ 2px -1px 3px #7f4c25 !important;
+}
+
+.postbody table.funbox tr td.complete_shit {
+	background: #fff
+}
+
+.postbody, td.postdate, ul.profilelinks {
+	background-color: transparent !important;
+}
+
+.postlinks {background-color: transparent !important;}
+
+/* Flag Section */
+div#flag_container {
+	clear: both;
+	height: 100px;
+	width: 490px;
+	border: 10px #d0b0a3 !important;
+	background-color: #000;
+	background-image: url(//fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-flagbackground.png);
+	margin: 0 auto;
+	border-radius: 50px !important;
+	padding: 5px 0px 3px 0px !important; /* Make flag bg taller */
+	filter: brightness(86%) blur(0.03px) saturate(1.15) opacity(0.89) !important; /* Effects for flag + flag background */
+}
+
+/* Flags themselves */
+div#flag_container img {
+	margin: 0 119px;
+	border-radius: 3px;
+	border: none;
+}
+
+/* Archives Controls */
+#ac_timemachine{
+	color: #8ed2ec !important;
+	background-color: #2f8ed68c !important;
+	border-radius: 50px !important;
+	border-width: 5px !important;
+    border-color: #61add0 !important;
+    text-shadow: /*Bottom-right*/ 2px 1px 2px #235e74cf,
+        /*Top-right */ 2px -1px 2px #235e74cc !important;
+}
+
+td.postdate {
+	width: 168px;
+	white-space: nowrap
+}
+
+#thread.review td {
+	background: 0 0;
+	border-color: #999
+}
+
+#thread.review dl {
+	min-height: 60px
+}
+
+#thread.review td.postdate,
+#thread.review tr td.userinfo {
+	display: table-cell
+}
+
+a,
+body {
+	color: #011
+}
+
+#content div.pages .curpage {
+	color: #222
+}
+
+
+
+/* Page Buttons */
+/*Active Page Buttons */
+#content div.pages a {
+	/* Link text in button */ color: #8ed2ec !important;
+	background-color: #2f8ed6c7 !important;
+	border-color: #61add0 !important;
+	border-radius: 50px !important;
+	border-style: solid !important
+	border-width: thick !important;
+	font-family: "Trebuchet MS" !important;
+	border-radius: 50px !important;
+	border-width: 4px !important;
+    border-color: #61add0 !important;
+}
+#content div.pages a:hover{
+	color: #ed8432 !important;
+}
+/*Buttons that are unclickable*/
+span.disabled {
+	color: #8ed2ec !important;
+	background-color: #297cbb94 !important;
+	border-color: #61add0 !important;
+	border-radius: 50px !important;
+	border-style: solid !important
+	border-width: thick !important;
+	font-family: "Trebuchet MS" !important;
+	border-radius: 50px !important;
+	border-width: 4px !important;
+    border-color: #61add0 !important;
+    text-shadow: /*Bottom-right*/ 2px 1px 2px #235e74bd,
+        /*Top-right */ 2px -1px 2px #235e7480 !important;
+}
+/* Button to the left of Breadcrumbs leading back to the main SA forums directory */
+a.index {
+	background-color: #297cbb9c !important;
+	color: #8ed2ec !important;
+	border-color: #61add0 !important;
+	border-radius: 50px !important;
+	border-style: solid !important
+	border-width: thick !important;
+	font-family: "Trebuchet MS" !important;
+	border-radius: 50px !important;
+	border-width: 3px !important;
+    border-color: #61add0 !important;
+}
+a.index a:hover{
+	color: #ed8432 !important;
+}
+
+
+/*Background of Post Preview and Online Users List */
+div.inner.postbody, div.inner {
+	background-color: #b35eb9c7 !important;
+	color: #ffc3e1 !important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 17px !important;
+	text-shadow: /*Bottom-right*/ 2px 2px 2px #8e3a65,
+        /*Top-right */ 2px -1px 2px #8e3a65 !important;
+	border-style: solid !important;
+	border-color: #de86b2 !important;
+	border-radius: 50px;
+	border-width: 5px;
+}
+
+/* Posts themselves / inside of speech bubble */
+div.funbox {
+	width: auto;
+	float: left;
+	clear: both;
+	background-color: #eeecef;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	-moz-border-radius: 24px;
+	border: 2px #231f20 solid;
+	border-radius: 24px;
+	position: relative;
+	min-width: 40px;
+	padding: 16px 24px;
+	font-family: "Trebuchet MS" !important;
+	color: #231f20;
+}
+div.funbox a,
+div.funbox a:visited{
+	color: #615659 !important;
+}
+
+div.funbox .tail {
+	background-repeat: no-repeat;
+	background-image: url(https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-arrow.png);
+	background-position: 0 0;
+	position: absolute;
+	bottom: -29px;
+	left: 24px;
+	width: 27px;
+	height: 44px
+}
+
+* {
+	text-shadow: none!important
+}
+
+/* Thread Icon Filter */
+#filter {
+	background-color: rgba(92, 182, 147, 0.85) !important;
+	color: #8cf3b6 !important;
+	border-top: 2px #5cb693e0 solid !important;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+#filter img {border-radius: 8px} /* Round Thread Icons in Filter */
+
+/* "Remove Filter" Text */
+#filter a{
+	font-family: "Trebuchet MS" !important;
+	color: #8cf3b6 !important;
+}
+
+#forum {
+	border-collapse: collapse
+}
+
+#filter,
+#forum,
+#forum td,
+#subforums,
+div.threadbar {
+	border-style: double;
+	border-width: 1px;
+	border-color: rgba(92, 182, 147, 0.85) !important;
+}
+
+/* Add border around thread icons in thread list */
+td.icon {
+	border-color: black !important;
+	border-width: 1px !important;
+	border-style: double !important;
+}
+
+/* "Replies" count in Threadlist */
+#forum td.replies, #forum td.replies a {
+	text-align: center !important;
+	color: #8cf3b6 !important;
+	font-size: 14px;
+	font-family: "Trebuchet MS" !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #25623f,
+        /*Top-right */ 2px -1px 3px #25623f !important;
+}
+/* "Views" count in Threadlist */
+#forum td.views {
+	text-align: center!important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 14px;
+	color: #8cf3b6 !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #25623f,
+        /*Top-right */ 2px -1px 3px #25623f !important;
+}
+
+#forum td.author {
+	font-family: "Trebuchet MS" !important;
+	text-decoration: underline !important;
+	font-size: 30px !important}
+
+/* Box linking to The Hell Circus */
+#subforums,
+#subforums td,
+tr.subforum
+ {
+	border: 3px #5cb693a1 !important;
+	border-radius: 50px !important;
+	border-width: 4px !important;
+}
+
+#forum td.author,
+#forum td.icon,
+#forum td.lastpost,
+#forum td.views,
+#forum td.votes,
+#forum.asktell td.icon2,
+#subforums td.topics,
+#thread li.post,
+table.standard tr td.altcolor2 {
+	background: #9695dc73;
+}
+
+#forum td.author,
+#forum td.icon,
+#forum td.lastpost,
+#forum td.views,
+#forum td.votes,
+#forum.asktell td.icon2,
+#subforums td.topics,
+#thread li.post,
+table.standard tr td.altcolor2 {
+	background-color: #9695dc73;
+}
+
+table.standard tr a {
+	color: #d8d3d9 !important;
+	text-shadow: none !important;
+	background: none !important;
+}
+
+
+/*New / Unread Posts Button*/
+a.x, a.count, x, lastseen, count, div.lastseen {
+	color: #f38ec1 !important;
+	font-size: 15px !important;
+	text-align: !center !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 4px #8e3a65,
+        /*Top-right */ 2px -1px 3px #8e3a65 !important;
+	background-color: #ac63b1b5 !important;
+	background-image: none !important; /* Remove "X" button */
+    background-size: 50px 20px !important;
+    border-style: double !important;
+    border-color: #9a74c8 !important;
+    border-width: 5px;
+    box-shadow: -3px -2px 1px 2px rgba(222, 134, 178, 0.7), /* Top left */
+    3px -2px 1px 2px rgba(222, 134, 178, 0.7), /* Top right */
+    -3px 2px 1px 2px rgba(222, 134, 178, 0.7), /* Bottmo left */
+    3px 2px 1px 2px rgba(222, 134, 178, 0.7); /* Bottom right */
+}
+/* Rounding on left side of "X" buttons on Unread posts buttons */
+a.x, x {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-right: 5px !important;
+	padding-left: 4px !important;
+	margin-right: 4px;
+}
+/* Rounding on right side of New post number buttons on Unread posts buttons */
+a.count,lastseen, count, div.lastseen {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+/* Hover effects on New/ Unread / Last Seen buttons */
+a.x a:hover,
+a.count a:hover,
+x a:hover,
+lastseen a:hover,
+count a:hover,
+div.lastseen a:hover {
+	color:#ed8432 !important;
+	text-shadow: 1px 1px 2px #231f20,
+    0px 2px 2px #231f20 !important;
+}
+
+/* Cilck effects on New/ Unread / Last Seen buttons */
+a.x a:active,
+a.count a:active,
+x a:active,
+lastseen a:active,
+count a:active,
+div.lastseen a:active {
+	text-shadow: 1px 1px 2px #231f20,
+	   0px 2px 2px #231f20 !important;
+	filter: contrast(300%) blur(3px) brightness(0.1) !important;
+}
+
+/* "Edit Poll" text below polls */
+div.smalltext {
+	font-family: "Trebuchet MS";
+}
+
+
+#filter,
+#forum,
+#forum td,
+#forum td.rating,
+#forum td.replies,
+#forum td.star,
+#forum td.title,
+#forum.asktell td.icon,
+#subforums,
+#subforums td,
+#thread li.post.even,
+#thread.review td,
+table#thread tr.even td,
+table.standard tr td.altcolor1 {
+	background: rgb(213, 245, 227);
+}
+
+/* Style Thread Rating Images gold bars */
+#forum td.rating img{
+	border-radius: 50px !important;
+	border: 4px solid #5cb693;
+}
+
+/* Text in Threadlist */
+#forum tr.seen td.author,
+#forum tr.seen td.icon,
+#forum tr.seen td.lastpost,
+#forum tr.seen td.views {
+	background: #bcd;
+}
+
+#forum tr.seen td.rating,
+#forum tr.seen td.replies,
+#forum tr.seen td.star,
+#forum tr.seen td.title {
+	background: #def
+}
+
+/*Posts 2*/
+.altcolor1,
+td.altcolor1,
+tr.altcolor1 td {
+	background-color: rgba(243, 98, 184, 0.53);
+	font-family: "Trebuchet MS" !important;
+	border-style: solid;
+}
+/* Links in Post2s & "#, ?, Profile, Message, Post History" */
+tr.altcolor1 a {
+	color:  #e599bf !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 4px #8e3a6533,
+        /*Top-right */ 2px 1px 4px #8e3a6536 !important;
+    border-radius: 40px !important;
+}
+tr.altcolor1 a:hover {
+	color:  #ed8432 !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 5px #8e3a6566,
+        /*Top-right */ 2px 1px 6px #8e3a655e !important;
+}
+
+.threads_editthread table.standard tr:nth-child(2) td,
+.threads_editthread table.standard tr:nth-child(4) td,
+.threads_editthread table.standard tr:nth-child(6) td,
+.threads_editthread table.standard tr:nth-child(9) td {
+	background-color:rgba(73, 148, 134, 0.6);
+}
+
+/*Posts 1*/
+.altcolor2,
+td.altcolor2,
+tr.altcolor2 td {
+	background-color: rgba(73, 148, 134, 0.6);
+	border-style: solid;
+	color: #92d8af;
+	border-color: #5cb693;
+	font-family: "Trebuchet MS" !important;
+}
+/* Links in Post1s & "#, ?, Profile, Message, Post History"") */
+tr.altcolor2 a {
+	color:  #60d48f !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 4px #25623f36,
+        /*Top-right */ 2px 1px 4px #25623f47 !important;
+	border-radius: 40px !important;
+}
+tr.altcolor2 a:hover {
+	color:  #ed8432 !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 5px #25623f80,
+        /*Top-right */ 2px 1px 6px #25623f66 !important;
+}
+
+/*Navigation/Purchase bars at the top & bottom*/
+#navigation,
+#nav_purchase,
+ul#navigation,
+ul#navigation.navigation {
+    background-repeat: no-repeat;
+    font-family: "Trebuchet MS" !important;
+    font-size: 0px !important;
+    background-color: #d8d3d9 !important;
+	/* Color of the word "Purchase:" */ color: transparent;
+	border-radius: 0px;
+	border-style: none;
+	position: relative !important;
+	top: -5px !important;
+	left: -8px;
+	width: 100% !important;
+}
+
+/* attempt at customizing bottmo navbar separately */
+ul.navigation.navigation,
+ul.navigation {
+	font-family: "Trebuchet MS" !important;
+	background-color: #d8d3d9 !important;
+}
+
+/* Background of Purchase bar only */
+#nav_purchase {
+	background-image: url(https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-dreamlogo.png);
+}
+
+/* Background of Upper Nav Bar Only */
+#navigation,
+ul#navigation,
+ul#navigation.navigation {
+	background-image: url(https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-clock.png);
+	background-position: right;
+	background-color: #d8d3d9 !important;
+	/* Color of the word "Purchase:" */ color: transparent;
+	border-radius: 0px;
+	border-style: none;
+	position: relative !important;
+	top: -5px !important;
+	left: -8px;
+	width: 100% !important;
+}
+
+
+/* Link Colors in Navigation / Purchase bars */
+ul#nav_purchase a,
+ul#nav_purchase a:visited,
+ul#navigation a,
+ul#navigation a:visited,
+ul#navigation.navigation a,
+ul.navigation.navigation a:visited,
+ul.navigation a:visited,
+ul.navigation a,
+ul#navigation {
+	color: #5e5c5f;
+	font-family: "Trebuchet MS" !important;
+	font-size: 13px;
+	text-shadow: none !important;
+	background-color: none !important;
+}
+
+/*Threadlist*/
+#thread li.post.even,
+#subforums,
+#subforums td,
+#forum, #forum td,
+table#thread tr.even td,
+#forum.asktell td.icon,
+#thread.review td,
+table.standard tr td.altcolor1,
+tbody {
+        background: rgba(48, 150, 131, 0.39) !important;
+        background-repeat: repeat !important;
+        color: #86e8ae !important;
+}
+
+/* Thread title links on threadlist, including announcements */
+a.thread_title, a.announcement {
+	color: #8cf3b6 !important;
+	font-size: 15px;
+	font-family: "Trebuchet MS" !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #25623f,
+        /*Top-right */ 2px -1px 3px #25623f !important;
+}
+
+/* Hover on thread titles on threadlist */
+a.thread_title a:hover, a.announcement a:hover,
+div.title_inner a:hover {
+	filter: contrast(150%) !important;
+	color: #ff9f77 !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 7px #25623f8c,
+        /*Top-right */ 2px -1px 8px #25623f85 !important;
+    background-color: transparent !important;
+    border-radius: 10px !important;
+    border-color: #e4a78e !important;
+    border-width: 1px !important;
+}
+
+/* Active Effects when Thread title is clicked on threadlist */
+a.thread_title a:active, a.announcement a:active,
+div.title_inner a:active {
+	filter: contrast(500%) blur(0.8px) !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #25623f,
+        /*Top-right */ 2px -1px 3px #25623f !important;
+}
+
+/* Text that says "Pages" under thread titles on threadlist */
+.title_pages,
+div.title_pages,
+.title_pages a {
+	color: #8cf3b6 !important;
+	font-family: "Trebuchet MS" !important;
+}
+
+
+/* Text That says "Mods/IKs" */
+#mods,
+#mods a,
+#mods a:visited {
+	color: #d8d3d9;
+	font-family: "Trebuchet MS" !important;
+    font-size: 12px !important;
+    filter: none !important;
+    text-shadow: /*Bottom-right*/ 2px 1px 4px #000000cc,
+    /*Top-right */ 2px -1px 3px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Links to IK profiles */
+#content div#mp_bar a,
+#content div.breadcrumbs a,
+#content div.breadcrumbs a:visited,
+a:visited,
+body {
+	color: #d8d3d9;
+	font-size: 12px !important;
+
+}
+
+/*Forum breadcrumbs where it says FYAD*/
+#content div.breadcrumbs a,
+#online_users,
+#content div.breadcrumbs a:visited {	
+    color: #d8d3d9;
+    font-family: "Trebuchet MS" !important; /*Breadcrumb Font */
+    font-size: 20px !important;
+    text-shadow: /*Bottom-right*/ 2px 1px 4px #000000cc,
+        /*Top-right */ 2px 0px 3px rgba(0, 0, 0, 0.75) !important;
+}
+
+/*Forum breadcrumbs where it says FYAD link hover*/
+#content div.breadcrumbs a:hover,
+#online_users a:hover,
+#content div.breadcrumbs a:hover {	
+    color: #ed8432;
+    font-family: "Trebuchet MS" !important; /*Breadcrumb Font */
+    font-size: 20px !important;
+    text-shadow: /*Bottom-right*/ 2px 1px 6px #7f4c25b3,
+        /*Top-right */ 2px -1px 8px #7f4c25ad !important;
+}
+
+/* Round Thread Icons on Threadlist */
+td.icon img {
+    border-radius: 10px;
+    border: 3px solid #5cb693;
+}
+
+/*Username Display Under Posts*/
+dl.userinfo,
+dt.author,
+dt.author.role,
+dt.author.role.mod,
+dt.author.platinum {
+	color: #fd7d19 !important;
+	text-shadow: 0 0 2px #d8d3d9 !important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 21px !important;
+	text-shadow: /*Bottom-right*/3px 2px 2px #5e5c5f,
+	    /*Top-right */ 2px 1px 2px #5e5c5f !important;
+	width: 230px !important;
+}
+
+/* Replace Platinum Icon */
+#thread dl.userinfo dt.platinum {
+	background-image: url(https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-platicon.png)!important;
+	background-size: 20px;
+	line-height: 20px!important;
+}
+
+/* Custom Title */
+dd.title {
+	padding-bottom: 8px !important;
+	color: #d8d3d9 !important;
+}
+
+
+#forum,
+#subforums,
+div.userinfo,
+table {
+	clear: left
+}
+
+
+#thread div.title *,
+.bbc-center {
+	text-align: left
+}
+
+/* Buttons at the bottom of posts eg Profile button */
+td.postdate a,
+td.postlinks ul.profilelinks li a {
+	background: transparent !important;
+	border-style: solid !important;
+	border-color: #85a6e6ab !important;
+}
+
+/* Usernames on the Threadlist (thread author / last post) */
+a.author,
+td.author,
+td.author a {
+		color: #8cf3b6 !important;
+		text-shadow: /*Bottom-right*/ 2px 1px 2px #25623f,
+        /*Top-right */ 2px -1px 3px #25623f !important;
+        font-family: "Trebuchet MS" !important;
+        font-size: 12px !important;
+}
+
+/*Bar at the top of threads when viewing posts */
+div.threadbar.top {
+	box-shadow: inset 2px 2px 0 #21c41e99, inset -2px -2px 0 #805980 !important;
+	border: 1px solid #851a51 !important;
+	border-radius: 5px;
+	background-color: #49948694;
+	border-left: 5px #5cb693e0 solid !important;
+	border-right: 5px #5cb693e0 solid !important;
+	border-top: 5px #5cb693e0 solid !important;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+/*Bar at the bottom of threads when viewing posts */
+div.threadbar.bottom {
+	background-color: #49948694;
+	border-left: 5px #5cb693e0 solid !important;
+	border-right: 5px #5cb693e0 solid !important;
+	border-bottom: 6px #5cb693e0 solid !important;
+	border-top: 2px #5cb693e0 solid !important;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+/* Usernames on "Members Browsing" List */
+div#onlineusers.standard a,
+div#onlineusers.standard a:visited {
+	color: #ffcfe7 !important;
+	font-size: 11pt;
+	font-family: "Trebuchet MS" !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #8e3a65,
+        /*Top-right */ 2px -1px 2px #8e3a65 !important;
+	box-shadow: 2px 2px 1px 1px rgba(247, 96, 158, 0.15);
+	border-style: solid !important;
+	border-color: #de86b2 !important;
+	padding: 1px 5px; /* Spread out the usernames more */
+	border-radius: 50px;
+	border-width: 2px;
+}
+
+select {
+  border: none;
+  border-radius: 8px;
+  background-color: #d8d3d9 !important;
+  color: #5e5c5f; /* Text in Drop-down menus */
+}
+
+/* Space under online users list */
+div#onlineusers.standard:after {
+  content: url(https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-chao.png);
+  white-space: pre-wrap;
+  quotes: "'" "'";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+  margin-top: 8px;
+}
+div#onlineusers.standard {
+  display: block;
+  margin-left: 10px;
+  color: rgba(250, 237, 132, 0.83);
+  font-family: "Trebuchet MS" !important;
+  text-shadow: 1px 2px 2px #8e29a7fc, -1px -1px 2px rgb(233, 112, 235) !important;
+  font-size: 12px !important;
+  background: none !important;
+  border: none;
+}
+/* End poem */
+
+@-moz-keyframes fyadrotate {
+	from {
+		-moz-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-moz-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+/*Tables on posting page*/
+tr, thead {
+	color:#921010 !important;
+	font-family: "Trebuchet MS" !important;
+}
+
+/* Saturate Ad Colors */
+div#ad_banner_user {
+	filter: saturate(150%) blur(0.4px) brightness(84%) opacity(0.94) !important;
+}
+
+div#copyright,
+div#copyright a {
+	color: #d8d3d9 !important;
+	font-family: "Trebuchet MS" !important;
+}
+
+@-webkit-keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-webkit-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+@-o-keyframes fyadrotate {
+	from {
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+@keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		-moz-transform: rotate(-1deg);
+		-ms-transform: rotate(-1deg);
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		-ms-transform: rotate(1deg);
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+a.thread_title:hover,
+td.author a:hover,
+td.icon a.img:hover,
+td.lastpost a.author:hover,
+td.replies a:hover {
+	-webkit-animation: fyadrotate .1s linear infinite alternate;
+	-moz-animation: fyadrotate .1s linear infinite alternate;
+	-ms-animation: fyadrotate .1s linear infinite alternate;
+	-o-animation: fyadrotate .1s linear infinite alternate;
+	animation: fyadrotate .1s linear infinite alternate
+}
+
+table.post tr.seen2 {
+	background-color: #c6daee
+}
+
+table.post tr.seen1 {
+	background-color: #dbe8f5
+}
+
+.altcolor1 td.postdate,
+.altcolor2 td.postdate,
+table.post tr.seen1 td.postdate,
+table.post tr.seen2 td.postdate {
+	background-image: initial;
+	background-color: inherit
+}
+
+.showpost tbody td.postlinks {
+	display: block
+}
+
+/* Timestamp at the bottom of posts */
+td.postdate {
+	margin-left: 5px;
+	color: #d8d3d9 !important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 14px !important;
+}
+
+
+@media screen and (max-width:1240px) {
+	/* New Thread Button */
+	.showthread .threadbar.top li:nth-of-type(7) img[src="https://fi.somethingawful.com/images/trollin.png"] {
+		background-image: url(https://i.somethingawful.com/images/trollin.png);
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px
+	}
+	.showthread .threadbar.top li:nth-of-type(8) img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+	/* Reply Button */
+		background-image: url(https://i.somethingawful.com/images/bowlin.png);
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px
+	}
+}
+
+/* "Submit Reply" and "Preview Reply" buttons, as well as space behind "Choose File" button */
+input.bginput {
+	background-color: #b35eb9 ! important;
+	color: #ffc3e1 !important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 17px !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 2px #8e3a65,
+	    /*Top-right */ 2px -1px 2px #8e3a65 !important;
+	border-style: solid !important;
+	border-color: #de86b2 !important;
+	border-radius: 50px;
+	border-width: 5px;
+}
+
+/* Text Entry for Posting */
+textarea {
+	background-color: #ff0eca73 ! important;
+	color: #ffcfe7 !important;
+	font-family: "Trebuchet MS" !important;
+	font-size: 17px !important;
+	text-shadow: /*Bottom-right*/ 2px 2px 2px #8e3a65,
+	    /*Top-right */ 2px -1px 2px #8e3a65 !important;
+	border-radius: 15px;
+}
+
+ul.postbuttons,
+li.alertbutton {
+	border-color: transparent !important;
+	box-shadow: none !important;
+	padding-top: 0px !important;
+}
+
+/* "Seen" Posts with "Mark posts on pages I've already seen in a different color" on */
+.seen1 {
+	background-color: rgb(41 124 187 / 0.6) !important;
+}
+.seen1 a {
+	color:  #8ed2ec !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 4px rgb(35 94 116 / 0.25),
+	    /*Top-right */ 2px 1px 4px rgb(35 94 116 / 0.25) !important;
+	border-radius: 40px !important;
+}
+.seen2 {
+	background-color: rgb(236 102 31 / 60%) !important;
+}
+.seen2 a {
+	color: #f9c59f !important;
+	text-shadow: /*Bottom-right*/ 2px 1px 4px rgb(127 76 37 / 0.25),
+	    /*Top-right */ 2px 1px 4px rgb(127 76 37 / 0.25) !important;
+	border-radius: 40px !important;
+}
+
+/* Effects when clicking post / reply/ quote / report / ik buttons */
+ul.postbuttons a:active {
+	filter: contrast(125%) !important;
+}
+
+@media screen and (max-width:1000px) {
+	form.threadsearch {
+		margin-left: 0
+	}
+	.showthread .threadbar.top ul.postbuttons li {
+		margin-right: 9px
+	}
+}
+
+@media screen and (max-width:966px) {
+	.threadbar.top ul.postbuttons li:nth-of-type(7) {
+		display: none
+	}
+}
+
+@media screen and (max-width:886px) {
+	.threadbar.top ul.postbuttons li:nth-of-type(8) {
+		display: none
+	}
+}
+
+/* Replace buttons */
+
+/*Quote button */
+.postbuttons img[alt=Quote] {
+	height: 0;
+	width: 86px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-quote.png')
+}
+
+/*Reply button */
+.postbuttons img[alt=Reply] {
+	height: 0;
+	width: 68px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-reply.png')
+}
+
+/*Post button */
+.postbuttons img[alt=Post] {
+	height: 0;
+	width: 190px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-postanewthread.png')
+}
+
+/*Post New Thread button */
+.postbuttons img[alt='Post New Thread'] {
+	height: 0;
+	width: 61px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-post.png')
+}
+
+/*Stick button */
+.postbuttons img[alt='Stick thread'] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-stick.png')
+}
+
+/*Unstick button */
+.postbuttons img[alt='Unstick thread'] {
+	height: 0;
+	width: 65px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-unstick.png')
+}
+
+/*Move button */
+.postbuttons img[alt=Move] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-move.png')
+}
+
+/*Add Poll button */
+.postbuttons img[alt='Add Poll'] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-poll.png')
+}
+
+/*BEECOCK! button */
+.postbuttons img[alt='BEECOCK!'] {
+	height: 0;
+	width: 95px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-beecock.png')
+}
+
+/*Report button */
+.postbuttons img[alt='Alert Moderators'] {
+	height: 0;
+	width: 67px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-report.png')
+}
+
+/*Close button */
+.postbuttons input[alt='Close thread'] {
+	height: 0;
+	width: 61px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-close.png')
+}
+
+/*Edit button */
+.postbuttons img[alt='Edit'] {
+	height: 0;
+	width: 56px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-edit.png')
+}
+
+/*Postcock button */
+.postbuttons img[alt='Beecock single post!'] {
+	height: 0;
+	width: 77px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-postcock.png')
+}
+
+/*Check Rapsheet button */
+.postbuttons img[alt='Check user\0027s rap sheet'] {
+	height: 0;
+	width: 120px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-modqueue.png')
+}
+
+/*ModQueue button */
+.postbuttons img[alt='See the modqueue'] {
+	height: 0;
+	width: 120px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	background: url('https://fi.somethingawful.com/fyad/dreamfyasd/dreamfyasd-modqueue.png')
+}

@@ -1,0 +1,1040 @@
+.showthread .post td.postdate {
+	width: 180px!important;
+	display: inline-table
+}
+
+.showthread #thread table.post td {
+	display: inline-table
+}
+
+.showthread .altcolor1 td.postdate,
+.showthread .altcolor1 td.userinfo,
+.showthread .altcolor2 td.postdate,
+.showthread .altcolor2 td.userinfo {
+	background-color: inherit
+}
+
+.forumdisplay .thread td.title_sticky a.thread_title {
+	background: left no-repeat url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-sticky.png)
+}
+
+body {
+	background-color: rgb(200, 168, 42);
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-background.gif) !important;
+	background-attachment: fixed;
+}
+
+
+/*Highlight Color*/
+::selection {
+  background: #fdc7c7ad; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fdc7c7ba; /* Gecko Browsers */
+}
+
+
+/*Link with the Mouse Over It*/
+a:hover {
+	color: #d0f977 !important;
+	text-shadow: 2px 1px 7px #865206,
+	-1px -1px 5px rgb(248, 74, 163) !important;
+}
+
+a:active {
+	color: #ff29aa;
+}
+
+#notregistered,
+#searchboxes {
+	background: 0 0
+}
+
+/* "Icon"/ "Title" row in threadlist table */
+#forum th,
+#forum th a,
+div.forumbar,
+div.threadbar {
+	color: #faf950e6; /* Words"Icon" and "Title"*/
+	font-size: 13px;
+	font-family: "Garamond" !important;
+	background: rgb(120, 194, 149,0.45) !important;
+}
+
+#thread div.quote {
+	border-color: #aaa
+}
+
+#filter,
+#forum,
+#forum td,
+#forum.threadlist tbody tr td:first-child,
+#subforums,
+#subforums tr.subforum td,
+#thread table.post,
+div.threadbar {
+	/*Border around posts */
+	border-color: rgb(201, 16, 121,0.35) !important;
+	border-style: dashed !important;
+}
+
+/* "The Hell Circus" link itself */
+tr.subforum a,
+tr.subforum a:visited{
+	color: #c0167fa8 !important;
+}
+
+#thread table.post {
+	border-bottom-width: 0 !important;
+	border-right-width: 2px !important
+}
+
+#thread td.postbody {
+	border-top: none !important
+}
+
+#subforums {
+	clear: left;
+	color: #000 !important
+}
+
+
+#thread dd.registered {
+	color: #060!important
+}
+
+#flag {
+	margin-bottom: 1em
+}
+
+#forum th {
+	padding: 2px 3px
+}
+
+table.funbox,
+table.funbox td {
+	font: normal normal normal 13px Verdana, Arial, sans-serif;
+	border: none!important
+}
+
+#thread div.title {
+	font: normal normal normal 10px Verdana, Arial, sans-serif !important;
+	margin-top: 1em
+}
+
+p.signature {
+	border: 0;
+	font-family: "Garamond";
+	color: #b10a4b;
+}
+
+.funbox {
+	margin-left: 80px;
+	margin-top: 8px;
+}
+
+table.standard {
+	background: #000;
+	border: 1px #000 dotted;
+}
+
+table.standard td {
+	border: 1px #000 dotted;
+	background: #ffe7bfcf
+}
+
+/*Eliminate grey background behind online users list,
+  report page, and forum notification pages eg post redirect page */
+div.standard {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+/* Eliminate grey background behind post typing section*/
+table#main_full.standard {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+
+/* Post Composing Table top rows where it says "Post Reply" + "Message Preview" */
+.standard h2,
+table.standard th {
+	background: hsla(90, 59%, 63%, 0.86);
+	color: #a83909;
+	font-family: "Garamond" !important;
+	border: 0;
+	font-size: 15px !important;
+}
+
+.postbody table.funbox tr td.complete_shit {
+	background: #fff
+}
+
+.postbody, td.postdate, ul.profilelinks {
+	background-color: transparent !important;
+}
+
+.postlinks {background-color: transparent !important;}
+
+/* Flag Section */
+div#flag_container {
+	clear: both;
+	height: 100px;
+	width: 490px;
+	border: 1px #228818 dashed;
+	background-color: #000;
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flagbackground.png);
+	box-shadow: 1px 1px 1px 3px rgba(247, 96, 158, 0.3);
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+
+div#flag_container img {
+	border: 0 #000 solid;
+	border-width: 0 1px;
+	margin: 0 119px;
+	filter: saturate(110%) !important;
+	filter: sepia(25%) !important; /* Flag colors */
+	border: none;
+}
+
+/* Archives Controls */
+#ac_timemachine{
+	background-color: rgba(255, 130, 146, 0.38) !important;
+	color: #e2ffc6db !important;
+	border-style: dashed !important;
+	border-color: #e0e01ac4 !important;
+	font-family: "Garamond" !important;
+	font-size: 14px !important;
+	border-radius: 5px;
+}
+
+td.postdate {
+	width: 168px;
+	white-space: nowrap
+}
+
+#thread.review td {
+	background: 0 0;
+	border-color: #999
+}
+
+#thread.review dl {
+	min-height: 60px
+}
+
+#thread.review td.postdate,
+#thread.review tr td.userinfo {
+	display: table-cell
+}
+
+a,
+body {
+	color: #011
+}
+
+#content div.pages .curpage {
+	color: #222
+}
+
+
+
+/* Page Buttons */
+/*Active Page Buttons */,
+#content div.pages a {
+	/* Link text in button */ color: #fbfaad !important;
+	background-color: rgba(255, 132, 177, 0.64) !important;
+	border-color: #555;
+		font-family: "Garamond" !important;
+	border-style: dashed !important;
+}
+#content div.pages a {
+	/* Link text in button */ color: #fbfaad !important;
+	background-color: rgba(255, 132, 177, 0.64) !important;
+	border-color: #555;
+		font-family: "Garamond" !important;
+    border-style: dashed !important;
+}
+/*Buttons that are unclickable*/
+span.disabled {
+	background-color: rgba(109, 6, 6, 0.46) !important;
+	color: #c96c43 !important;
+	font-family: "Garamond" !important;
+	border-style: dashed !important;
+}
+/* Button to the left of Breadcrumbs leading back to the main SA forums directory */
+a.index {
+	background-color: rgba(134, 14, 14, 0.32) !important;
+	border-style: dashed !important;
+}
+
+
+/*Background of Post Preview and Online Users List, respectively */
+div.inner.postbody, div.inner {
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png) !important;
+    background-repeat: repeat;
+	background-color: rgba(245, 251, 203, 0.93) !important;
+	font-family: "Garamond" !important;
+	font-size: 18px;
+	color: #a83909;
+	border-radius: 3px;
+	border-style: dashed;
+	border-color: #ff559629;
+	box-shadow: 6px 3px 20px rgb(247 96 158 / 29%);
+}
+
+
+div.funbox {
+	width: auto;
+	float: left;
+	clear: both;
+	background-color: #fff;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	-moz-border-radius: 24px;
+	border: 2px #000 solid;
+	border-radius: 24px;
+	position: relative;
+	min-width: 40px;
+	padding: 16px 24px;
+}
+
+div.funbox .tail {
+	background-repeat: no-repeat;
+	background-image: url(http://i.somethingawful.com/images/funbox-9-bottom-arrow.gif);
+	background-position: 0 0;
+	position: absolute;
+	bottom: -29px;
+	left: 24px;
+	width: 27px;
+	height: 44px
+}
+
+* {
+	text-shadow: none!important
+}
+
+#filter {background-color: #3ba11a59 !important}
+
+/* Text that says "Filter Posts" */
+div.toggle_tags {
+	color: #f8dd82 !important;
+	font-family: "Garamond" !important;
+}
+
+
+#forum {
+	border-collapse: collapse
+}
+
+#filter,
+#forum,
+#forum td,
+#subforums,
+div.threadbar {
+	border-style: dashed;
+	border-width: 1px;
+	border-color: rgb(255, 150, 168,0.8)!important;
+}
+
+/* Add border around thread icons in thread list */
+td.icon {
+	border-color: black !important;
+	border-width: 1px !important;
+	border-style: dashed !important;
+}
+
+#forum td.replies {
+	text-align: center!important;
+	font: normal normal normal 13px Verdana, Arial, sans-serif!important
+}
+
+#forum td.views {
+	text-align: center!important;
+	color: #000!important
+}
+
+#forum td.author {
+	font: normal normal normal 13px Verdana, Arial, sans-serif!important;
+	text-decoration: underline!important
+}
+
+/* Box linking to The Hell Circus */
+#subforums td {
+	border: 2px rgba(255, 150, 168) dashed !important;
+	border-radius: 10px;
+	box-shadow: 2px 3px 1px 3px rgba(247, 96, 158, 0.21);
+}
+
+#forum td.author,
+#forum td.icon,
+#forum td.lastpost,
+#forum td.views,
+#forum td.votes,
+#forum.asktell td.icon2,
+#subforums td.topics,
+#thread li.post,
+table.standard tr td.altcolor2 {
+	background: rgb(247, 237, 193);
+}
+
+
+
+/*New / Unread Posts Button*/
+a.x, a.count, x, lastseen, count, div.lastseen {
+	color: #225717 !important;
+	background-color: #eef23940 !important;
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png) !important;
+    background-repeat: repeat;
+    background-size: 50px 20px !important;
+    border-radius: 4px;
+    border-style: dotted !important;
+    border-color: #e62288 !important;
+    box-shadow: 3px 4px 1px 2px rgba(247, 96, 158, 0.09);
+}
+
+/* Hover effects on New/ Unread / Last Seen buttons */
+a.x a:hover,
+a.count a:hover,
+x a:hover,
+lastseen a:hover,
+count a:hover,
+div.lastseen a:hover {
+	color:#ff0abf !important;
+	text-shadow: 0px 0px 2px #865206,
+	0px 0px 2px rgb(118, 210, 86) !important;
+    box-shadow: 3px 4px 1px 2px rgb(247 96 158 / 14%);
+}
+
+/* Active/Click effects on New/ Unread / Last Seen buttons */
+a.x a:active,
+a.count a:active,
+x a:active,
+lastseen a:active,
+count a:active,
+div.lastseen a:active {
+	filter: blur(1px) contrast(130%) !important;
+	box-shadow: 3px 5px 1px 2px rgb(247 96 158 / 19%);
+}
+
+/* Bold Text formatting, including the number on last read buttons */
+b {
+	text-shadow: 0 0 3px rgba(224, 19, 77, 0.15), 0 0 6px rgba(144, 11, 11, 0.15) !important;
+}
+
+/* "Seen" Posts with "Mark posts on pages I've already seen in a different color" on */
+.seen1 {
+	background-color: rgb(250 219 255 / 41%) !important;
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png);
+	background-repeat: repeat;
+}
+.seen2 {
+	background-color: rgb(200 190 253 / 56%) !important;
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png);
+	background-repeat: repeat;
+}
+
+#filter,
+#forum,
+#forum td,
+#forum td.rating,
+#forum td.replies,
+#forum td.star,
+#forum td.title,
+#forum.asktell td.icon,
+#subforums,
+#subforums td,
+#thread li.post.even,
+#thread.review td,
+table#thread tr.even td,
+table.standard tr td.altcolor1 {
+	background: rgb(213, 245, 227);
+}
+
+#forum tr.seen td.author,
+#forum tr.seen td.icon,
+#forum tr.seen td.lastpost,
+#forum tr.seen td.views {
+	background: #bcd
+}
+
+#forum tr.seen td.rating,
+#forum tr.seen td.replies,
+#forum tr.seen td.star,
+#forum tr.seen td.title {
+	background: #def
+}
+
+/*Posts 2*/
+.altcolor1,
+td.altcolor1,
+tr.altcolor1 td {
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png);
+    background-repeat: repeat;
+	background-color: rgba(208, 235, 206, 0.7);
+}
+
+/*Posts 1*/
+.altcolor2,
+td.altcolor2,
+tr.altcolor2 td {
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png);
+    background-repeat: repeat;
+	background-color: rgb(255, 255, 219,0.6);
+}
+
+
+/*Navigation/Purchase bars at the top & bottom*/
+#navigation,
+#nav_purchase,
+.navigation,
+ul.navigation {
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertiles.png);
+    background-repeat: repeat;
+    font-family: "Garamond" !important;
+    font-size: 15px;
+    background-color: rgb(252, 222, 86,0.7)!important;
+	/* Color of the word "Purchase:" */ color: #716469f2;
+	box-shadow: 4px 3px 1px 3px rgba(247, 96, 158, 0.16);
+}
+
+/* Link Colors in Navigation / Purchase bars */
+ul#nav_purchase a,
+ul#nav_purchase a:visited,
+ul#navigation a, ul#navigation a:visited,
+ul.navigation a,
+ul.navigation a:visited {
+	color: #af0eadd9;
+	font-family: "Garamond" !important;
+	font-size: 15px;
+}
+
+/*Threadlist*/
+#thread li.post.even,
+#subforums,
+#subforums td,
+#forum, #forum td,
+table#thread tr.even td,
+#forum.asktell td.icon,
+#thread.review td,
+table.standard tr td.altcolor1,
+tbody {
+        background: rgba(255, 251, 219, 0.62) !important;
+        background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-flowertilesm.png) !important;
+        background-repeat: repeat !important;
+}
+
+/* Links on thread list */
+#content a,
+a {
+	color: rgb(197, 3, 142);
+	font-family: "Bookman Old Style" !important;
+}
+
+.title_pages,
+div.title_pages {
+	color: #6b0779 !important;
+	font-family: "Bookman Old Style" !important;
+}
+
+/* Text That says "Mods/IKs" */
+#mods,
+#mods a,
+#mods a:visited {
+	color: rgb(244, 209, 249);
+	font-family: "Garamond" !important;
+    font-size: 16px !important;
+    filter: none !important;
+    text-shadow: 0 0 3px #246b1b, 0 0 6px #000000 !important;
+}
+
+/* Links to IK profiles */
+#content div#mp_bar a,
+#content div.breadcrumbs a,
+#content div.breadcrumbs a:visited,
+a:visited,
+body {
+	color: rgb(249, 168, 244);
+	font-size: 16px !important;
+}
+
+/*Forum breadcrumbs where it says FYAD*/
+#content div.breadcrumbs a,
+#online_users,
+#content div.breadcrumbs a:visited {	
+    color: rgb(255, 197, 79);
+    font-family: "Garamond" !important; /*Breadcrumb Font */
+    font-size: 22px !important;
+    text-shadow: /*Bottom-left*/ -2px 1px 3px #246b1bed,
+    /*Bottom-right*/ 2px 2px 4px #000000cc,
+    /*Top-left*/ -2px -2px 2px #246b1bbd,
+    /*Top-right */ 2px -2px 3px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Active/Click effects on Breadcrumbs */
+#content div.breadcrumbs a:active,
+#online_users,  a:active {
+	filter: blur(0.8px) brightness(120%) !important;
+	 text-shadow: /*Bottom-left*/ -2px 1px 3px #246b1bed,
+    /*Bottom-right*/ 4px 3px 4px #000000cc,
+    /*Top-left*/ -2px -2px 2px #246b1bbd,
+    /*Top-right */ 3px -1px 3px rgba(0, 0, 0, 0.75) !important;
+}
+
+/* Style Thread Icons in Threadlist */
+#forum td.icon img{
+    filter: sepia(18%) saturate(106%) !important;
+}
+
+/* Style Thread Rating Images gold bars */
+#forum td.rating img{
+    border-radius: 3px !important;
+    border: 1px dashed #b315854a;
+    filter: sepia(20%) !important;
+}
+
+/*Username Display Under Posts*/
+dl.userinfo,
+dt.author,
+dt.author.role,
+dt.author.role.mod,
+dt.author.platinum {
+	color: #38b61d !important;
+	font-family: "Garamond" !important;
+	font-size: 21px !important;
+	text-shadow: -1px 1px 7px #eac88b, /* Bottom Left */
+	     1px 1px 10px rgb(254, 247, 46), /* Bottom right */
+	     -2px -2px 2px pink, /* Top left */
+	     2px -2px 4px #a374fa /* Top Right */ !important;
+    width: 230px !important;
+}
+
+/* Replace Platinum Icon */
+#thread dl.userinfo dt.platinum {
+	background-image: url(https://fi.somethingawful.com/fyad/cottagecore/cottagecore-platicon.png) !important;
+}
+
+/* Custom Title */
+dd.title {
+	padding-bottom: 8px !important;
+	text-shadow: 0 0 7px #acea8b, 0 0 10px rgb(214, 108, 223) !important;
+}
+
+
+#forum,
+#subforums,
+div.userinfo,
+table {
+	clear: left
+}
+
+
+#thread div.title *,
+.bbc-center {
+	text-align: left
+}
+
+/* Buttons at the bottom of posts eg Profile button */
+td.postdate a,
+td.postlinks ul.profilelinks li a {
+	background: rgba(231, 247, 157, 0.43) !important;
+	border-style: dotted !important;
+	border-color: rgb(204, 124, 30) !important;
+}
+
+a.author,
+td.author a {
+	color: #804080
+}
+
+/*Bar at the top of threads when viewing posts */
+div.threadbar.bottom,
+div.threadbar.top {
+	box-shadow: inset 2px 2px 0 #21c41e99, inset -2px -2px 0 #805980 !important;
+	border: 1px solid #851a51 !important;
+	border-radius: 5px;
+}
+
+/* Usernames on "Members Browsing" List */
+div#onlineusers.standard a,
+div#onlineusers.standard a:visited {
+	color: #550a0a !important;
+	font-size: 9.5pt;
+	border-style: dotted;
+	border-color: rgba(218, 55, 162, 0.27);
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px 1px rgba(247, 96, 158, 0.15);
+}
+
+select {
+  border: dashed;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: #f7edaec7 !important;
+  color: #b80f79; /* Text in Drop-down menus */
+  font-family: "Bookman Old Style" !important;
+}
+
+/* Poem */
+div#onlineusers.standard:after {
+  content:"\A \A I have created a boundary, as thin as possible, delineating my cottagecore posting environment under a tree in nature. \A A pure, cream-white semipermeable separation defining my space. \A A space for me. \A I step inside my space and exhale. I feel clarity... Forums drama. Getting flamed. \0022Vendetta IK\0022s. Six-Hour Probations. The times I was \0022snubbed\0022  or ranked poorly on tierlists. I see clearly that none of it matters. This is real.\A Nature reminds me that everything is fine. Here it is, and here I am, in my cottagecore posting canopy. Mindful in my space.\A Only myself, my aesthetic wicker chair, my phone, the book I brought with me that I will only actually get through 1-3 pages of today bc I keep refreshing FYAD on my phone every time I finish a sentence.\A My cottagecore posting canopy cocoons me in vibes. The breeze brushes the trees' leaves against one another in passing with an accidental intimacy, like the thick thighs of a GBS guy who drinks a six-pack of beer at the computer every night rubbing together under his bball shorts when he stands up to walk around.\A The birds seem to linger around me as they go about their days, as if to say, \0022It's okay. Just go ahead and post whatever.\0022\A Even the flags that appear on the forum index seem to harmonize with the aesthetic experience I have cultivated.\A What is this feeling?\A I do not believe in \0022magic\0022.\A But the air inside here, under my canopy, feels altogether different than the other air outside my space.\A Has my cottagecore posting canopy trapped the last of the morning fog? \A Why do my posts made from inside my cottagecore posting canopy receive more emptyquotes?\A Is it just the crispness or freshness of the air outside?\A I do not believe in \0022magic\0022.\A But inside of my cottagecore posting canopy, things are different.\A This must have been what Joni Mitchell and other witchy singers from the 70s felt like when they compared themselves to the Romani people using a word that starts with \0022G\0022  which is now discouraged / considered to be a slur.\A They said it a lot in \0022Hunchback of Notre Dame\0022.\A I could say it, now, in nature, in the company of the squirrels and birds.\A I could probably get away with it.\A But I don't say it. For fear of disturbing this special air, or this \0022 energy\0022, whatever it is that has manifested around me. It is precious. It is calm.\A I feel the breeze refresh my spirit as it blows in through the opening in the cottagecore posting canopy. I am part of this Earth. We are: Me. The birds. The squirrels. The other posters on FYAD. \A When I post, I am planting a seed. My friends nurture it with their irony, growing it into something beautiful. \A Post. Breathe. Everything is going to be ok.";
+  white-space: pre-wrap;
+  quotes: "'" "'";
+}
+div#onlineusers.standard {
+  display: block;
+  margin-left: 10px;
+  color: rgba(250, 237, 132, 0.83);
+  font-family: "Bookman Old Style" !important;
+  text-shadow: 1px 2px 2px #8e29a7fc, -1px -1px 2px rgb(233, 112, 235) !important;
+  font-size: 12px !important;
+  background: none !important;
+  border: none;
+}
+/* End poem */
+
+@-moz-keyframes fyadrotate {
+	from {
+		-moz-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-moz-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+
+/*Tables on posting page*/
+tr, thead {
+	color:#921010 !important;
+	font-family: "Garamond" !important;
+}
+
+/* Ad Colors */
+div#ad_banner_user {
+	filter: sepia(25%) !important;
+}
+div#ad_banner_user a,
+div#ad_banner_user a:visited {
+	color:#dfc547f0;
+	font-family: "Garamond" !important;
+	font-size: 12px;
+}
+
+@-webkit-keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-webkit-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+@-o-keyframes fyadrotate {
+	from {
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+@keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		-moz-transform: rotate(-1deg);
+		-ms-transform: rotate(-1deg);
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg)
+	}
+	to {
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		-ms-transform: rotate(1deg);
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg)
+	}
+}
+
+a.thread_title:hover,
+td.author a:hover,
+td.icon a.img:hover,
+td.lastpost a.author:hover,
+td.replies a:hover {
+	-webkit-animation: fyadrotate .1s linear infinite alternate;
+	-moz-animation: fyadrotate .1s linear infinite alternate;
+	-ms-animation: fyadrotate .1s linear infinite alternate;
+	-o-animation: fyadrotate .1s linear infinite alternate;
+	animation: fyadrotate .1s linear infinite alternate
+}
+
+table.post tr.seen2 {
+	background-color: #c6daee
+}
+
+table.post tr.seen1 {
+	background-color: #dbe8f5
+}
+
+.altcolor1 td.postdate,
+.altcolor2 td.postdate,
+table.post tr.seen1 td.postdate,
+table.post tr.seen2 td.postdate {
+	background-image: initial;
+	background-color: inherit
+}
+
+.showpost tbody td.postlinks {
+	display: block
+}
+
+/* Timestamp at the bottom of posts */
+td.postdate {
+	margin-left: 5px;
+	color: rgba(125, 24, 154, 0.75) !important;
+	font-family: "Garamond" !important;
+	font-size: 13px !important;
+}
+
+
+@media screen and (max-width:1240px) {
+	/* New Thread Button */
+	.showthread .threadbar.top li:nth-of-type(7) img[src="https://fi.somethingawful.com/images/trollin.png"] {
+		background-image: url(https://i.somethingawful.com/images/trollin.png);
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px
+	}
+	.showthread .threadbar.top li:nth-of-type(8) img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+	/* Reply Button */
+		background-image: url(https://i.somethingawful.com/images/bowlin.png);
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px
+	}
+}
+
+/* "Submit Reply" and "Preview Reply" buttons, as well as space behind "Choose File" button */
+input.bginput {
+	background-color: rgb(255, 255, 219,0.9)! important;
+	color: #921010 !important;
+	font-family: "Garamond" !important;
+	font-size: 17px !important;
+	border-style: solid !important;
+	border-color: #b315854a !important;
+}
+
+/* Text Entry for Posting */
+textarea {
+    background-color: #f7fc0817 ! important;
+    color: #961010 !important;
+    font-family: "Garamond" !important;
+    font-size: 19px !important;
+    border-style: dashed !important;
+}
+
+div#copyright,
+div#copyright a {
+    color: #b73c93e8 !important;
+    font-family: "Brush Script MT" !important;
+}
+
+@media screen and (max-width:1000px) {
+	form.threadsearch {
+		margin-left: 0
+	}
+	.showthread .threadbar.top ul.postbuttons li {
+		margin-right: 9px
+	}
+}
+
+@media screen and (max-width:966px) {
+	.threadbar.top ul.postbuttons li:nth-of-type(7) {
+		display: none
+	}
+}
+
+@media screen and (max-width:886px) {
+	.threadbar.top ul.postbuttons li:nth-of-type(8) {
+		display: none
+	}
+}
+
+/* Replace buttons */
+
+/*Quote button */
+.postbuttons img[alt=Quote] {
+	height: 0;
+	width: 61px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-quote.png')
+}
+
+/*Reply button */
+.postbuttons img[alt=Reply] {
+	height: 0;
+	width: 77px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-reply.png')
+}
+
+/*Post button */
+.postbuttons img[alt=Post] {
+	height: 0;
+	width: 190px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-postanewthread.png')
+}
+
+/*Post New Thread button */
+.postbuttons img[alt='Post New Thread'] {
+	height: 0;
+	width: 190px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-postanewthread.png')
+}
+
+/*Stick button */
+.postbuttons img[alt='Stick thread'] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-stick.png')
+}
+
+/*Unstick button*/
+.postbuttons img[alt='Unstick thread'] {
+	height: 0;
+	width: 77px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-unstick.png')
+}
+
+/*Move button */
+.postbuttons img[alt=Move] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-move.png')
+}
+
+/*Add Poll button */
+.postbuttons img[alt='Add Poll'] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-poll.png')
+}
+
+/*BEECOCK! button */
+.postbuttons img[alt='BEECOCK!'] {
+	height: 0;
+	width: 100px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-beecock.png')
+}
+
+/*Report button */
+.postbuttons img[alt='Alert Moderators'] {
+	height: 0;
+	width: 61px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-report.png')
+}
+
+/*Close button */
+.postbuttons input[alt='Close thread'] {
+	height: 0;
+	width: 70px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-close.png')
+}
+
+/*Edit button */
+.postbuttons img[alt='Edit'] {
+	height: 0;
+	width: 60px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-edit.png')
+}
+
+/*Postcock button */
+.postbuttons img[alt='Beecock single post!'] {
+	height: 0;
+	width: 100px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-beecock.png')
+}
+
+/*Check Rapsheet button */
+.postbuttons img[alt='Check user\0027s rap sheet'] {
+	height: 0;
+	width: 100px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-modqueue.png')
+}
+
+/*ModQueue button */
+.postbuttons img[alt='See the modqueue'] {
+	height: 0;
+	width: 100px;
+	padding-bottom: 20px;
+	border-style: dashed;
+	border-radius: 5px;
+	border-color: #9210102e;
+	background: url('https://fi.somethingawful.com/fyad/cottagecore/cottagecore-modqueue.png')
+}
