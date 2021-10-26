@@ -1,5 +1,5 @@
 body#something_awful.forum_26 {
-  background: url("http://forums.somethingawful.com/css/fyad/cooldude/logo.gif") 20px 60px no-repeat, url("http://forums.somethingawful.com/css/fyad/cooldude/dudeforumsbg.jpg");
+  background: url("https://i.somethingawful.com/css/fyad/cooldude/logo.gif") 20px 60px no-repeat, url("https://i.somethingawful.com/css/fyad/cooldude/dudeforumsbg.jpg");
   color: black; }
   body#something_awful.forum_26 a {
     color: #752121 !important; }
@@ -134,7 +134,7 @@ body#something_awful.forum_26 {
   body#something_awful.forum_26 #forum tr.thread td.rating {
     width: 49px;
     height: 20px;
-    background-image: url("http://www.somethingawful.com/css/fyad/cooldude/10plat.png");
+    background-image: url("https://i.somethingawful.com/css/fyad/cooldude/10plat.png");
     background-repeat: no-repeat;
     background-position: 7px 6px; }
   body#something_awful.forum_26 #forum tr.thread[id^="thread"] td {
