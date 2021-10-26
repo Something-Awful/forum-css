@@ -1,1 +1,327 @@
-body{background-image:url(kitchentile.jpg)}a:hover{color:#600}a:active{color:#f09}#notregistered,#searchboxes{background:none}#forum th,#forum th a,div.threadbar,div.forumbar{color:#fff}#thread div.quote{border-color:#aaa}#forum th,div.threadbar,div.forumbar{background:#f39}div.threadbar,#subforums,#subforums td,#forum,#forum td,#filter{border:1px solid #033}#thread td.postbody{border-top:2px solid #033}#thread dl.userinfo dt.author{color:#f66}#thread dd.registered{color:#060!important}#flag{margin-bottom:1em}#forum th{padding:2px 3px}table.funbox,table.funbox td{font:normal normal normal 13px Verdana,Arial,sans-serif;border:none!important}#thread div.title{font:normal normal normal 10px Verdana,Arial,sans-serif;margin-top:1em}p.signature{border:0}.funbox{margin-left:80px}table.standard{background:#000;border:1px #000 solid}table.standard td{border:1px #000 solid;background:#fcf}.standard h2,table.standard th{background:#f39;color:#FFF;border:0}.postbody table.funbox tr td.complete_shit{background:#FFF}div#flag_container{clear:both;height:100px;width:490px;background-image:url(flag-bg.png);margin:0 auto}div#flag_container img{border:0 #000 solid;border-width:0 1px;margin:0 119px}td.postdate{width:168px;white-space:nowrap}#thread.review td{background:none;border-color:#999}#thread.review dl{min-height:60px}#thread.review tr td.userinfo,#thread.review td.postdate{display:table-cell}body,a{color:#011}#content div.pages .curpage{color:#222}#content div.breadcrumbs a.bclast,#content div.pages a{border-color:#555}#thread td.postbody{background-image:url(sheep.png)!important;background-repeat:no-repeat!important;background-position:0 -30px!important;min-height:600px!important}div.userinfo{position:absolute;left:333px;top:112px;-moz-transform:rotate(12.5deg);-webkit-transform:rotate(12.5deg);-ms-transform:rotate(12.5deg);-o-transform:rotate(12.5deg);filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.22)}.title{font-size:0!important;width:125px;height:125px;display:table-cell;vertical-align:middle}.title>img{display:none}.title>img:first-child{display:block!important;margin:auto}div.funbox{float:left;clear:both;background-color:#fff;position:relative;min-width:200px!important;padding:27px 34px 16px 34px;margin-left:55px;margin-top:303px;margin-bottom:10px;border:3px solid black;color:black;-moz-border-radius-bottomright:24px;-webkit-border-bottom-right-radius:24px;-moz-border-radius-bottomleft:24px;-webkit-border-bottom-left-radius:24px;-moz-border-radius-topright:24px;-webkit-border-top-right-radius:24px;z-index:1}.signature{clear:left;margin-bottom:-20px}.profilelinks li:last-child>a:before{content:"Poop/"}div.funbox:before{content:"";position:absolute;z-index:-1;top:20px;left:20px;right:20px;bottom:20px;border:2px dashed black;-webkit-border-radius:24px;-moz-border-radius:24px;border-radius:24px}div.funbox:after{content:"";position:absolute;z-index:-1;top:22px;left:22px;right:22px;bottom:22px;background:SaddleBrown;-webkit-border-radius:24px;-moz-border-radius:24px;border-radius:24px;opacity:.7;filter:alpha(opacity=70)}.postlinks{overflow:hidden}.author{width:130px;text-align:center;margin-left:-5px;margin-top:-3px}.post{position:relative;left:0;top:-0px}.alertbutton{float:left;position:absolute;top:142px;left:10px;margin-left:0;padding-left:0;border-left-width:0;z-index:2;visibility:hidden;display:inline;line-height:1;font-size:10px}.alertbutton:after{visibility:visible;display:inline;z-index:2;margin-left:0;padding-left:0;border-left-width:0;content:url(sheepfeet.png)}@-moz-document url-prefix(){.alertbutton{left:11px!important}}.role-mod{background-image:none!important;padding-left:0!important}.role-ik{background-image:none!important;padding-left:0!important}.role-admin{background-image:none!important;padding-left:0!important}div.funbox .tail{display:none}a,#content a{color:#066}body,a:visited,#content div#mp_bar a,#content div.pages a,#content div.breadcrumbs a,#content div.breadcrumbs a:visited{color:#000}#forum,table,#subforums{clear:left}#forum td.icon,#forum td.author,#forum td.views,#forum td.lastpost,#thread li.post,#subforums td.topics,#forum td.votes,#forum.asktell td.icon2,table.standard tr td.altcolor2{background:#fcc}#thread li.post.even,#subforums,#subforums td,#forum,#forum td,#filter,table#thread tr.even td,#forum.asktell td.icon,#thread.review td,table.standard tr td.altcolor1{background:#fcf}#thread div.title *,.bbc-center{text-align:left}tr.altcolor1 td,.altcolor1,tr.altcolor1 td,td.altcolor1{background-color:#fcf}tr.altcolor2 td,.altcolor2,tr.altcolor2 td,td.altcolor2{background-color:#fcc}
+body {
+  background-image: url(kitchentile.jpg)
+}
+
+a:hover {
+  color: #600
+}
+
+a:active {
+  color: #f09
+}
+
+#notregistered, #searchboxes {
+  background: none
+}
+
+#forum th, #forum th a, div.threadbar, div.forumbar {
+  color: #fff
+}
+
+#thread div.quote {
+  border-color: #aaa
+}
+
+#forum th, div.threadbar, div.forumbar {
+  background: #f39
+}
+
+div.threadbar, #subforums, #subforums td, #forum, #forum td, #filter {
+  border: 1px solid #033
+}
+
+#thread td.postbody {
+  border-top: 2px solid #033
+}
+
+#thread dl.userinfo dt.author {
+  color: #f66
+}
+
+#thread dd.registered {
+  color: #060!important
+}
+
+#flag {
+  margin-bottom: 1em
+}
+
+#forum th {
+  padding: 2px 3px
+}
+
+table.funbox, table.funbox td {
+  font: normal normal normal 13px Verdana, Arial, sans-serif;
+  border: none!important
+}
+
+#thread div.title {
+  font: normal normal normal 10px Verdana, Arial, sans-serif;
+  margin-top: 1em
+}
+
+p.signature {
+  border: 0
+}
+
+.funbox {
+  margin-left: 80px
+}
+
+table.standard {
+  background: #000;
+  border: 1px #000 solid
+}
+
+table.standard td {
+  border: 1px #000 solid;
+  background: #fcf
+}
+
+.standard h2, table.standard th {
+  background: #f39;
+  color: #FFF;
+  border: 0
+}
+
+.postbody table.funbox tr td.complete_shit {
+  background: #FFF
+}
+
+div#flag_container {
+  clear: both;
+  height: 100px;
+  width: 490px;
+  background-image: url(flag-bg.png);
+  margin: 0 auto
+}
+
+div#flag_container img {
+  border: 0 #000 solid;
+  border-width: 0 1px;
+  margin: 0 119px
+}
+
+td.postdate {
+  width: 168px;
+  white-space: nowrap
+}
+
+#thread.review td {
+  background: none;
+  border-color: #999
+}
+
+#thread.review dl {
+  min-height: 60px
+}
+
+#thread.review tr td.userinfo, #thread.review td.postdate {
+  display: table-cell
+}
+
+body, a {
+  color: #011
+}
+
+#content div.pages .curpage {
+  color: #222
+}
+
+#content div.breadcrumbs a.bclast, #content div.pages a {
+  border-color: #555
+}
+
+#thread td.postbody {
+  background-image: url(sheep.png)!important;
+  background-repeat: no-repeat!important;
+  background-position: 0 -30px!important;
+  min-height: 600px!important
+}
+
+div.userinfo {
+  position: absolute;
+  left: 333px;
+  top: 112px;
+  -moz-transform: rotate(12.5deg);
+  -webkit-transform: rotate(12.5deg);
+  -ms-transform: rotate(12.5deg);
+  -o-transform: rotate(12.5deg);
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.22)
+}
+
+.title {
+  font-size: 0!important;
+  width: 125px;
+  height: 125px;
+  display: table-cell;
+  vertical-align: middle
+}
+
+.title>img {
+  display: none
+}
+
+.title>img:first-child {
+  display: block!important;
+  margin: auto
+}
+
+div.funbox {
+  float: left;
+  clear: both;
+  background-color: #fff;
+  position: relative;
+  min-width: 200px!important;
+  padding: 27px 34px 16px 34px;
+  margin-left: 55px;
+  margin-top: 303px;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  color: black;
+  -moz-border-radius-bottomright: 24px;
+  -webkit-border-bottom-right-radius: 24px;
+  -moz-border-radius-bottomleft: 24px;
+  -webkit-border-bottom-left-radius: 24px;
+  -moz-border-radius-topright: 24px;
+  -webkit-border-top-right-radius: 24px;
+  z-index: 1
+}
+
+.signature {
+  clear: left;
+  margin-bottom: -20px
+}
+
+.profilelinks li:last-child>a:before {
+  content: "Poop/"
+}
+
+div.funbox:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px dashed black;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px
+}
+
+div.funbox:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 22px;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  background: SaddleBrown;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  opacity: .7;
+  filter: alpha(opacity=70)
+}
+
+.postlinks {
+  overflow: hidden
+}
+
+.author {
+  width: 130px;
+  text-align: center;
+  margin-left: -5px;
+  margin-top: -3px
+}
+
+.post {
+  position: relative;
+  left: 0;
+  top: -0px
+}
+
+.alertbutton {
+  float: left;
+  position: absolute;
+  top: 142px;
+  left: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  border-left-width: 0;
+  z-index: 2;
+  visibility: hidden;
+  display: inline;
+  line-height: 1;
+  font-size: 10px
+}
+
+.alertbutton:after {
+  visibility: visible;
+  display: inline;
+  z-index: 2;
+  margin-left: 0;
+  padding-left: 0;
+  border-left-width: 0;
+  content: url(sheepfeet.png)
+}
+
+@-moz-document url-prefix() {
+  .alertbutton {
+    left: 11px!important
+  }
+}
+
+.role-mod {
+  background-image: none!important;
+  padding-left: 0!important
+}
+
+.role-ik {
+  background-image: none!important;
+  padding-left: 0!important
+}
+
+.role-admin {
+  background-image: none!important;
+  padding-left: 0!important
+}
+
+div.funbox .tail {
+  display: none
+}
+
+a, #content a {
+  color: #066
+}
+
+body, a:visited, #content div#mp_bar a, #content div.pages a, #content div.breadcrumbs a, #content div.breadcrumbs a:visited {
+  color: #000
+}
+
+#forum, table, #subforums {
+  clear: left
+}
+
+#forum td.icon, #forum td.author, #forum td.views, #forum td.lastpost, #thread li.post, #subforums td.topics, #forum td.votes, #forum.asktell td.icon2, table.standard tr td.altcolor2 {
+  background: #fcc
+}
+
+#thread li.post.even, #subforums, #subforums td, #forum, #forum td, #filter, table#thread tr.even td, #forum.asktell td.icon, #thread.review td, table.standard tr td.altcolor1 {
+  background: #fcf
+}
+
+#thread div.title *, .bbc-center {
+  text-align: left
+}
+
+tr.altcolor1 td, .altcolor1, tr.altcolor1 td, td.altcolor1 {
+  background-color: #fcf
+}
+
+tr.altcolor2 td, .altcolor2, tr.altcolor2 td, td.altcolor2 {
+  background-color: #fcc
+}
