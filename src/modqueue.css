@@ -580,3 +580,12 @@ div.process_button {
 .notes img {
 	max-width: 100%;
 }
+
+#modqueue .checkboxes img:nth-last-of-type(n+2) {
+  margin-bottom: 40px;
+}
+
+#modqueue .checkboxes img {
+  transform: scale(2);
+  margin-left: 15px;
+}
