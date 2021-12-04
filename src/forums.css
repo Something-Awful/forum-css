@@ -126,9 +126,20 @@ tr.subforum {
   color:#4686AD;
 }
 
-#forum th,div.threadbar,div.forumbar,#forums th,#forums th a,#forums th a:visited,#pm th,#pm th a,#pm th a:visited,#pm th a:hover,#info th,#forum th a,#forum th a:visited,.standard h2,table.standard th,.standard h2 a,.standard h2 a:visited,.getinfo .standard th a,.getinfo .standard th a:visited,.gloryhole table.stats th,.privfolder tfoot tr td
+#forum th,div.threadbar,div.forumbar,#forums th,#pm th,#info th,.standard h2,table.standard th,.standard h2 a,.standard h2 a:visited,.gloryhole table.stats th,.privfolder tfoot tr td
 {
   background-color:#1f5c7a;
+  /* font-family:Arial; */
+  color: #FFFFFF;
+  line-height:20px;
+  text-decoration:none;
+  padding-left:2px;
+  text-shadow:1px 1px #33424A;
+}
+
+/* links split out from the above without the background color */
+#forums th a,#forums th a:visited,#pm th a,#pm th a:visited,#pm th a:hover,#forum th a,#forum th a:visited,.getinfo .standard th a,.getinfo .standard th a:visited
+{
   /* font-family:Arial; */
   color: #FFFFFF;
   line-height:20px;
