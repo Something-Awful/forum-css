@@ -46,7 +46,7 @@ body#something_awful #copyright
   padding:2px 8px;
 }
 
-.postbody b a[href^="/banlist.php?userid="]:after
+.postbody strong a[href^="/banlist.php?userid="]:after
 {
   content:'';
   display:inline-block;
