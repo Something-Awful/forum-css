@@ -932,10 +932,8 @@ div.postinfo div.save-state a {
 	margin-left:5px
 }
 div.postinfo div.character-count {
-	display:none;
-	position:absolute;
-	top:0;
-	right:3px
+	float: right;
+	margin-left: 5px;
 }
 .postbody code {
 	background-color:transparent!important;
