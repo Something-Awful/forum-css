@@ -2994,6 +2994,10 @@ body#something_awful  #copyright {
   max-width: 100%;
 }
 
+.title marquee img {
+  vertical-align: middle;
+}
+
 #forum th.replies,#forum th.views,#filter div.thread_tags div.remove_tag,.privfolder #content table tr th.sender,.privfolder #content table tr th.date,#cpmain .private_messages table th.sender,#cpmain .private_messages table th.date
 {
   text-align:right;
