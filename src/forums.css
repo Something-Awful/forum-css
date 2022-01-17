@@ -2990,8 +2990,13 @@ body#something_awful  #copyright {
 
 #thread td.postbody img,.title img, div.postbody img
 {
-  vertical-align:text-bottom;
+  vertical-align: bottom;
   max-width: 100%;
+}
+
+#thread td.postbody .sa-smilie,.title img, div.postbody .sa-smilie
+{
+  vertical-align: text-bottom;
 }
 
 .title marquee img {
