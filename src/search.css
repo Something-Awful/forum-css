@@ -49,11 +49,16 @@ input#query {
 
 .search_forum {
   cursor: pointer;
-  text-align: left
+  text-align: left;
+	display: block;
 }
 
 .search_forum input {
   cursor: pointer
+}
+
+button.search_forum input {
+	display: none;
 }
 
 .search_forum.hover {
