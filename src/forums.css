@@ -3332,7 +3332,6 @@ a.bbtag_img, a.bbtag_video {
 
 td.title div.title_inner {
 	padding: 4px 8px 4px 0;
-	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
