@@ -513,24 +513,6 @@ ul.postbuttons
   text-shadow:1px 1px 1px #EEE;
 }
 
-td.title div.title_inner
-{
-  position:relative;
-  padding: 4px 8px 7px 0;
-}
-
-td.title div.lastseen
-{
-  position:absolute;
-  top:5px;
-  right:5px;
-  float:none;
-  border:1px solid #A8A7A7;
-  box-shadow:0 0 4px #FFF;
-  margin:0;
-
-}
-
 #forum td.title div.lastseen a.count
 {
   border-left:1px solid #A8A7A7;
@@ -3349,23 +3331,33 @@ a.bbtag_img, a.bbtag_video {
 }
 
 td.title div.title_inner {
-  position: relative;
-  padding: 4px 75px 4px 0;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+	padding: 4px 8px 4px 0;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 td.title div.lastseen {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
-  right: 5px;
-  float: none;
-  border: 1px solid #A8A7A7;
-  box-shadow: 0 0 4px #FFF;
-  margin: 0;
+	float: none;
+	border: 1px solid #A8A7A7;
+	-webkit-box-shadow: 0 0 4px #FFF;
+	box-shadow: 0 0 4px #FFF;
+	margin: auto 0;
+	-webkit-box-ordinal-group: 3;
+	-ms-flex-order: 2;
+	order: 2;
+/*	width: max-content; */
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
 }
 
 /* ------------------- Donation custom title crapola --------------------- */
