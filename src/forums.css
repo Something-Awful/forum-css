@@ -2757,6 +2757,10 @@ b,#forum td.title div.lastseen a.count b,.usercp #cpmain h2 b,.modifyoptions .st
 	text-decoration: none;
 }
 
+ul.navigation li a, #nav_purchase a {
+	white-space: nowrap;
+}
+
 /* ------------- Forumwide Open Sans ---------------- */
 
 .forumhome #forums td.title a.forum {
