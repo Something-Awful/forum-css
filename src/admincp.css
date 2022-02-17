@@ -312,11 +312,10 @@ table.legacy.userlog {
 }
 
 .userlog td div.value {
-  margin-right: 8.0em
+  display:inline;
 }
 
 .userlog td .tinylinks {
-  position: absolute;
   top: 0;
   right: 0
 }
