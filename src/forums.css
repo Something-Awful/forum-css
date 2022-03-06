@@ -1835,7 +1835,8 @@ h1.topic
 
 .getinfo #thread dl.userinfo
 {
-  width:200px;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 .getinfo #thread dl.userinfo .title
