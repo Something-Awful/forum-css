@@ -790,6 +790,10 @@ div.mods li.mod {
   background-image: url('https://i.somethingawful.com/core/icon/fsilk/database_gear.png')
 }
 
+.menu .threads {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk/table_edit.png')
+}
+
 /* cp homepage */
 .box#stats img {
   margin-left: 16px;
