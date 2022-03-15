@@ -167,8 +167,10 @@
 
 #thread dl.userinfo dt.astral
 {
-	background-image:url(//fi.somethingawful.com/images/avatars/astral.png);
-	background-size: 16px;
+	background-image:url(https://fi.somethingawful.com/images/usericons/astral_2207.jpg);
+	background-size: 20px;
+	padding-left: 23px!important;
+	line-height: 20px!important;
 }
 
 #thread dl.userinfo dt.kensei
