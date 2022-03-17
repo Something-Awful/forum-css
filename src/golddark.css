@@ -1,19 +1,9 @@
-div.threadbar.top, div.threadbar.bottom, #thread ul.postbuttons, div.forumbar
+div.forumbar
 {
   visibility:hidden;
   height:0;
   border:0;
   padding:0;
-}
-
-.thread_bookmark
-{
-  visibility: visible;
-}
-
-.threadsearch
-{
-  visibility: visible;
 }
 
 #thread table.post
