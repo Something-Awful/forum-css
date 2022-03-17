@@ -1,4 +1,4 @@
-div.forumbar
+.threadbar ul.postbuttons, div.forumbar
 {
   visibility:hidden;
   height:0;
