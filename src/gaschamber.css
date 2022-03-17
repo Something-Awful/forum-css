@@ -168,7 +168,7 @@ body.forum_25
 	background-position:bottom,right;
 }
 
-.threadbar ul.postbuttons, .forum_25.forumdisplay div.forumbar ul.postbuttons,.forum_25 div.forumbar
+.forum_25.forumdisplay div.forumbar ul.postbuttons,.forum_25 div.forumbar
 {
 	visibility:hidden;
 	height:0;
