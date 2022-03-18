@@ -576,7 +576,11 @@ div.process_button {
 }
 
 .notes img {
+	height: auto;
+	width: auto;
+	object-fit: contain;
 	max-width: 100%;
+	max-height: 33vh;
 }
 
 #modqueue .checkboxes img:nth-last-of-type(n+2) {
