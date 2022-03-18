@@ -222,7 +222,6 @@ table#modqueue tr.header th {
 }
 
 #modqueue td.username a {
-	display: block;
 	padding-left: 19px;
 	background: no-repeat url('https://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 50%;
 	white-space: inherit;
@@ -268,7 +267,6 @@ table#modqueue tr.header th {
 
 #modqueue .moderator .modname {
 	font-weight: bold;
-	display: block;
 	padding-left: 18px;
 	background: no-repeat 0 2px;
 	background-image: url('https://i.somethingawful.com/core/icon/fsilk/user_orange.png');
