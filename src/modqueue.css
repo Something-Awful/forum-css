@@ -256,7 +256,12 @@ table#modqueue tr.header th {
 }
 
 #modqueue .checkboxes img {
-	cursor: pointer
+	cursor: pointer;
+	display: block;
+	margin-bottom: 10px;
+	max-width: 100%;
+	width: 180px;
+	height: auto;
 }
 
 .action .type, .action .type a {
@@ -269,7 +274,7 @@ table#modqueue tr.header th {
 	font-weight: bold;
 	padding-left: 18px;
 	background: no-repeat 0 2px;
-	background-image: url('https://fi.somethingawful.com/star_ik.gif');
+	background-image: url('https://fi.somethingawful.com/star_ik2.gif');
 	background-position: left;
 	white-space: inherit;
 	height: auto;
@@ -443,11 +448,6 @@ table#modqueue td {
 	box-shadow: 1px 1px 1px #CCC
 }
 
-#modqueue .checkboxes img {
-	display: block;
-	margin-bottom: 10px
-}
-
 #modqueue .checkboxes {
 	padding-left: 0
 }
@@ -581,11 +581,6 @@ div.process_button {
 
 #modqueue .checkboxes img:nth-last-of-type(n+2) {
   margin-bottom: 40px;
-}
-
-#modqueue .checkboxes img {
-  transform: scale(2);
-  margin-left: 15px;
 }
 
 #modqueue .status, #modqueue .status-header {
