@@ -269,7 +269,7 @@ table#modqueue tr.header th {
 	font-weight: bold;
 	padding-left: 18px;
 	background: no-repeat 0 2px;
-	background-image: url('https://i.somethingawful.com/core/icon/fsilk/user_orange.png');
+	background-image: url('https://fi.somethingawful.com/star_ik.gif');
 	background-position: left;
 	white-space: inherit;
 	height: auto;
@@ -586,4 +586,24 @@ div.process_button {
 #modqueue .checkboxes img {
   transform: scale(2);
   margin-left: 15px;
+}
+
+#modqueue .status, #modqueue .status-header {
+	max-width: 5em;
+}
+
+@media screen and (max-width: 1024px) {
+	#modqueue, #modqueue .notes .nbox {
+		font-size: 24px;
+	}
+	#modqueue .notes .nbox h6 {
+		font-size: 18px;
+		background-position-y: 3px;
+	}
+	#modqueue td.status, #modqueue td.status h3, #modqueue div.process_button input {
+		font-size: 18px;
+	}
+	#modqueue div.process_button.bottom {
+		margin-top: 2px;
+	}
 }
