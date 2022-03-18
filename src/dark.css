@@ -800,6 +800,10 @@ a:hover, a:hover:visited {
 	background:#1b1c22;
 }
 
+#onlineusers li a {
+	border-bottom:1px #333 solid;
+}
+
 /* These suck imo */
 * {
 	text-shadow:none!important;

@@ -828,11 +828,6 @@ b.hi {
 	background:yellow;
 	color:black
 }
-.online_users,.online_users a {
-	color:#999;
-	font-size:11px;
-	font-weight:normal
-}
 .smilie_list h3 {
 	clear:left;
 	background-color:#067;
@@ -1067,4 +1062,62 @@ a.banlink,.postbody a.quote_link {
 .purch_new {
 	color:#FF7F7F;
 	font-weight:bold;
+}
+
+#onlineusers {
+  width: 90%;
+}
+
+#onlineusers ul {
+  list-style: none;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#onlineusers li {
+  display: inline;
+  margin: 2px 4px;
+  white-space: nowrap;
+  line-height: 20px;
+}
+
+#onlineusers li a {
+  border-bottom: 1px #ccc solid;
+}
+
+#onlineusers li.admin a {
+  color: #9b0000;
+  font-weight: bold;
+  padding-left: 16px;
+  background: left no-repeat url('https://fi.somethingawful.com/star_admin.gif');
+}
+
+#onlineusers li.super-mod a {
+  color: #0092db;
+  font-weight: bold;
+  padding-left: 16px;
+  background: left no-repeat url('https://fi.somethingawful.com/star_supermod.gif');
+}
+
+#onlineusers li.mod a {
+  color: #0092db;
+  font-weight: bold;
+  padding-left: 16px;
+  background: left no-repeat url('https://fi.somethingawful.com/star_moderator.gif');
+}
+/*
+#onlineusers li.plat a {
+
+}
+*/
+#onlineusers li.ban a {
+  text-decoration: line-through;
+  font-size: 9px;
+}
+
+#onlineusers div.pages {
+  border-bottom: 1px #999 solid;
+  width: 100%;
+  display: block;
+  padding-bottom: 8px;
 }
