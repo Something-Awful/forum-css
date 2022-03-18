@@ -137,6 +137,10 @@ tr.subforum {
   text-shadow:1px 1px #33424A;
 }
 
+table.standard .alert-header {
+	background-color: #7D1201;
+}
+
 /* links split out from the above without the background color */
 #forums th a,#forums th a:visited,#pm th a,#pm th a:visited,#pm th a:hover,#forum th a,#forum th a:visited,.getinfo .standard th a,.getinfo .standard th a:visited
 {
@@ -1806,6 +1810,12 @@ h1.topic
 {
   font-size: 13px;
   font-family: Arial;
+}
+
+#main_full .warningsmalltext {
+	font-size: 24px;
+	color: red;
+	font-weight: bold;
 }
 
 #main_full .smalltext input {
