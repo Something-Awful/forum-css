@@ -3209,7 +3209,6 @@ div.breadcrumbs a.up:hover span
   margin-top: 0;
 }
 
-/* more imp zone */
 .getinfo table.standard
 {
   clear:both;
@@ -3223,6 +3222,15 @@ div.breadcrumbs a.up:hover span
 .getinfo h3:first-child,.searchresults #main_full td:first-child img
 {
   padding-top:4px;
+}
+
+.getinfo .profile-list
+{
+	margin-block-start: 0;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 3em;
 }
 
 div.breadcrumbs a.up
