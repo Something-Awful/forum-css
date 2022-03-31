@@ -261,7 +261,6 @@ div.forumbar {
 #thread tr.ignored dl.userinfo,#thread table.ignored td.postbody a {
 	font-size:85%;
 	font-style:italic;
-	letter-spacing:50%;
 	white-space:nowrap;
 	line-height:16px;
 	padding-left:19px;
@@ -1013,8 +1012,11 @@ div.pages .curpage,#forum td.title div.lastseen a.count:hover {
 #subforums td.topics,#subforums td.posts,#forum td.replies,#forum td.views,#forum th.rating,#forum td.rating {
 	text-align:center
 }
-#thread tr.ignored dl.userinfo,#thread table.ignored td.postbody,#thread.pm td.postlinks {
-	padding-bottom:5px
+#thread tr.ignored dl.userinfo,#thread table.ignored td.postbody {
+	padding-bottom: 10px;
+}
+#thread.pm td.postlinks {
+	padding-bottom: 5px;
 }
 #forum .thread td.title a.announcement,h1.topic {
 	font-size:14px
