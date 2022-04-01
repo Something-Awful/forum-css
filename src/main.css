@@ -1033,8 +1033,8 @@ form.threadsearch,div.threadrate,td.graphbar img {
 table.post tr.seen1 td,tr.thread.seen td,tr.thread.category0 td {
 	background-color:#dbe8f5
 }
-table.post tr.adbot ul.postbuttons,table.post tr.adbot ul.profilelinks {
-	visibility:hidden
+table.post tr.stubpost:nth-child(2), table.post tr.adbot:nth-child(2) {
+	display:none;
 }
 .buttons a,.buttons img,img.timg.peewee,a.banlink img {
 	border:0
