@@ -2826,6 +2826,10 @@ ul.navigation li a, #nav_purchase a {
 	font-size: 15px;
 }
 
+.modalert textarea {
+	width:98%;
+}
+
 .newthread input.bginput, .editpost input.bginput, .modalert input.bginput {
 	font-size: 15px;
 }
