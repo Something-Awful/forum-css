@@ -111,7 +111,7 @@ table.standard {
 	border-radius: 0!important
 }
 
-.forum_219 * textarea, .forum_219 * input, .forum_219 * select {
+body * textarea, body * input, body * select {
 	font-family: "consolas", "monaco", monospace;
 	color: #EACF4C!important;
 	background-color: black;
@@ -469,43 +469,12 @@ table.post, img.timg.complete, .breadcrumbs .mainbodytextlarge .index {
 	-webkit-animation-timing-function: ease-in-out
 }
 
-.bginput:hover {
+.bginput:not(textarea):hover {
 	-webkit-animation-name: animes;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-timing-function: ease-in-out
-}
-
-@-moz-keyframes animes {
-	0% {
-		background: #EACF4C;
-		color: #000
-	}
-	50% {
-		background: #000;
-		color: #EACF4C
-	}
-	100% {
-		background: #EACF4C;
-		color: #000
-	}
-}
-
-* a:hover {
-	-moz-animation-name: animes;
-	-moz-animation-duration: 1s;
-	-moz-animation-iteration-count: infinite;
-	-moz-animation-direction: alternate;
-	-moz-animation-timing-function: ease-in-out
-}
-
-.bginput:hover {
-	-moz-animation-name: animes;
-	-moz-animation-duration: 1s;
-	-moz-animation-iteration-count: infinite;
-	-moz-animation-direction: alternate;
-	-moz-animation-timing-function: ease-in-out
 }
 
 div#notregistered {

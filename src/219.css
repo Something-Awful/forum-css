@@ -107,7 +107,7 @@ div.threadbar.top, div.threadbar.bottom, div.forumbar, #forum, #filter {
 	border-radius: 0!important
 }
 
-.forum_219 * textarea, .forum_219 * input, .forum_219 * select {
+body * textarea, body * input, body * select {
 	font-family: "consolas", "monaco", monospace;
 	color: #57FF57!important;
 	background-color: black;
@@ -455,7 +455,7 @@ table.post, img.timg.complete, .breadcrumbs .mainbodytextlarge .index {
 	-webkit-animation-timing-function: ease-in-out
 }
 
-.bginput:hover {
+.bginput:not(textarea):hover {
 	-webkit-animation-name: animes;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-iteration-count: infinite;
