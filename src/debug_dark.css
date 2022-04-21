@@ -23,3 +23,23 @@ div#debug button.state_1:active,
 div#debug button.state_1 {
 	background-image:-webkit-linear-gradient(bottom,#040 0,#240 100%);
 }
+
+div.debug_table table {
+	background-color: black;
+}
+
+table#debug th {
+	background-color: #444;
+}
+
+table#debug tr:nth-child(2n+1) {
+	background-color: #1b1c22;
+}
+
+table#debug td.type.query {
+	color: #65a1ee;
+}
+
+table#debug td, table#debug th {
+	border: 1px solid #333;
+}
