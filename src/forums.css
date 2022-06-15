@@ -2144,6 +2144,39 @@ div.posticon img
 	display: none;
 }
 
+#sabb-editor {
+	background: #e8e8e8;
+	border: inherit;
+}
+
+#sabb-editor .sceditor-group {
+	border-bottom: 0;
+}
+
+#sabb-editor .sceditor-toolbar {
+	background: inherit;
+	border-bottom: 0;
+}
+
+#sabb-editor .sceditor-toolbar a {
+	width: 24px;
+	height: 28px;
+}
+
+#sabb-editor .sceditor-button svg {
+	width: 24px;
+	height: 24px;
+}
+
+#sabb-editor textarea {
+	margin: 3px 1px;
+	padding: 2px;
+}
+
+#sabb-editor.sceditor-maximize textarea {
+	margin: 7px 5px;
+}
+
 .newthread #content table.standard tr.altcolor2 td input.bginput,.priv_sendprivmsg table#main_full.standard tr td textarea,.editpost table#main_full.standard tr td textarea,.priv_sendprivmsg #content table.standard tr td input.bginput,.threads_editthread table#main_wide.standard tr:nth-child(3) td input.bginput,.modifyprofile #content table.standard textarea, .searchresults input#query
 {
   width:98% !important;
