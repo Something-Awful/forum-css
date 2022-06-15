@@ -614,6 +614,42 @@ table.standard th, table.standard td {
 	color: #cccccc!important;
 }
 
+/* sceditor overrides */
+#sabb-editor {
+	background: #181818;
+	border: inherit;
+}
+
+#sabb-editor .sceditor-toolbar {
+	background: inherit;
+	border-bottom: 0;
+}
+
+#sabb-editor textarea {
+	margin: 3px 1px;
+	background: #1c2029;
+	padding: 2px;
+}
+
+#sabb-editor.sceditor-maximize textarea {
+	margin: 7px 5px;
+}
+
+#sabb-editor .sceditor-dropdown {
+	background:#181818;
+	border: #304867 1px solid;
+}
+
+#sabb-editor .sceditor-dropdown label {
+	color: #ccc;
+}
+
+#sabb-editor .sceditor-dropdown .button {
+	color: #65a1ee;
+	background-color: #1c2029;
+	border: #304867 1px solid;
+}
+
 /* User Control Panel */
 .usercp #content table td {
 	background-color:#090a0d;
