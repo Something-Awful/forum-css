@@ -2174,7 +2174,7 @@ div.posticon img
 }
 
 #sabb-editor.sceditor-maximize {
-	max-height: 100dvh;
+	height: 100dvh !important;
 }
 
 #sabb-editor.sceditor-maximize textarea {
