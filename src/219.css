@@ -490,3 +490,15 @@ td.postbody iframe {
 	background-color: black;
 	border: #57FF57 1px solid;
 }
+
+#sabb-editor .sceditor-button svg {
+        fill: #57FF57;
+}
+
+#sabb-editor .sceditor-group {
+        background:transparent;
+}
+
+#sabb-editor .sceditor-button {
+	border: 1px #57FF57 solid!important;
+}
