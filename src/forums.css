@@ -2179,6 +2179,7 @@ div.posticon img
 
 #sabb-editor.sceditor-maximize textarea {
 	margin: 7px 5px;
+	width: auto !important;
 }
 
 .newthread #content table.standard tr.altcolor2 td input.bginput,.priv_sendprivmsg table#main_full.standard tr td textarea,.editpost table#main_full.standard tr td textarea,.priv_sendprivmsg #content table.standard tr td input.bginput,.threads_editthread table#main_wide.standard tr:nth-child(3) td input.bginput,.modifyprofile #content table.standard textarea, .searchresults input#query
