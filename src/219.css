@@ -471,3 +471,22 @@ div#notregistered {
 td.postbody iframe {
 	border-color: #57FF57!important
 }
+
+/* sceditor overrides */
+#sabb-editor textarea {
+	background: black;
+}
+
+#sabb-editor .sceditor-dropdown {
+	background: black;
+	border: #57FF57 1px solid;
+}
+
+#sabb-editor .sceditor-dropdown label {
+	color: #57FF57;
+}
+
+#sabb-editor .sceditor-dropdown .button {
+	background-color: black;
+	border: #57FF57 1px solid;
+}

@@ -485,3 +485,22 @@ div#notregistered {
 td.postbody iframe {
 	border-color: #EACF4C!important
 }
+
+/* sceditor overrides */
+#sabb-editor textarea {
+	background: black;
+}
+
+#sabb-editor .sceditor-dropdown {
+	background: black;
+	border: #EACF4C 1px solid;
+}
+
+#sabb-editor .sceditor-dropdown label {
+	color: #EACF4C;
+}
+
+#sabb-editor .sceditor-dropdown .button {
+	background-color: black;
+	border: #EACF4C 1px solid;
+}
