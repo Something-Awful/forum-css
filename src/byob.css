@@ -260,3 +260,8 @@ p.signature {
 #thread td.postlinks ul.postbuttons img {
 	box-shadow: none;
 }
+
+/* sceditor overrides */
+#sabb-editor.sceditor-maximize {
+	background: #cff;
+}

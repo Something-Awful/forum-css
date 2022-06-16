@@ -2145,7 +2145,7 @@ div.posticon img
 }
 
 #sabb-editor {
-	background: #e8e8e8;
+	background: revert;
 	border: inherit;
 }
 
@@ -2175,6 +2175,10 @@ div.posticon img
 
 #sabb-editor textarea, #sabb-editor input {
 	outline: revert;
+}
+
+#sabb-editor.sceditor-maximize {
+	background: #e8e8e8;
 }
 
 #sabb-editor.sceditor-maximize textarea {

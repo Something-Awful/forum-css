@@ -375,6 +375,11 @@ td.postdate {
 	margin-left: 5px;
 }
 
+/* sceditor overrides */
+#sabb-editor.sceditor-maximize {
+	background: #cff;
+}
+
 /* moderator/IKs: replace fat FYAD buttons */
 /* Beecock button shouldn't really shrink.
 @media screen and (max-width: 1337px) {

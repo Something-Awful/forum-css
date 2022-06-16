@@ -615,11 +615,6 @@ table.standard th, table.standard td {
 }
 
 /* sceditor overrides */
-#sabb-editor {
-	background: #1b1c22;
-	border: inherit;
-}
-
 #sabb-editor textarea {
 	background: #1c2029;
 }
@@ -637,6 +632,10 @@ table.standard th, table.standard td {
 	color: #65a1ee;
 	background-color: #1c2029;
 	border: #304867 1px solid;
+}
+
+#sabb-editor.sceditor-maximize {
+	background: #1b1c22;
 }
 
 /* User Control Panel */
