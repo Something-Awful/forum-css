@@ -502,3 +502,7 @@ td.postbody iframe {
 #sabb-editor .sceditor-button {
 	border: 1px #57FF57 solid!important;
 }
+
+#sabb-editor.sceditor-maximize {
+	background: black;
+}
