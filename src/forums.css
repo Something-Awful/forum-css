@@ -2173,10 +2173,6 @@ div.posticon img
 	padding: 2px;
 }
 
-#sabb-editor.sceditor-maximize {
-	height: calc(100vh - env(safe-area-inset-bottom)) !important;
-}
-
 #sabb-editor.sceditor-maximize textarea {
 	margin: 7px 5px;
 }
