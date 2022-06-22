@@ -2984,7 +2984,7 @@ body#something_awful  #copyright {
 
 /* ---------------- BYOB Tweaks ------------------- */
 
-/* BYOB Spaceship - grey forums mode, purple primary hybrid version */
+/* BYOB Spaceship thread list entry */
 #forum tr#thread3918699 td.title {
 	background: #ccf;
 }
@@ -2994,6 +2994,19 @@ body#something_awful  #copyright {
 }
 
 #forum tr#thread3918699 td.rating, #forum tr#thread3918699 td.replies {
+	background: #B8B8E6;
+}
+
+/* BYOB TFR outpost thread list entry */
+#forum tr#thread4004734 td.title {
+	background: #ccf;
+}
+
+#forum tr#thread4004734 td.star, #forum tr#thread4004734 td.icon, #forum tr#thread4004734 td.author, #forum tr#thread4004734 td.views,#forum tr#thread4004734 td.lastpost,#forum tr#thread4004734 td.button_remove {
+	background: #b9e7e7;
+}
+
+#forum tr#thread4004734 td.rating, #forum tr#thread4004734 td.replies {
 	background: #B8B8E6;
 }
 
