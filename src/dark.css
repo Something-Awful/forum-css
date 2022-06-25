@@ -124,16 +124,17 @@ a.thread_title:not(:hover) {
 }
 
 #forum td {
-	background-image:none!important;
 	border:solid 1px #333333!important;
 }
 
 #forum tr.thread td.star, #forum tr.thread td.title, #forum tr.thread td.replies, #forum tr.thread td.rating, #forum tr.thread td.votes, #forum tr.thread td.button_remove {
 	background-color: #1b1c22;
+	background-image: none;
 }
 
 #forum tr.thread td.icon, #forum tr.thread td.icon2,#forum tr.thread td.author, #forum tr.thread td.views, #forum tr.thread td.lastpost {
 	background-color: #18191f;
+	background-image: none;
 }
 
 #forum tr.seen td.star, #forum tr.seen td.title, #forum tr.seen td.replies, #forum tr.seen td.rating, #forum tr.seen td.votes, #forum tr.seen td.button_remove, .warn {
@@ -767,22 +768,30 @@ body.forum_267, body.forum_680  {
 	border: 1px solid #304867!important;
 }
 
-/* byob thread list thread */
+/* byob thread list threads */
 
+/* BYOB Spaceship */
+#forum tr#thread3918699 td.title {
+	background-image: linear-gradient(147deg, #3a0069 0%, #1b1c22 74%);
+}
 #forum tr#thread3918699 td.star, #forum tr#thread3918699 td.icon, #forum tr#thread3918699 td.author, #forum tr#thread3918699 td.views, #forum tr#thread3918699 td.lastpost, #forum tr#thread3918699 td.button_remove {
-	opacity: 0.5;
+	background: #002033;
 }
 
 #forum tr#thread3918699 td.rating, #forum tr#thread3918699 td.replies {
-	opacity: 0.5;
+	background: #140033;
 }
 
-#forum tr#thread3918699 td.title {
-	opacity: 0.5;
+/* TFR outpost */
+#forum tr#thread4004734 td.title {
+	background-image: linear-gradient(147deg, #3a0069 0%, #1b1c22 74%);
+}
+#forum tr#thread4004734 td.star, #forum tr#thread4004734 td.icon, #forum tr#thread4004734 td.author, #forum tr#thread4004734 td.views, #forum tr#thread4004734 td.lastpost, #forum tr#thread4004734 td.button_remove {
+	background: #002033;
 }
 
-#forum tr#thread3918699 td a:not(:hover) {
-	color: #333;
+#forum tr#thread4004734 td.rating, #forum tr#thread4004734 td.replies {
+	background: #140033;
 }
 
 /* System Message */
