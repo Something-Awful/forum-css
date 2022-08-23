@@ -2911,7 +2911,7 @@ ul.navigation li a, #nav_purchase a {
 	font-size: 13px;
 }
 
- #forum td.replies a,  #forum td.author a,  #forums td.moderators a, #forum td.views {
+#forum td.replies a,  #forum td.author a, .privfolder td.sender a,  #forums td.moderators a, #forum td.views {
 	text-decoration: none;
 	font-size: 13px;
 }
