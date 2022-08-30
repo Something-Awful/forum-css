@@ -678,6 +678,13 @@
 	line-height: 20px !important;
 }
 
+#thread dl.userinfo dt.thunkher-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/thunkher-blue.svg);
+	background-size: 22px;
+	padding-left: 24px !important;
+	line-height: 20px !important;
+}
+
 #thread dl.userinfo dt.ant-blue {
 	background-image: url(https://fi.somethingawful.com/images/svgs/ant2-blue.svg);
 	background-size: 22px;
@@ -986,6 +993,20 @@
 
 #thread dl.userinfo dt.frog-black {
 	background-image: url(https://fi.somethingawful.com/images/svgs/frog-black.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.classicphone-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/classicphone-blue.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.classicphone-black {
+	background-image: url(https://fi.somethingawful.com/images/svgs/classicphone-black.svg);
 	background-size: 20px;
 	line-height: 20px !important;
 	padding-left: 22px !important;
