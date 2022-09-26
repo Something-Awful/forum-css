@@ -543,9 +543,14 @@
 #thread dl.userinfo dt.larry
 {
 	background-image:url(https://fi.somethingawful.com/images/svgs/loleggplant.png);
-	background-size:auto;
-	padding-left:44px!important;
-	line-height:30px!important;
+	background-size: 30px;
+	padding-left: 32px !important;
+	line-height: 24px !important;
+	font-size: 80%;
+}
+
+#thread dl.userinfo dt.larry ~ dd.title {
+	scale: 50%;
 }
 
 #thread dl.userinfo dt.bbg
