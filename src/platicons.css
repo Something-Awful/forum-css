@@ -1032,17 +1032,31 @@
 }
 
 #thread dl.userinfo dt.lefthorse-blue {
-       background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-blue.svg);
-       background-size: 20px;
-       line-height: 20px !important;
-       padding-left: 22px !important;
+	background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-blue.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
 }
 
 #thread dl.userinfo dt.lefthorse-black {
-       background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-black.svg);
-       background-size: 20px;
-       line-height: 20px !important;
-       padding-left: 22px !important;
+	background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-black.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.goat-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/goat-blue.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.goat-black {
+	background-image: url(https://fi.somethingawful.com/images/svgs/goat-black.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
 }
 
 /* --------------- BIG HORRIBLE CONTEST RESULTS -------------------- */
