@@ -1017,6 +1017,20 @@
 	padding-left: 22px !important;
 }
 
+#thread dl.userinfo dt.cart-blue {
+	background-image: url(https://fi.somethingawful.com/images/svgs/cart-blue.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.cart-black {
+	background-image: url(https://fi.somethingawful.com/images/svgs/cart-black.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
 /* --------------- BIG HORRIBLE CONTEST RESULTS -------------------- */
 
 #thread dl.userinfo dt.theshortestpath {
