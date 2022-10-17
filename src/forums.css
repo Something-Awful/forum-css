@@ -2342,7 +2342,12 @@ div.pages .curpage
   padding:0;
 }
 
-td.postdate a,td.postlinks ul.profilelinks li a,.dictnav a,#main_full td a,.searchresults #main_full tr .smalltext a,.newthread #content table.standard tr.altcolor2 td:last-child a,.newreply #main_full div.postinfo div.save-state a,.newreply #main_full tr.altcolor2 td:last-child a,.newthread #content table.standard tr:first-child a,.newreply #content table.standard tr:first-child a,.threads_editthread table#main_wide.standard td.user_loggedin a
+td.postdate a,td.postlinks ul.profilelinks li a,.dictnav a,#main_full td a,.searchresults #main_full tr .smalltext a,
+.newthread #content table.standard tr.altcolor2 td:last-child a,
+.newreply #main_full div.postinfo div.save-state a,.newreply #main_full tr.altcolor2 td:last-child a,
+.editpost #main_full div.postinfo div.save-state a,.editpost #main_full tr.altcolor2 td:last-child a,
+.newthread #content table.standard tr:first-child a,.newreply #content table.standard tr:first-child a,
+.threads_editthread table#main_wide.standard td.user_loggedin a
 {
   border:1px solid #949494;
   text-decoration:none;
@@ -2356,7 +2361,11 @@ td.postdate a,td.postlinks ul.profilelinks li a,.dictnav a,#main_full td a,.sear
   padding:0 3px;
 }
 
-.altcolor1 td.postdate a:hover,.altcolor1 td.postlinks ul.profilelinks li a:hover,.altcolor2 td.postdate a:hover,.altcolor2 td.postlinks ul.profilelinks li a:hover,.dictnav a:hover,#main_full td a:hover,.searchresults #main_full tr .smalltext a:hover,.privmsg #thread table.post td.postlinks a:hover,.newthread #content table.standard tr.altcolor2 td:last-child a:hover,.newthread #content table.standard tr:first-child a:hover,.newreply #main_full div.postinfo div.save-state a:hover,.newreply #main_full tr.altcolor2 td:last-child a:hover,.newreply #content table.standard tr:first-child td a:hover,.threads_editthread table#main_wide.standard td.user_loggedin a:hover
+.altcolor1 td.postdate a:hover,.altcolor1 td.postlinks ul.profilelinks li a:hover,.altcolor2 td.postdate a:hover,.altcolor2 td.postlinks ul.profilelinks li a:hover,.dictnav a:hover,#main_full td a:hover,.searchresults #main_full tr .smalltext a:hover,
+.privmsg #thread table.post td.postlinks a:hover,.newthread #content table.standard tr.altcolor2 td:last-child a:hover,.newthread #content table.standard tr:first-child a:hover,
+.newreply #main_full div.postinfo div.save-state a:hover,.newreply #main_full tr.altcolor2 td:last-child a:hover,.newreply #content table.standard tr:first-child td a:hover,
+.editpost #main_full div.postinfo div.save-state a:hover,.editpost #main_full tr.altcolor2 td:last-child a:hover,.editpost #content table.standard tr:first-child td a:hover,
+.threads_editthread table#main_wide.standard td.user_loggedin a:hover
 {
   background-color:#FFF;
   border-color:#777;
