@@ -2013,7 +2013,7 @@ h1.topic
   padding:0;
 }
 
-.searchresults #main_full tr a:hover,.banlist #main_full table.standard td a,.newthread #main_full a:hover,.newreply #main_full a:hover,.modqueue #main_full a:hover
+.searchresults #main_full tr a:hover, .banlist #main_full table.standard td a, .newthread #main_full a:hover, .newreply #main_full a:hover, .editpost #main_full a:hover, .modqueue #main_full a:hover
 {
   background-color:inherit;
 }
@@ -2080,7 +2080,7 @@ h1.topic
   width:180px;
 }
 
-.newthread #content table.standard tr td:first-child a,.newreply #content table.standard tr td:first-child a
+.newthread #content table.standard tr td:first-child a, .newreply #content table.standard tr td:first-child a, .editpost #content table.standard tr td:first-child a
 {
   white-space:normal;
   display:inline;
