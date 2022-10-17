@@ -1999,7 +1999,7 @@ h1.topic
   padding-bottom:12px;
 }
 
-.searchresults #main_full tr a,.banlist #main_full td a,.newthread #main_full a,.newreply #main_full a,.modqueue #main_full a
+.searchresults #main_full tr a, .banlist #main_full td a, .newthread #main_full a, .newreply #main_full a, .editpost #main_full a, .modqueue #main_full a
 {
   border:0;
   text-decoration:underline;
