@@ -283,7 +283,7 @@ td.postdate a, td.postlinks ul.profilelinks li a, .dictnav a, #main_full td a,
 .searchresults #main_full tr .smalltext a,
 .newthread #content table.standard tr.altcolor2 td:last-child a, .newthread #content table.standard tr:first-child a,
 .newreply #main_full div.postinfo div.save-state a, .newreply #main_full tr.altcolor2 td:last-child a, .newreply #content table.standard tr:first-child a,
-.editpost #main_full div.postinfo div.save-state a, .editpost #main_full tr.altcolor2 td:last-child a, .editpost #content table.standard tr:first-child a,
+.editpost #main_full div.postinfo div.save-state a, .editpost #main_full tr.altcolor2 td:last-child a,
 .threads_editthread table#main_wide.standard td.user_loggedin a, .letternav li a {
 	border: 1px solid #304867;
 	text-shadow: 1px 1px 0 #eee;
