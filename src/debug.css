@@ -1,4 +1,4 @@
-div#debug {
+#debug {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -8,23 +8,23 @@ div#debug {
 	z-index: 1000
 }
 
-div#debug div.debug_head {
+#debug div.debug_head {
 	text-align: center;
 	background: #ccc
 }
 
-div#debug button {
+#debug button {
 	border-radius: 4px;
 	border: 1px solid #ccc;
 	background-image: -webkit-linear-gradient(bottom, #eee 0, #fff 100%)
 }
 
-div#debug button:active,
-div#debug button.state_1:active {
+#debug button:active,
+#debug button.state_1:active {
 	background-image: -webkit-linear-gradient(bottom, #ddd 0, #ccc 100%)
 }
 
-div#debug button.state_1 {
+#debug button.state_1 {
 	background-image: -webkit-linear-gradient(bottom, #fc0 0, #ff0 100%)
 }
 
@@ -43,74 +43,74 @@ div.debug_table table {
 	font-size: inherit!important
 }
 
-table#debug table.explain {
+#debug_out table.explain {
 	width: auto;
 	margin-top: 3px
 }
 
-table#debug table.explain tr:nth-child(odd) {
+#debug_out table.explain tr:nth-child(odd) {
 	background-color: #ddd
 }
 
-table#debug div.query {
+#debug_out div.query {
 	word-wrap: break-word
 }
 
-table#debug tr:nth-child(odd) {
+#debug_out tr:nth-child(odd) {
 	background-color: #eee
 }
 
-table#debug td,
-table#debug th {
+#debug_out td,
+#debug_out th {
 	border: 1px solid #ccc;
 	padding: 2px 5px
 }
 
-table#debug th {
+#debug_out th {
 	background-color: #bbb
 }
 
-table#debug td.type {
+#debug_out td.type {
 	text-align: center;
 	text-transform: uppercase
 }
 
-table#debug td.time_index {
+#debug_out td.time_index {
 	font-weight: bold
 }
 
-table#debug td.type.query {
+#debug_out td.type.query {
 	color: blue
 }
 
-table#debug td.type.sql {
+#debug_out td.type.sql {
 	color: blue
 }
 
-table#debug td.type.warn {
+#debug_out td.type.warn {
 	color: #ef480e
 }
 
-table#debug td.type.info {
+#debug_out td.type.info {
 	color: green
 }
 
-table#debug td.type.debug {
+#debug_out td.type.debug {
 	color: gray
 }
 
-table#debug td.type.fatal,
-table#debug td.type.error {
+#debug_out td.type.fatal,
+#debug_out td.type.error {
 	background: #ef480e;
 	color: white
 }
 
-table#debug span.slow {
+#debug_out span.slow {
 	color: red;
 	font-weight: bold
 }
 
-table#debug span.fast {
+#debug_out span.fast {
 	color: blue;
 	font-weight: bold
 }

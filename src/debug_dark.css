@@ -1,26 +1,26 @@
-div#debug {
+#debug {
 	background:#1b1c22;
 	border:#304867 1px solid;
 }
-div#debug div.debug_head {
+#debug div.debug_head {
 	background:#1b1c22;
 	border:#304867 1px solid;
 }
 
-div#debug button {
+#debug button {
 	border:1px solid #304867;
 	background-image:none;
 	color:#65a1ee;
 	background-color: #1C2029;
 }
 
-div#debug button:active, div#debug button:hover {
+#debug button:active, #debug button:hover {
 	background-color:#304867;
 	color:#aaa;
 }
 
-div#debug button.state_1:active,
-div#debug button.state_1 {
+#debug button.state_1:active,
+#debug button.state_1 {
 	background-image:-webkit-linear-gradient(bottom,#040 0,#240 100%);
 }
 
@@ -28,18 +28,18 @@ div.debug_table table {
 	background-color: black;
 }
 
-table#debug th {
+#debug_out th {
 	background-color: #444;
 }
 
-table#debug tr:nth-child(2n+1) {
+#debug_out tr:nth-child(2n+1) {
 	background-color: #1b1c22;
 }
 
-table#debug td.type.query {
+#debug_out td.type.query {
 	color: #65a1ee;
 }
 
-table#debug td, table#debug th {
+#debug_out td, #debug_out th {
 	border: 1px solid #333;
 }
