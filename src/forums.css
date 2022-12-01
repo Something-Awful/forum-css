@@ -2465,11 +2465,25 @@ div.breadcrumbs a.index
   padding:0;
 }
 
+.timg
+{
+	width: auto;
+	height: auto;
+	max-width: 170px;
+	max-height: 200px;
+}
+
 img.timg.complete
 {
   border:2px #B05042 solid;
   box-shadow:2px 2px 1px #ccc;
   cursor:pointer;
+}
+
+.timg.expanded
+{
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .timg_container .note
