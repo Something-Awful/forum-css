@@ -2465,7 +2465,7 @@ div.breadcrumbs a.index
   padding:0;
 }
 
-#thread td.postbody .timg, .title .timg, div.postbody .timg
+#thread td.postbody .timg, .title .timg, div.postbody .timg, .banlist table.standard.full td .timg, .notes .timg
 {
 	width: auto;
 	height: auto;
@@ -2480,13 +2480,13 @@ img.timg.complete
   cursor:pointer;
 }
 
-#thread td.postbody .expanded, .title .expanded, div.postbody .expanded
+#thread td.postbody .expanded, .title .expanded, div.postbody .expanded, .banlist table.standard.full td .expanded, .notes .expanded
 {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-#thread td.postbody .constrained, .title .constrained, div.postbody .constrained
+#thread td.postbody .constrained, .title .constrained, div.postbody .constrained, .banlist table.standard.full td .constrained, .notes .constrained
 {
 	max-width: 900px;
 	max-height: 100%;
