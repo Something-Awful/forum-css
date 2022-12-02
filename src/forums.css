@@ -2494,11 +2494,12 @@ img.timg.complete
 
 .timg_container .note
 {
-  background-color:#111;
-  border:1px #000 solid;
-  background-position:4px 3px;
-  padding-left:24px;
-  margin:6px;
+	background-color:#111;
+	border:1px #000 solid;
+	line-height: 20px;
+	background-position:4px 3px;
+	padding-left:24px;
+	margin:6px;
 }
 
 .member_account_features div.standard
@@ -3914,6 +3915,10 @@ div.breadcrumbs:nth-child(3) {
 	object-fit: contain;
 	max-width: 100%;
 	max-height: 33vh;
+}
+
+.banlist table.standard.full td .timg {
+	padding-top: 0;
 }
 
 .banlist #main_full table.standard {
