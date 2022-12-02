@@ -2465,11 +2465,11 @@ div.breadcrumbs a.index
   padding:0;
 }
 
-.timg
+#thread td.postbody .timg, .title .timg, div.postbody .timg
 {
 	width: auto;
 	height: auto;
-	max-width: 170px;
+	max-width: 240px;
 	max-height: 200px;
 }
 
@@ -2480,9 +2480,15 @@ img.timg.complete
   cursor:pointer;
 }
 
-.timg.expanded
+#thread td.postbody .expanded, .title .expanded, div.postbody .expanded
 {
 	max-width: 100%;
+	max-height: 100%;
+}
+
+#thread td.postbody .constrained, .title .constrained, div.postbody .constrained
+{
+	max-width: 900px;
 	max-height: 100%;
 }
 
