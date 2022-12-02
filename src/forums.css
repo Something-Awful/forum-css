@@ -2488,7 +2488,7 @@ img.timg.complete
 
 #thread td.postbody .constrained, .title .constrained, div.postbody .constrained, .banlist table.standard.full td .constrained, .notes .constrained
 {
-	max-width: 900px;
+	max-width: min(900px, 100%);
 	max-height: 100%;
 }
 
