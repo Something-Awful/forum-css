@@ -2465,12 +2465,14 @@ div.breadcrumbs a.index
   padding:0;
 }
 
-#thread td.postbody .timg, .title .timg, div.postbody .timg, .banlist table.standard.full td .timg, .notes .timg
+/* these can become less-overqualified when we simplify the basic image max-width rule */
+#container #content .timg
 {
 	width: auto;
 	height: auto;
 	max-width: 240px;
 	max-height: 200px;
+	box-sizing: border-box;
 }
 
 img.timg.complete
@@ -2480,16 +2482,20 @@ img.timg.complete
   cursor:pointer;
 }
 
-#thread td.postbody .expanded, .title .expanded, div.postbody .expanded, .banlist table.standard.full td .expanded, .notes .expanded
+#container #content .timg_container.expanded .timg
 {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-#thread td.postbody .constrained, .title .constrained, div.postbody .constrained, .banlist table.standard.full td .constrained, .notes .constrained
+#container #content .timg_container.constrained .timg
 {
 	max-width: min(900px, 100%);
 	max-height: 100%;
+}
+
+.timg_container.constrained {
+	max-width: min(902px, 100%);
 }
 
 .timg_container .note
