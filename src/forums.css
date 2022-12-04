@@ -478,18 +478,6 @@ div.forumbar
   line-height: 15px;
 }
 
-#thread dl.userinfo dd.title .bbc-center ~ br, #thread dl.userinfo dd.special_title br {
-	display: none;
-}
-
-#thread dl.userinfo dd.title br.pb, #thread dl.userinfo dd.title br:nth-last-child(2) {
-	display: none;
-}
-
-#thread dl.userinfo dd.title .bbc-center br, #thread dl.userinfo dd.title a.banlink br {
-	display: inline;
-}
-
 #thread dl.userinfo dd.title img:first-child {
 	padding-bottom: 4px;
 }
