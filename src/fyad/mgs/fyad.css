@@ -516,7 +516,7 @@ body#something_awful.forum_26 a, body#something_awful.forum_26 #content a, body#
     clear: left;
 }
 
-#thread div.title *, .bbc-center, #thread div.title *, .bbc-center
+#thread div.title *, .bbc-center
 {
     text-align: left;
 }
