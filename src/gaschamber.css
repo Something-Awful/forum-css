@@ -131,7 +131,12 @@ body.forum_25
 	background-color:#9ec5a0;
 }
 
-.forum_25 #thread table.post td.userinfo,.forum_25 #thread table.post tr.seen1 td.userinfo,.forum_25 #thread table.post tr.seen2 td.userinfo,.forum_25 #thread table.post td.postbody,.forum_25 #thread table.post tr.seen1 td.postbody,.forum_25 #thread table.post tr.seen2 td.postbody
+.forum_25 #thread table.post td.userinfo
+{
+	font-size: 16px;
+}
+
+.forum_25 #thread table.post td.postbody,.forum_25 #thread table.post tr.seen1 td.postbody,.forum_25 #thread table.post tr.seen2 td.postbody
 {
 	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, "Roboto", sans-serif;
 	font-size:16px;
