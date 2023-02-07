@@ -238,3 +238,43 @@ td.postdate a[href^="#"]
 .bbc-spoiler.stay a:link, .bbc-spoiler.reveal a:link {
 	visibility: visible;
 }
+
+.showthread ul.rating_buttons li:nth-child(1)
+{
+	background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1-1.png) no-repeat center center !important;
+	text-indent: -9999px !important;
+	background-size: cover !important;
+	background-position: 50% 20% !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(2)
+{
+	background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1-2.png) no-repeat center center !important;
+	text-indent: -9999px !important;
+	background-size: cover !important;
+	background-position: 50% 20% !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(3)
+{
+	background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1-3.png) no-repeat center center !important;
+	text-indent: -9999px !important;
+	background-size: cover !important;
+	background-position: 50% 20% !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(4)
+{
+	background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1-4.png) no-repeat center center !important;
+	text-indent: -9999px !important;
+	background-size: cover !important;
+	background-position: 50% 20% !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(5)
+{
+	background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1-5.png) no-repeat center center !important;
+	text-indent: -9999px !important;
+	background-size: cover !important;
+	background-position: 50% 20% !important;
+}
