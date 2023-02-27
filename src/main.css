@@ -301,8 +301,12 @@ div.forumbar {
 	clear:right
 }
 .thread td.title_sticky a.thread_title {
-	padding-left:18px;
-	background:left no-repeat url(//fi.somethingawful.com/sticky.png)
+	padding-left: 20px;
+	background: left no-repeat url(https://i.somethingawful.com/core/icon/fsilk/note_add.png)
+}
+.thread td.sticky_closed a.thread_title {
+	padding-left: 20px;
+	background: left no-repeat url(https://i.somethingawful.com/core/icon/fsilk/note_delete.png)
 }
 .thread td.title a.announcement {
 	font-weight:bold;
