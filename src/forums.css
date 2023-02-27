@@ -539,11 +539,6 @@ ul.postbuttons
   padding-left:10px;
 }
 
-.thread td.title_sticky a.thread_title
-{
-  background-position:0 3px;
-}
-
 #subforums
 {
   table-layout:fixed;
