@@ -179,10 +179,10 @@
 
 #thread dl.userinfo dt.astral
 {
-	background-image:url(https://fi.somethingawful.com/images/usericons/astral_2207.jpg);
+	background-image: url(https://fi.somethingawful.com/images/usericons/astral_2207.jpg);
 	background-size: 20px;
-	padding-left: 23px!important;
-	line-height: 20px!important;
+	padding-left: 24px !important;
+	line-height: 20px !important;
 }
 
 #thread dl.userinfo dt.kensei
