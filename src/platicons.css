@@ -1031,6 +1031,13 @@
 	padding-left: 22px !important;
 }
 
+#thread dl.userinfo dt.lefthorse-red {
+	background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-red.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
 #thread dl.userinfo dt.lefthorse-blue {
 	background-image: url(https://fi.somethingawful.com/images/svgs/lefthorse-blue.svg);
 	background-size: 20px;
