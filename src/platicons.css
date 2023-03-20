@@ -814,20 +814,6 @@
 	line-height: 20px !important;
 }
 
-#thread dl.userinfo dt.roth-blue {
-	background-image: url(https://fi.somethingawful.com/images/svgs/roth-blue.svg);
-	background-size: 20px;
-	padding-left: 22px !important;
-	line-height: 20px !important;
-}
-
-#thread dl.userinfo dt.roth {
-	background-image: url(https://fi.somethingawful.com/images/svgs/roth-black.svg);
-	background-size: 20px;
-	padding-left: 22px !important;
-	line-height: 20px !important;
-}
-
 #thread dl.userinfo dt.razz-blue {
 	background-image: url(https://fi.somethingawful.com/images/svgs/razz-blue.png);
 	background-size: 20px;
