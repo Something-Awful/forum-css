@@ -3029,6 +3029,19 @@ body#something_awful  #copyright {
 	background: #B8B8E6;
 }
 
+/* BYOB AI outpost thread list entry */
+#forum tr#thread4027510 td.title {
+	background: #ccf;
+}
+
+#forum tr#thread4027510 td.star, #forum tr#thread4027510 td.icon, #forum tr#thread4027510 td.author, #forum tr#thread4027510 td.views,#forum tr#thread4027510 td.lastpost,#forum tr#thread4027510 td.button_remove {
+	background: #b9e7e7;
+}
+
+#forum tr#thread4027510 td.rating, #forum tr#thread4027510 td.replies {
+	background: #B8B8E6;
+}
+
 /* ------------- CP Tweaks --------------------- */
 
 #cpmain .private_messages table td.title, #cpmain #forum td.title a.thread_title, .privfolder #content table tr td.title {

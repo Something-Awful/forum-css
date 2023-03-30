@@ -802,6 +802,18 @@ body.forum_267, body.forum_680  {
 	background: #140033;
 }
 
+/* AI outpost */
+#forum tr#thread4027510 td.title {
+	background-image: linear-gradient(147deg, #3a0069 0%, #1b1c22 74%);
+}
+#forum tr#thread4027510 td.star, #forum tr#thread4027510 td.icon, #forum tr#thread4027510 td.author, #forum tr#thread4027510 td.views, #forum tr#thread4027510 td.lastpost, #forum tr#thread4027510 td.button_remove {
+	background: #002033;
+}
+
+#forum tr#thread4027510 td.rating, #forum tr#thread4027510 td.replies {
+	background: #140033;
+}
+
 /* System Message */
 #system {
 	background:#508827;
