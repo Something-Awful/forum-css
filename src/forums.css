@@ -1963,12 +1963,13 @@ h1.topic
 
 .getinfo table.standard td.info
 {
-  background-color:#F4F4F4;
-  padding-left:18px;
-  padding-right:12px;
-  background-image:url(//i.somethingawful.com/images/forumdisplay-grad.png);
-  background-repeat:repeat-x;
-  background-position:bottom;
+	background-color: #F4F4F4;
+	padding-left: 18px;
+	padding-right: 12px;
+	background-image: url(//i.somethingawful.com/images/forumdisplay-grad.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	overflow-wrap: anywhere;
 }
 
 .listedit .standard input.bginput
