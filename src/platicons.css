@@ -208,6 +208,11 @@
 	background-image:url(//downloads.somethingawful.com/misc/book.svg);
 }
 
+#thread dl.userinfo dt.book-black
+{
+	background-image:url(https://fi.somethingawful.com/images/svgs/book-black.svg);
+}
+
 #thread dl.userinfo dt.tragedy
 {
 	background-image:url(//downloads.somethingawful.com/misc/tragedy.svg);
