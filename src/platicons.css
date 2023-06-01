@@ -205,12 +205,18 @@
 
 #thread dl.userinfo dt.book
 {
-	background-image:url(//downloads.somethingawful.com/misc/book.svg);
+	background-image: url(//downloads.somethingawful.com/misc/book.svg);
+	background-size: 18px;
+	padding-left: 20px!important;
+	line-height: 18px!important;
 }
 
 #thread dl.userinfo dt.book-black
 {
-	background-image:url(https://fi.somethingawful.com/images/svgs/book-black.svg);
+	background-image: url(https://fi.somethingawful.com/images/svgs/book-black.svg);
+	background-size: 18px;
+	padding-left: 20px!important;
+	line-height: 18px!important;
 }
 
 #thread dl.userinfo dt.tragedy
