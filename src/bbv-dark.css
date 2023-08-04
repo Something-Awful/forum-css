@@ -105,6 +105,6 @@ p.signature {
 .bbc-spoiler li,
 .bbc-spoiler code,
 .bbc-spoiler pre {
-  background-color: #090430 !important;
+  background-color: #090430;
   color: transparent;
 }
