@@ -79,3 +79,32 @@ a:hover:visited {
 p.signature {
   color: #fff;
 }
+
+#container {
+  background: url(//fi.somethingawful.com/274/bbv-popcorn.png) repeat-x bottom;
+  padding-bottom: 50px;
+}
+
+.bbc-spoiler {
+  text-shadow: none;
+  color: transparent;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAKCAYAAACNHg34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC60lEQVRYhe2Xv0scQRTHP09SHgHBRlIYCCkCgiAWFoIp0gaUFDaCYCxMd5L2/gOL2AQsDCGVSREUUsbiQrQ7BMFOU0iQlJcipFF4KWbmdnZub3Z2/ZHGLwzs7JvvfN9783ZmVlSVO9yhDoYAEOkiokHb6o0S2QpsXURmrG0MkZPAvmBtzYJ5Db9M13F9iLSTuCkwc/ncpmdbCGwniIxVmLuJyAUiJ8mcMl0TbzuiVy/P+Xx0q7h7z3s+Bd7a5zlgGZGvtr8MfAN2bX8deA88BvaAh8Cax91GxNdZI49fibplKOaqfkrgtoDXlrcG7ADYwt+mP949TLxxGP46cAE8sgu+hOpZAq++rkH1PKflqhB+8ZyjumGfN+xXP2r7gurT3kiROWDC9kaAg4DbBs57/MxWhJhuGepzVfcRmQLmAv9G6Y8XYLx0zqwAfgDPgGngI2kFUF/X4ebyXAi/eCa8bXECuAQ6wFTJHEfAbG5LdQkwi0Ow3e4GQdbVvSl0gEu7hR/Zd7uoriRwXQG4QjlD5BXZh3ZTugbxPF87/OJpALP2+Tew6H2dMSwBH8gS1EDkL/DEG+Mn7zTgN3Jcs93/5H8Vj4l5Edj0/JpFZDx5IfOLmFI416Mbz/O1wy+eA6CLOQ8/VzgLp4EWqvsA9iL9HZjvjVAdjvAPvJ2qn3vbMBfU0ZzP5uL7AqiziA3gz63oxvNchlPgfhXCUCA+D7wDXhbcxptez0/OJvDF619lx+jnDtaNjbsK5oE3wXwjlWZQHe4181Hejm4qinKluoLqZKV5VBWFrkJbVV1/S0EVmrZ/aPuuXSgsWNuM5ft2x2sG713rerqh7dDzI6Yb55Y1aBf6nI8/72/5nCbefp1U/mDd4njVal4tz1X9tM0dW6uYv6OsCkWOcb+vqpNBtXZ6x5Q5q5/j7xrZRW1nQM26X8hVwhu/f8mL6ZZxy9Eiv9NlvmbxZ7ppKIq3BTxIYsd1++MdrOmQlueqflr8AxUWjPwGU80CAAAAAElFTkSuQmCC)
+    left center repeat-x #fff;
+  outline: 1px solid red;
+}
+
+.bbc-spoiler.reveal li,
+.bbc-spoiler.reveal,
+.bbc-spoiler.stay {
+  background: #fff;
+  outline: none;
+  color: #111;
+}
+
+.bbc-spoiler,
+.bbc-spoiler li,
+.bbc-spoiler code,
+.bbc-spoiler pre {
+  background-color: #090430 !important;
+  color: transparent;
+}
