@@ -1,0 +1,81 @@
+body {
+  background: url(//fi.somethingawful.com/274/bbv-bg-dark.jpg) #1a3471 !important;
+  background-size: 100% !important;
+}
+
+/* brighter registration date */
+.registered {
+  color: #ccc !important;
+}
+
+#thread tr.altcolor1 td,
+#something_awful.announcement #thread table.post,
+#something_awful.announcement #thread td {
+  background-color: #1f296e !important;
+}
+
+#thread tr.altcolor2 td {
+  background-color: #1c245f !important;
+}
+
+.bbc-block {
+  background-color: #091634 !important;
+  border-color: #153276 !important;
+  box-shadow: none !important;
+}
+
+.bbc-block.userquoted {
+  background-color: #7e017d !important;
+}
+
+.forum_274 .breadcrumbs a.up,
+.forum_274 .breadcrumbs a.bclast,
+.forum_274 .breadcrumbs .online_users,
+.forum_274 .breadcrumbs .mainbodytextlarge b {
+  box-shadow: none !important;
+  background: #0f1d3f !important;
+  border: 1px solid #b4a363 !important;
+}
+
+a,
+#nav_purchase a,
+#thread td.postbody,
+#thread dl.userinfo,
+#forum td.replies,
+#forum td.views,
+#forum td.author,
+a:visited,
+body,
+#copyright a,
+.gloryhole div#main_small table.stats td,
+.online_users div.inner,
+div.breadcrumbs a:not(:hover),
+#index a,
+#index :visited,
+.breadcrumbs a,
+.pages a,
+.pages .disabled,
+select,
+.postbody a.quote_link,
+.forumhome #navigation.navigation a,
+div#buddylist dl.online a.user,
+#forum td.title div.lastseen a.x,
+#subforums tr.subforum td.title a,
+.letternav li,
+#something_awful.announcement td.postbody a,
+input,
+button,
+#thread dl.userinfo dt.author.op,
+.searchresults .hit_info .forumtitle a {
+  color: #fed90e;
+}
+
+a:hover,
+a:hover:visited {
+  text-decoration: underline;
+  color: #a701b1;
+}
+
+p.signature {
+  color: #fff;
+}
