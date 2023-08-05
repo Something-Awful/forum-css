@@ -96,9 +96,9 @@ p.signature {
 .bbc-spoiler.reveal li,
 .bbc-spoiler.reveal,
 .bbc-spoiler.stay {
-  background: #fff;
+  background: #111;
   outline: none;
-  color: #111;
+  color: #fff;
 }
 
 .bbc-spoiler,
@@ -107,4 +107,83 @@ p.signature {
 .bbc-spoiler pre {
   background-color: #090430;
   color: transparent;
+}
+
+img.bookmark {
+  height: 0;
+  width: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-image: url(//fi.somethingawful.com/274/bbv-star0.png);
+  background-size: 100%;
+}
+
+img.unbookmark {
+  height: 0;
+  width: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-image: url(//fi.somethingawful.com/274/bbv-star1.png);
+  background-size: 100%;
+}
+
+#thread td.postdate .lastseen_icon {
+  background: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAALUlEQVQ4jWNkNN38n4ECwESJ5sFhAAu6wL9TPvhtNNtCXReMGjAYDGAczQsMALzSBvGzsKg9AAAAAElFTkSuQmCC)
+    no-repeat center center;
+  margin-right: 4px;
+}
+
+#thread td.postdate .lastseen_icon img {
+  position: relative;
+  z-index: -1;
+}
+
+td.postdate a.user_jump {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9ElEQVQ4jWNkNN38n4ECwESJZgYGBgYWbIL2GtwM0Z5SKGJLtz9jOHjjK4ZaRmxeeLzJkUFaghtF7OmLrwyyfvsxDMDwws2VtgzSEtwMT198ZZiz/CbDnOU3GZ6++MogLcHNcHOlLXFeuH3/I4N6+GGEQP9thk/73RkkxbgIG4CiEQpmFaoycHKwMHz/8YewF9BBU6wcQ2KYGgMzMyPDhHnXSTOgKVaOoSZXj4GBgYGhZfIlhrrFj0gzoCBJk+Hv3/8M81fdwqqZgQFHIMIAzMm4NBN0ATEAa0KCgU/73RkYGBgY+Bx34jSAKC+Q7QJiAMVhAAAS80mCjguZiwAAAABJRU5ErkJggg==)
+    no-repeat center center;
+}
+
+td.postdate a[href*="action=showpost"] {
+  background: url(data:image/gif;base64,R0lGODlhEAAKAKIFABgYGPj4+Li4uNjY2ICAgAAAAAAAAAAAACH5BAEAAAUALAAAAAAQAAoAAAMuCLrcBSNIJaQNK05QbxDM1inSABSPWGomCqgecaYYJxG4jNLUpuw8Gwa4azCICQA7)
+    no-repeat center center;
+}
+
+td.postdate a[href^="#"] {
+  background: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAz0lEQVQ4jWNkNN38n4ECwESJZqINyPYUYwi3EiTegGxPMYbZRWoMjprcDAwMDAyTG80YKtM1iDfAQFOAITlCjUFLgRsupizPx3BhoSWGS/B6oTBZg+HCQksGBgYGBm4uVgY9TWEGEX5WFDUs6Jr+nfKBs5Xk+ODsS9ffMhjEHyfshUvX3zK8evOdgYGBgSG3/hQDk9kWfI7ENMAg/jjD5j2PMRSO9DC4dP0tw817n7AawIgtMzlqcjNoKXAz7D77geHWq194XYDVAFIAxbkRAJCPSLonxUcfAAAAAElFTkSuQmCC)
+    no-repeat center center;
+}
+
+#copyright a {
+  color: #fed90e;
+}
+#copyright {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #182543;
+}
+
+.showthread ul.rating_buttons li:nth-child(1) {
+  background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_1.png) no-repeat center center !important;
+  text-indent: -9999px !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(2) {
+  background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_2.png) no-repeat center center !important;
+  text-indent: -9999px !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(3) {
+  background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_3.png) no-repeat center center !important;
+  text-indent: -9999px !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(4) {
+  background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_4.png) no-repeat center center !important;
+  text-indent: -9999px !important;
+}
+
+.showthread ul.rating_buttons li:nth-child(5) {
+  background: #555 url(https://fi.somethingawful.com/images/customratings/impzone_rating_5.png) no-repeat center center !important;
+  text-indent: -9999px !important;
 }
