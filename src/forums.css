@@ -1054,6 +1054,11 @@ td.title div.title_pages,#forum td.lastpost,#forum td.lastpost div.date,#forums 
   padding-left:0;
 }
 
+#forum td.author {
+	max-width: 12em;
+	overflow-wrap: break-word;
+}
+
 #cpmain .private_messages table td.status
 {
   background-color:#E8E8E8;
