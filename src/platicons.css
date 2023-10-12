@@ -1063,6 +1063,27 @@
 	padding-left: 22px !important;
 }
 
+#thread dl.userinfo dt.ghost {
+	background-image: url(https://fi.somethingawful.com/images/svgs/ghost.svg);
+	background-size: 20px;
+	line-height: 20px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.bat {
+	background-image: url(https://fi.somethingawful.com/images/svgs/bat.svg);
+	background-size: 20px;
+	line-height: 18px !important;
+	padding-left: 22px !important;
+}
+
+#thread dl.userinfo dt.pumpkin {
+	background-image: url(https://fi.somethingawful.com/images/svgs/pumpkin.svg);
+	background-size: 20px;
+	line-height: 18px !important;
+	padding-left: 22px !important;
+}
+
 /* --------------- BIG HORRIBLE CONTEST RESULTS -------------------- */
 
 #thread dl.userinfo dt.theshortestpath {
