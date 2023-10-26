@@ -60,14 +60,14 @@ ul.navigation,
 div.pages > *,
 div.threadbar,
 td.title div.lastseen,
-td.title div.lastseen a.x,
+#forum td.title div.lastseen a.x,
 * > .bbc-block,
 table#main_full > thead > tr > th,
 div#mods,
 a.index,
 a.up > span
 {
-    background-image: none !important;
+    background-image: none;
     background-color: rgb(90, 0, 138) !important;
 }
 
