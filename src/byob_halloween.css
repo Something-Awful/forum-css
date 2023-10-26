@@ -12,7 +12,7 @@ table.standard tr td.altcolor1, .altcolor1, tr.altcolor1 td, td.altcolor1, tr.al
 body
 {
     background-color: #000;
-    background-image: url(https://i.imgur.com/LJRLvp5.jpg);
+    background-image: url(https://fi.somethingawful.com/byob/byob_halloween_background.jpg);
     background-repeat: repeat
 }
 
@@ -89,7 +89,7 @@ div#thread > table.post > tbody > tr.altcolor2 > td
 
 #content::after
 {
-  content:url(https://imgur.com/7Wyacbv.gif);
+  content:url(https://fi.somethingawful.com/byob/byob_halloween_cat.gif);
   position:absolute;
   opacity:.8;
   top:21px;
