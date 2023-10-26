@@ -1,0 +1,98 @@
+.bbc-spoiler
+{
+    text-shadow: none;
+}
+table,
+table.standard tr td.altcolor2, .altcolor2, tr.altcolor2 td, td.altcolor2, tr.altcolor2 td.userinfo, tr.altcolor2 td.postdate,
+table.standard tr td.altcolor1, .altcolor1, tr.altcolor1 td, td.altcolor1, tr.altcolor1 td.userinfo, tr.altcolor1 td.postdate
+{
+    background: none !important;
+}
+
+body
+{
+    background-color: #000;
+    background-image: url(https://i.imgur.com/LJRLvp5.jpg);
+    background-repeat: repeat
+}
+
+td,
+a,
+div.toggle_tags,
+blockquote,
+#thread dl.userinfo *,
+div#copyright,
+table#main_full > thead > tr > th,
+div#mods,
+select
+{
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1) !important
+}
+
+a.thread_title
+{
+    color: rgba(251, 192, 45, 1) !important;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1) !important
+}
+
+td.title,
+td.replies,
+td.rating,
+td.posts,
+td.button_remove,
+tr.altcolor1 > td,
+div#thread > table.post > tbody > tr.altcolor1 > td,
+div#copyright,
+table#main_full > tbody > tr:nth-child(1) > td,
+table#main_full > tbody > tr:nth-child(3) > td,
+table#main_full > tbody > tr:nth-child(5) > td,
+table#main_full > tbody > tr:nth-child(6) > td,
+td.star
+{
+    background-image: none !important;
+    background-color: rgba(255, 67, 34, 0.95) !important;
+}
+
+div#filter,
+ul.navigation,
+div.pages > *,
+div.threadbar,
+td.title div.lastseen,
+td.title div.lastseen a.x,
+* > .bbc-block,
+table#main_full > thead > tr > th,
+div#mods,
+a.index,
+a.up > span
+{
+    background-image: none !important;
+    background-color: rgb(90, 0, 138) !important;
+}
+
+td.title div.lastseen a.x
+{
+    background-color: rgba(255, 152, 0, 0.9) !important;
+}
+
+td.author,
+td.views,
+td.lastpost,
+td.icon,
+td.topics,
+tr.altcolor2 > td,
+div#thread > table.post > tbody > tr.altcolor2 > td
+{
+    background-color: rgba(255, 152, 0, 0.95) !important;
+}
+
+#content::after
+{
+  content:url(https://imgur.com/7Wyacbv.gif);
+  position:absolute;
+  opacity:.8;
+  top:21px;
+  left:0;
+  pointer-events:none
+}
