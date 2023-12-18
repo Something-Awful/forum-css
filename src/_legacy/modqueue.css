@@ -1,0 +1,608 @@
+form {
+	margin: 0;
+	padding: 0
+}
+
+select {
+	font-size: 9px
+}
+
+.sortbox {
+	font-size: 10px
+}
+
+.s_button {
+	font-size: 9px;
+	padding: 0
+}
+
+.autobox, #main_full.autobox {
+	width: auto;
+	float: left;
+	clear: both;
+	margin-bottom: 2em
+}
+
+div.mqfilter {
+	border-radius: 4px;
+	-moz-border-radius: 4px
+}
+
+div.mqfilter {
+	margin-bottom: 1em;
+	font-size: 11px
+}
+
+div.mqfilter {
+	border: 1px #ccc solid;
+	background: #f6f6f6;
+	padding: 8px
+}
+
+div.mqfilter h4 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6px;
+	color: #444
+}
+
+div.mqfilter label, h6 {
+	display: inline;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4px;
+	margin-left: 6px
+}
+
+div.mqfilter .statuses {
+	margin-top: 12px
+}
+
+div.mqfilter .statuses input {
+	margin: 0;
+	margin-left: 9px;
+	margin-bottom: 3px;
+	vertical-align: middle;
+	cursor: pointer
+}
+
+div.mqfilter .statuses label {
+	padding: 0;
+	margin: 0;
+	padding-left: 2px;
+	cursor: pointer;
+	color: #227
+}
+
+div.mqresults {
+	clear: both
+}
+
+div.mqresults .noresults {
+	font-size: 16px;
+	color: #722;
+	padding-left: 28px;
+	background: no-repeat 6px 0 url('https://i.somethingawful.com/core/icon/fsilk/error.png')
+}
+
+div.pages {
+	display: block;
+	float: right
+}
+
+/* This one isn't necessary
+div.queue_info {
+	clear: both
+}
+*/
+
+.queue_cmd {
+	font-size: 11px;
+	margin-top: 4px
+}
+
+.modqueue #content {
+	max-width: 120em;
+	margin: auto;
+}
+
+table#modqueue {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+	border: 1px #ccc solid;
+	clear: both;
+	table-layout: fixed;
+}
+
+#modqueue .status-header {
+	width: 8em;
+}
+#modqueue .action-header {
+	width: 11em;
+}
+#modqueue .reqby-header {
+	width: 14em;
+}
+#modqueue .username-header {
+	width: 14em;
+}
+
+table#modqueue th {
+	vertical-align: top
+}
+
+table#modqueue td {
+	border: 1px #ddd solid
+}
+
+table#modqueue td {
+	white-space: nowrap;
+	padding: 8px;
+	margin: 0;
+	vertical-align: top
+}
+
+table#modqueue tr.header th {
+	background: #069;
+	font-size: 10px;
+	font-weight: normal;
+	color: white;
+	border: 1px #999 solid
+}
+
+#modqueue tr.request.accepted.alt1 td {
+	background-color: #ecffec
+}
+
+#modqueue tr.request.accepted.alt2 td {
+	background-color: #f4fff4
+}
+
+#modqueue tr.request.retracted.alt1 td {
+	background-color: #fbece4
+}
+
+#modqueue tr.request.retracted.alt2 td {
+	background-color: #fbece4
+}
+
+#modqueue tr.request.declined.alt1 td {
+	background-color: #f3d3d3
+}
+
+#modqueue tr.request.declined.alt2 td {
+	background-color: #fdd
+}
+
+#modqueue tr.alt1 td {
+	background-color: #f1f1f1
+}
+
+#modqueue tr.alt2 td {
+	background-color: #fff
+}
+
+#modqueue td.status h3 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 0 8px 4px;
+	padding: 2px 2px 2px 14px;
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	text-transform: capitalize
+}
+
+#modqueue tr.request.accepted td.status h3 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/accept.png')
+}
+
+#modqueue tr.request.declined td.status h3 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/delete.png')
+}
+
+#modqueue tr.request.retracted td.status h3 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/exclamation.png')
+}
+
+#modqueue tr.request.queued td.status h3 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/hourglass.png')
+}
+
+#modqueue td.requestid {
+	font-size: 12px;
+	font-family: 'courier new', serif;
+	text-align: center
+}
+
+#modqueue td.username {
+	font-weight: bold;
+}
+
+#modqueue td.username a {
+	padding-left: 19px;
+	background: no-repeat url('https://i.somethingawful.com/core/icon/fsilk/user_green.png') 0 50%;
+	white-space: inherit;
+	height: auto;
+	overflow-wrap: break-word;
+}
+
+#modqueue td.notes {
+	white-space: normal
+}
+
+#modqueue td.notes th {
+	text-align: right
+}
+
+#modqueue td.notes td {
+	border: 0;
+	white-space: normal;
+	padding: 0;
+	margin: 0;
+	background: none;
+	width: 25em
+}
+
+#modqueue .checkboxes {
+	text-align: center;
+	font-size: 9px;
+	color: #555;
+	border: 0;
+	padding: 4px;
+	margin: 0
+}
+
+#modqueue .checkboxes img {
+	cursor: pointer;
+	display: block;
+	margin-bottom: 10px;
+	max-width: 100%;
+	width: 180px;
+	height: auto;
+}
+
+.action .type, .action .type a {
+	font-weight: bold
+}
+
+.action .data {}
+
+#modqueue .moderator .modname {
+	font-weight: bold;
+	padding-left: 18px;
+	background: no-repeat 0 2px;
+	background-image: url('https://fi.somethingawful.com/star_ik2.gif');
+	background-position: left;
+	white-space: inherit;
+	height: auto;
+	overflow-wrap: break-word;
+}
+
+#modqueue .moderator .usergroup6 {
+	background-image: url('https://fi.somethingawful.com/star_admin.gif');
+}
+
+#modqueue .moderator .usergroup112 {
+	background-image: url('https://fi.somethingawful.com/star_moderator.gif');
+}
+
+#modqueue .moderator .usergroup147 {
+	background-image: url('https://fi.somethingawful.com/star_supermod.gif');
+}
+
+.notes .nbox {
+	padding: 2px 4px 4px 4px;
+	margin-bottom: 4px;
+	font-size: 15px;
+	color: #444;
+	border: 1px solid #d6d6df;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	word-wrap: break-word;
+}
+
+.notes .nbox h6 {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/note.png');
+	margin: 0;
+	padding: 0;
+	padding-left: 15px;
+	margin-bottom: 4px;
+	font-size: 10px;
+	color: #555
+}
+
+.notes .nbox span {
+	display: block;
+	padding-left: 16px
+}
+
+.notes .nbox.reason h6 {}
+
+.notes .nbox.modnote h6 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/comment.png')
+}
+
+.notes .nbox.processed h6 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/cog.png')
+}
+
+.notes .nbox.origin h6 {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk-tiny/12/house.png')
+}
+
+div.process_button {
+	text-align: right
+}
+
+div.process_button input {
+	font-size: 10px;
+	border: 1px #999 solid;
+	margin: 4px
+}
+
+.ui-pb {
+	margin-top: 1em;
+	border: 0
+}
+
+.ui-pb .ui-progressbar-value {
+	background-color: #fff;
+	border: 0;
+	height: 48px;
+	background-image: url('https://i.somethingawful.com/core/jquery-ui/pbar-ani.gif')
+}
+
+.retract-ctl {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk/arrow_rotate_clockwise.png');
+	background-repeat: no-repeat;
+	background-position: .3em center;
+	text-transform: capitalize;
+	background-color: #f0f0f0;
+	border: 1px #aaa solid;
+	color: #666;
+	width: 5em;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 11px;
+	padding: 0;
+	padding-left: 1.9em;
+	margin: 0;
+	line-height: 1.7em;
+	margin-top: 1em;
+	vertical-align: middle
+}
+
+.modqueue #main_full.autobox {
+	float: none;
+	margin-bottom: 0
+}
+
+.modqueue #main_full.autobox form#mq p, .modqueue #main_full.autobox form#mq br {
+	display: block;
+	margin: 0;
+	content: " "
+}
+
+.modqueue #main_full.autobox input.s_button {
+	font-size: 11px;
+	padding: 1px 6px;
+	float: left
+}
+
+.modqueue table#modqueue td {
+	padding-left: 0;
+	padding-right: 0
+}
+
+#modqueue tr.request.accepted.alt2 td {
+	background-color: #E6DCBE
+}
+
+#modqueue tr.request.accepted.alt1 td {
+	background-color: #ded3b1
+}
+
+.modqueue #main_full.standard.autobox h2 {
+	padding-left: 14px
+}
+
+table#modqueue td {
+	white-space: normal!important
+}
+
+#modqueue tr.request.accepted.alt1 td {
+	background-color: #ece5d0
+}
+
+#modqueue tr.request.accepted.alt2 td {
+	background-color: #e6ddc3
+}
+
+#modqueue tr.request.queued.alt1 td {
+	background-color: #f8f8f8
+}
+
+#modqueue tr.request.queued.alt2 td {
+	background-color: #f5f5f5
+}
+
+#modqueue.notes .nbox {
+	border: 1px solid #AAA
+}
+
+#modqueue tr.request td.notes div.nbox.reason,
+#modqueue tr.request td.notes div.nbox.origin,
+#modqueue tr.request td.notes div.nbox.modnote,
+#modqueue tr.request td.notes .nbox.processed {
+	padding: 6px 8px 8px 10px
+}
+
+#modqueue tr.request.queued td.notes div.nbox.reason, #modqueue tr.request.queued td.notes div.nbox.origin {
+	background: #FFF;
+	box-shadow: 1px 1px 1px #CCC
+}
+
+#modqueue .checkboxes {
+	padding-left: 0
+}
+
+.modqueue table#modqueue tbody {}
+
+.modqueue div.process_button input {}
+
+#modqueue .notes .nbox span {
+	padding-left: 0
+}
+
+table#modqueue tr.request td {
+	border: 1px #bbb solid;
+	padding: 8px 10px
+}
+
+#modqueue td.notes td {
+	width: auto
+}
+
+table#modqueue tr.header th {
+	background-color: #455a63;
+	color: #D0E2EB;
+	font-family: Arial;
+	line-height: 20px;
+	text-decoration: none;
+	padding-left: 2px;
+	text-shadow: 1px 1px #33424A;
+	text-align: left;
+	padding-left: 12px
+}
+
+.modqueue div.queue_info div.pages {
+	padding-bottom: 0;
+	margin-bottom: 6px;
+}
+
+div.process_button {
+	text-align: right;
+	width: auto;
+	display: inline-block;
+	float: right
+}
+
+.modqueue .queue_cmd {
+	font-size: 11px;
+	margin-top: 4px;
+	line-height: 28px;
+	margin-bottom: 4px
+}
+
+.modqueue div.standard div.inner {
+	padding-bottom: 42px
+}
+
+.modqueue .bottom {
+	margin-top: 8px
+}
+
+.modqueue div.process_button.bottom input {
+	margin-top: 3px
+}
+
+.modqueue select {
+	font-size: 14px
+}
+
+.modqueue div.pages.bottom {
+	margin-bottom: 0;
+	padding-bottom: 0
+}
+
+.modqueue div.process_button input {
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 0;
+	line-height: 18px
+}
+
+.modqueue div.process_button.bottom input {
+	margin-right: 20px;
+	margin-top: 0
+}
+
+.modqueue #main_full .queue_cmd a {
+	border: 1px solid #949494;
+	text-decoration: none;
+	display: inline-block;
+	white-space: nowrap;
+	padding: 0 3px;
+	text-align: center;
+	border-radius: 6px;
+	background-image: url(https://i.somethingawful.com/images/30x5black.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	text-shadow: 1px 1px 0 #EEE;
+	box-shadow: inset 1px 1px 1px #FFF, inset -1px -1px 1px #BBB
+}
+
+.modqueue #main_full .queue_cmd a:hover {
+	box-shadow: inset 1px 1px 1px #FD735F, inset -1px -1px 1px #8a3023;
+	border: 1px #3D1C17 solid;
+	background-color: #B05042;
+	color: white;
+	text-shadow: 1px 1px 0 #333
+}
+
+.modqueue #modqueue .notes .nbox.origin h6, .modqueue #modqueue .notes .nbox.reason h6, .modqueue #modqueue .notes .nbox.processed h6 {
+	display: inline-block
+}
+
+#modqueue tr.request.accepted td.notes .nbox {
+	border: 1px solid #B3AC95;
+	background: #f2efe8;
+	box-shadow: 1px 1px 1px #c9b98c
+}
+
+.modqueue div.mqfilter .statuses {
+	display: inline
+}
+
+.modqueue #modqueue td.notes a {
+	display: inline;
+	white-space: normal!important
+}
+
+.notes img {
+	height: auto;
+	width: auto;
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 33vh;
+}
+
+#modqueue .checkboxes img:nth-last-of-type(n+2) {
+  margin-bottom: 40px;
+}
+
+#modqueue .status, #modqueue .status-header {
+	max-width: 5em;
+}
+
+@media screen and (max-width: 1024px) {
+	#modqueue, #modqueue .notes .nbox {
+		font-size: 24px;
+	}
+	#modqueue .notes .nbox h6 {
+		font-size: 18px;
+		background-position-y: 3px;
+	}
+	#modqueue td.status, #modqueue td.status h3, #modqueue div.process_button input {
+		font-size: 18px;
+	}
+	#modqueue div.process_button.bottom {
+		margin-top: 2px;
+	}
+}

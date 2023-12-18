@@ -1,0 +1,113 @@
+/* We do not style every jquery-ui dialog
+.ui-dialog {
+	font-size: 11px
+}
+*/
+
+div.modqueue_ctl {
+	display: none;
+	background: #fafafa;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	font-family: 'Tahoma', sans-serif;
+	color: #666;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-image: url('//fi.somethingawful.com/star_moderator.gif');
+	margin: 0 2px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px #999 solid;
+	width: 20px;
+	height: 20px;
+	font-weight: bold;
+	cursor: pointer
+}
+
+div.modqueue_ctl.busy {
+	opacity: .4;
+	filter: alpha(opacity=40);
+	-ms-filter: "alpha(opacity=40)"
+}
+
+div.modqueue_ctl.active.busy {
+	border-radius-bottomleft: 0;
+	border-radius-bottomright: 0;
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-bottomright: 0;
+	background-color: #fcfcde;
+	border-bottom: 0;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	-ms-filter: "alpha(opacity=100)"
+}
+
+.post ul.postbuttons {
+	float: right
+}
+
+.post ul.postbuttons li {
+	float: left;
+	padding-right: 4px
+}
+
+.modqueue_ctl_postmenu {
+	display: none;
+	position: absolute;
+	width: 150px;
+	border: 1px #959595 solid
+}
+
+.modqueue_ctl_postmenu ul {
+	margin: 0;
+	padding: 0
+}
+
+.modqueue_ctl_postmenu li {
+	border-top: 1px #eee solid;
+	background-color: #fcfcde;
+	list-style: none;
+	background-repeat: no-repeat;
+	padding: 4px;
+	font-size: 11px;
+	font-family: 'Tahoma', 'Arial', sans-serif
+}
+
+.modqueue_ctl_postmenu li.header {
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	background-color: #fbfcbe;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 19px;
+	background-position: 4px 5px
+}
+
+.modqueue_ctl_postmenu li.header.reward {
+	background-image: url('//i.somethingawful.com/core/icon/fsilk-tiny/12/rosette.png')
+}
+
+.modqueue_ctl_postmenu li.header.punish {
+	background-image: url('//i.somethingawful.com/core/icon/fsilk-tiny/12/sport_8ball.png');
+	border-top: 0
+}
+
+.modqueue_ctl_postmenu li.item {
+	padding: 0
+}
+
+.modqueue_ctl_postmenu li.item a {
+	color: #444;
+	display: block;
+	text-decoration: none;
+	padding: 3px 4px 3px 16px;
+	background-repeat: no-repeat;
+	background-image: url('//i.somethingawful.com/core/icon/fsilk/bullet_orange.png');
+	background-position: 0 2px
+}
+
+.modqueue_ctl_postmenu li.item a:hover {
+	background-color: #f7d365;
+	text-decoration: underline
+}

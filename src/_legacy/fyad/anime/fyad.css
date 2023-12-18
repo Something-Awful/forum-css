@@ -1,0 +1,703 @@
+﻿body#something_awful.forum_26
+{
+    background: url('p4bg.png') #fde732 repeat !important;
+    color: #fff8f2;
+
+}
+
+body#something_awful.forum_26 a:hover
+{
+    color: #600;
+}
+
+body#something_awful.forum_26 a:active
+{
+    color: #f09;
+}
+
+#notregistered, #searchboxes
+{
+    background: none;
+}
+
+body#something_awful.forum_26 #nav_purchase
+{
+    background: #433d2d;
+    border-radius: 0;
+    border: 2px #fde732 solid;
+    border-bottom: 0;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+body#something_awful.forum_26 #nav_purchase::after
+{
+    width: 102%;
+    height: 100%;
+    background: #fde732;
+    content: "";
+    position: absolute;
+    left: -1%;
+    transform: rotate(-0.5deg);
+    z-index: -1;
+}
+#navigation::after, .navigation::after
+{
+    width: 102%;
+    height: 100%;
+    background: #433d2d;
+    content: "";
+    position: absolute;
+    left: -1%;
+    transform: rotate(-0.5deg);
+    z-index: -1;
+}
+body#something_awful.forum_26 #navigation, body#something_awful.forum_26 .navigation
+{
+    background: #fde732 !important;
+    border-radius: 0 !important;
+    border: 2px #433d2d solid !important;
+    border-top: 0;
+    color: #433d2d !important;
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}
+    #navigation a, .navigation a
+    {
+        /* lol line 69 this is some fucking funny shit */
+    color: #433d2d !important; 
+    }
+
+#ad_banner_user
+{
+    margin-top: 90px;
+}
+
+#ad_banner_user::before
+{
+    content: "";
+    width: 267px;
+    height: 150px;
+    background: url('nanako_eat.png');
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    margin-left: -134px;
+    margin-top: -150px;
+}
+body#something_awful.forum_26 .pages a, body#something_awful.forum_26 .pages span, body#something_awful.forum_26 .pages select, body#something_awful.forum_26 .index, body#something_awful.forum_26 td.postlinks a, body#something_awful.forum_26 .postdate a
+{
+    background: #fde732 !important;
+    border: 3px #433d2d solid !important;
+    position: relative;
+    border-radius: 0 !important;
+    color: #433d2d !important;
+}
+body#something_awful.forum_26 .postdate
+{
+    color:#433d2d !important;
+}
+.pages a::after,.pages select::after,.pages span::after, .index::after, td.postlinks a::after, .postdate a::after
+{
+    width: 130%;
+    height: 110%;
+    background: #433d2d;
+    content: "";
+    position: absolute;
+    left: -15%;
+    margin-top: 0px;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+.lastseen
+{
+    transform: rotate(-5deg);
+    background: #fde732 !important;
+    color: #433d2d !important;
+}
+    .lastseen a
+    {
+    background: #fde732 !important;
+    color: #433d2d !important;
+    }
+
+
+
+
+#forum th, #forum th a, div.threadbar, div.forumbar
+{
+    color: white;
+}
+
+#thread div.quote
+{
+    border-color: #aaa;
+}
+
+body#something_awful.forum_26 #forum th, body#something_awful.forum_26 div.threadbar, body#something_awful.forum_26 div.forumbar
+{
+    background: #433d2d!important;
+}
+
+
+body#something_awful.forum_26 div.threadbar, body#something_awful.forum_26 #subforums,body#something_awful.forum_26 #forum, body#something_awful.forum_26 #forum td, body#something_awful.forum_26 #filter, body#something_awful.forum_26 #forum.threadlist tbody tr td:first-child,body#something_awful.forum_26 #subforums tr.subforum td
+{
+    background: #433d2d;
+    color: #fff8f2 !important;
+}
+    #forum td
+    {
+        background: #433d2d;
+    }
+        #forum > td > *
+        {
+            background: none;
+        }
+
+body#something_awful.forum_26 .thread > td
+{
+    background: #484234 !important;
+}
+body#something_awful.forum_26 .seen > td
+{
+    background: #3d3727 !important;
+}
+body#something_awful.forum_26 #thread table.post
+{
+    border-bottom-width: 0!important;
+    border-right-width: 2px!important;
+    background: url(../postback.png) repeat  !important;
+}
+
+    body#something_awful.forum_26 #thread table.post:nth-of-type(3n)
+    {
+    background: url(yukiko.png) right bottom no-repeat, url(postback.png) repeat  !important;
+    }
+    body#something_awful.forum_26 #thread table.post:nth-of-type(5n)
+    {
+    background:url(kanji.png) right bottom no-repeat, url(yukiko.png) right bottom no-repeat, url(postback.png) repeat  !important;
+    }
+    body#something_awful.forum_26 #thread table.post:nth-of-type(7n)
+    {
+    background:url(yu.png) right bottom no-repeat,url(kanji.png) right bottom no-repeat, url(yukiko.png) right bottom no-repeat, url(postback.png) repeat  !important;
+    }
+
+
+body#something_awful.forum_26 #thread td.postbody
+{
+    border-top: none!important;
+    padding-top: 50px;
+    position:relative;
+    z-index:2;
+}
+#thread td.postbody::before
+{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 0 75px;
+    border-left: 10px solid yellow;
+    border-bottom: 10px solid yellow;
+    box-shadow: 0px 0px 5px #fde732, 0px 0px 10px 0px  #433d2d,0px 0px 10px 0px  #433d2d,0px 0px 10px 0px  #d18027 inset;
+    top: 0px;
+    right: 0px;
+
+}
+#thread td.postbody::after
+{
+    content: "04/20 Tane \A After School";
+    white-space: pre;
+    color: #fff;
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+    font-size: 15px;
+    font-weight: bold;
+    top: 0px;
+    right: 0px;
+    width: 200px;
+    position: absolute;
+    padding-top: 4px;
+
+}
+body#something_awful.forum_26 #subforums > td
+{
+    clear: left;
+    background: #433d2d !important;
+    background-image: none;
+}
+
+body#something_awful.forum_26 #thread dl.userinfo dt.author
+{
+    color: #111 !important;
+}
+
+body#something_awful.forum_26 #thread dd.registered
+{
+    color: #060!important;
+}
+
+#flag
+{
+    margin-bottom: 1em;
+}
+
+#forum th
+{
+    padding: 2px 3px;
+}
+
+body#something_awful.forum_26 table.funbox, body#something_awful.forum_26 table.funbox td
+{
+    font: normal normal normal 13px Verdana,Arial,sans-serif;
+    border: none!important;
+}
+
+#thread div.title
+{
+    font: normal normal normal 10px Verdana,Arial,sans-serif;
+    margin-top: 1em;
+}
+
+p.signature
+{
+    clear: both;
+    margin-top: 20px;
+    border: 0;
+}
+
+.funbox
+{
+}
+
+table.standard
+{
+    background: #000;
+    border: 1px #000 solid;
+}
+
+    table.standard td
+    {
+        border: 1px #000 solid;
+        background: #fcf;
+    }
+
+    .standard h2, table.standard th
+    {
+        background: #f39;
+        color: #FFF;
+        border: 0;
+    }
+
+body#something_awful.forum_26 .postbody table.funbox tr td.complete_shit
+{
+    background: #433d2d;
+}
+
+body#something_awful.forum_26 .post > tbody > tr:first-of-type
+{
+    background-color: none !important;
+}
+
+.post > tbody > tr:nth-of-type(3n+2)
+{
+}
+body#something_awful.forum_26 .post
+{
+    border: 3px solid #433d2d !important;
+    position:relative;
+    z-index: 3;
+}
+
+body#something_awful.forum_26 div#flag_container
+{
+    clear: both;
+    height: 100px;
+    width: 490px;
+    border: 1px #000 solid;
+    background-color: #000;
+    background-image: url(http://fi.somethingawful.com/fyad/flag-bg.gif);
+    margin: 0 auto;
+    border: 5px solid #433d2d;
+    border-radius: 3px;
+    overflow: visible !important;
+}
+
+    body#something_awful.forum_26 div#flag_container img
+    {
+        border: 0 #000 solid;
+        border-width: 0 1px;
+        margin: 0 119px;
+    }
+
+#flag_container::after{
+    width: 550px;
+    height: 120px;
+    background: #efca18;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -275px;
+    transform: rotate(-2deg);
+    z-index: -1;
+}
+#flag_container::before{
+    width: 500px;
+    height: 100px;
+    background: #fbfd32;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -250px;
+    transform: rotate(-6deg);
+    z-index: -1;
+}
+td.postdate
+{
+    width: 168px;
+    white-space: nowrap;
+}
+
+#thread.review td
+{
+    background: none;
+    border-color: #999;
+}
+
+#thread.review dl
+{
+    min-height: 60px;
+}
+
+#thread.review tr td.userinfo, #thread.review td.postdate
+{
+    display: table-cell;
+}
+
+body#something_awful.forum_26 body, a
+{
+    color: #011;
+}
+
+body#something_awful.forum_26 #content div.pages .curpage
+{
+    color: #222;
+}
+
+body#something_awful.forum_26 #content, body#something_awful.forum_26 #content div.pages a
+{
+    border-color: #555;
+}
+
+body#something_awful.forum_26 div.funbox
+{
+    width: 90%;
+    float: left;
+    clear: both;
+    background: #433d2d;
+    background: linear-gradient(to right, #433d2d, #67604f, #433d2d);
+    margin-left: 80px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    position:relative;
+    min-width: 40px;
+    padding: 16px 24px;
+    color: #fff8f2;
+    clear: both;
+}
+
+    div.funbox::before
+    {
+
+        width: 100%;
+        height: 100%;
+        padding-top:5px;
+        color:#433d2d;
+        background: #e8d222;
+        padding-left: 20px;
+        content: "great post";
+        position: absolute;
+        left: -5px;
+        border-radius: 10px;
+        margin-top: -30px;
+        z-index: -1;
+        transform: rotate(1deg);
+    }
+    body#something_awful.forum_26 div.funbox .tail
+    {
+        background: none !important;
+        height:0px;
+        width: 0px;
+    }
+
+body#something_awful.forum_26 *
+{
+    text-shadow: none!important;
+}
+
+#forum
+{
+    border-collapse: collapse;
+}
+    #forum tr
+    {
+        background: #433d2d;
+    }
+    body#something_awful.forum_26 div.threadbar, body#something_awful.forum_26 #subforums, body#something_awful.forum_26 #forum, body#something_awful.forum_26 #forum td, body#something_awful.forum_26 #filter
+    {
+        border: 1px solid #e8d222 !important;
+    }
+
+        body#something_awful.forum_26 #forum td.replies
+        {
+            text-align: center!important;
+            font: normal normal normal 13px Verdana,Arial,sans-serif!important;
+        }
+
+        body#something_awful.forum_26 #forum td.views
+        {
+            text-align: center!important;
+        }
+
+        body#something_awful.forum_26 #forum td.author
+        {
+            font: normal normal normal 13px Verdana,Arial,sans-serif!important;
+            text-decoration: underline!important;
+        }
+
+        body#something_awful.forum_26 #subforums td
+        {
+            border: 1px #000 solid!important;
+        }
+
+            #forum td.icon, #forum td.author, #forum td.views, #forum td.lastpost, #thread li.post, #subforums td.topics, #forum td.votes, #forum.asktell td.icon2, table.standard tr td.altcolor2
+            {
+                background: #FF80FF;
+            }
+
+                #thread li.post.even, #subforums, #subforums td, #forum, #forum td, #filter, table#thread tr.even td, #forum.asktell td.icon, #thread.review td, table.standard tr td.altcolor1
+                {
+                    background: #433d2d;
+                }
+
+body#something_awful.forum_26 .seen2 > td, body#something_awful.forum_26 .seen1 > td
+{
+    background: url(postback.png) repeat !important;
+}
+
+body#something_awful.forum_26 tr.altcolor1 td, body#something_awful.forum_26 .altcolor1, body#something_awful.forum_26 tr.altcolor1 td, body#something_awful.forum_26 td.altcolor1
+{
+    background: url(postback.png) repeat;
+}
+
+body#something_awful.forum_26 tr.altcolor2 td, body#something_awful.forum_26 .altcolor2, body#something_awful.forum_26 tr.altcolor2 td, body#something_awful.forum_26 td.altcolor2
+{
+    background: url(postback.png) repeat;
+}
+
+body#something_awful.forum_26 .breadcrumbs a, body#something_awful.forum_26 .breadcrumbs span a
+{
+    color:#433d2d !important;
+}
+body#something_awful.forum_26 a, body#something_awful.forum_26 #content a, body#something_awful.forum_26 a, body#something_awful.forum_26 #content a
+{
+    color: #fff8f2;
+}
+
+    body, a:visited, #content div#mp_bar a, #content div.pages a, body, a:visited, #content div#mp_bar a, #content div.pages a
+    {
+    }
+
+#forum, table, #forum, table, #subforums
+{
+    clear: left;
+}
+
+#thread div.title *, .bbc-center
+{
+    text-align: left;
+}
+
+body#something_awful.forum_26 .bbc-block a
+{
+    color: #433d2d !important;
+}
+
+body#something_awful.forum_26 td.author a, body#something_awful.forum_26 a.author
+{
+    color: #804080;
+}
+
+body#something_awful.forum_26 div.threadbar.top, body#something_awful.forum_26 div.threadbar.bottom
+{
+    border: 1px solid #851a51!important;
+}
+
+
+
+
+        #filter::before, .threadbar::before
+        {
+            content: "";
+            height: 295px;
+            width: 600px;
+            background: url('chietop.png') no-repeat;
+            position: absolute;
+            right: 10px;
+            display: block;
+            margin-top: -302px;
+            z-index: -3;
+        }
+
+        .top
+        {
+            margin-top: 30px;
+        }
+
+        body#something_awful.forum_26 #filter
+        {
+            border-radius: 0 !important;
+            background: #433d2d !important;
+            border: none !important;
+            color: #fff8f2 !important;
+        }
+.userinfo
+{
+    clear: both;
+}
+
+    div.userinfo::before
+    {
+    }
+
+    .userinfo .title
+    {
+    }
+
+    body#something_awful.forum_26 .userinfo > .author
+    {
+        position:relative;
+        padding: 10px 0px 10px 20px !important;
+        display: block;
+
+    }
+
+.userinfo > .author::after
+{
+    position: absolute;
+    content: "";
+    width: 120%;
+    margin-left: -10%;
+    height: 150%;
+    background: #e8d222;
+    top: 0px;
+    left: 0px;
+    z-index:-1;
+    transform: rotate(3deg);
+    border-radius: 3px;
+}
+
+.userinfo > .author::before
+{
+    position: absolute;
+    content: "";
+    width: 120%;
+    margin-left: -10%;
+    height: 150%;
+    background: #433d2d;
+    top: 0px;
+    left: 0px;
+    z-index:-1;
+    transform: rotate(-3deg);
+    border-radius: 3px;
+}
+
+.banlink
+{
+}
+
+@-moz-keyframes fyadrotate
+{
+    from
+    {
+        -moz-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    to
+    {
+        -moz-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+
+@-webkit-keyframes fyadrotate
+{
+    from
+    {
+        -webkit-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    to
+    {
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+
+@-o-keyframes fyadrotate
+{
+    from
+    {
+        -o-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    to
+    {
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+
+@keyframes fyadrotate
+{
+    from
+    {
+        -webkit-transform: rotate(-1deg);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    to
+    {
+        -webkit-transform: rotate(1deg);
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -o-transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+}
+
+a.thread_title:hover, td.author a:hover, td.replies a:hover, td.lastpost a.author:hover, td.icon a.img:hover
+{
+    -webkit-animation: fyadrotate 0.1s linear infinite alternate;
+    -moz-animation: fyadrotate 0.1s linear infinite alternate;
+    -ms-animation: fyadrotate 0.1s linear infinite alternate;
+    -o-animation: fyadrotate 0.1s linear infinite alternate;
+    animation: fyadrotate 0.1s linear infinite alternate;
+}
+
+body#something_awful.forum_26 td.icon
+{
+    border: 1px solid #e8d222 !important;
+}

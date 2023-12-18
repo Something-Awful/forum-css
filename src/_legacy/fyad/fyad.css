@@ -1,0 +1,435 @@
+/* --------------- FYAD Tweaks ---------------- */
+.showthread tbody td.postlinks {
+	display: block!important;
+}
+
+.showthread .post td.postdate {
+	width: 180px !important;
+	display: inline-table;
+}
+
+.showthread #thread table.post td {
+	display: inline-table;
+}
+
+.showthread .altcolor2 td.userinfo, .showthread .altcolor2 td.postdate, .showthread .altcolor1 td.userinfo, .showthread .altcolor1 td.postdate {
+	background-color: inherit;
+}
+
+.forumdisplay .thread td.title_sticky a.thread_title {
+	background: left no-repeat url(//i.somethingawful.com/images/fyad-sticky.png);
+}
+
+/*
+.forumdisplay td.title div.lastseen {
+	background: bottom right no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-1.png) #acff80;
+}
+
+.forumdisplay #forum td.title div.lastseen a.x {
+	background: bottom left no-repeat url(//i.somethingawful.com/images/fyad-lastread-background-x.png);
+}
+*/
+
+body {
+	background-color: #f99;
+	background-image: url(//i.somethingawful.com/images/IM4OR83.jpg);
+}
+
+a:hover {
+	color: #600;
+}
+
+a:active {
+	color: #f09;
+}
+
+#notregistered,#searchboxes {
+	background: none;
+}
+
+#forum th,#forum th a,div.threadbar,div.forumbar {
+	color: white;
+}
+
+#thread div.quote {
+	border-color: #aaa;
+}
+
+#forum th,div.threadbar,div.forumbar {
+	background: #CCA3CC!important;
+}
+
+div.threadbar,#subforums,#forum,#forum td,#filter,#forum.threadlist tbody tr td:first-child,#thread table.post,#subforums tr.subforum td {
+	border-color: #804080!important;
+}
+
+#thread table.post {
+	border-bottom-width: 0!important;
+	border-right-width: 2px!important;
+}
+
+#thread td.postbody {
+	border-top: none!important;
+}
+
+#subforums {
+	clear: left;
+	color: #000!important;
+}
+/*#thread dl.userinfo dt.author{color:#f66!important;padding-left:20px!important;padding-bottom:6px!important;background:url(http://i.somethingawful.com/images/star-fyad.png) no-repeat left 0;line-height:16px!important;}*/
+#thread dl.userinfo dt.author {
+	color: #f66;
+}
+
+#thread dd.registered {
+	color: #060!important;
+}
+
+#flag {
+	margin-bottom: 1em;
+}
+
+#forum th {
+	padding: 2px 3px;
+}
+
+table.funbox,table.funbox td {
+	font: normal normal normal 13px Verdana,Arial,sans-serif;
+	border: none!important;
+}
+
+#thread div.title {
+	font: normal normal normal 10px Verdana,Arial,sans-serif;
+	margin-top: 1em;
+}
+
+p.signature {
+	border: 0;
+}
+
+.funbox {
+	margin-left: 80px;
+}
+
+table.standard {
+	background: #000;
+	border: 1px #000 solid;
+}
+
+table.standard td {
+	border: 1px #000 solid;
+	background: #fcf;
+}
+
+.standard h2,table.standard th {
+	background: #f39;
+	color: #FFF;
+	border: 0;
+}
+
+.postbody table.funbox tr td.complete_shit {
+	background: #FFF;
+}
+
+div#flag_container {
+	clear: both;
+	height: 100px;
+	width: 490px;
+	border: 1px #000 solid;
+	background-color: #000;
+	background-image: url(http://fi.somethingawful.com/fyad/flag-bg.gif);
+	margin: 0 auto;
+}
+
+div#flag_container img {
+	border: 0 #000 solid;
+	border-width: 0 1px;
+	margin: 0 119px;
+}
+
+td.postdate {
+	width: 168px;
+	white-space: nowrap;
+}
+
+#thread.review td {
+	background: none;
+	border-color: #999;
+}
+
+#thread.review dl {
+	min-height: 60px;
+}
+
+#thread.review tr td.userinfo,#thread.review td.postdate {
+	display: table-cell;
+}
+
+body,a {
+	color: #011;
+}
+
+#content div.pages .curpage {
+	color: #222;
+}
+
+#content div.breadcrumbs a.bclast,#content div.pages a {
+	border-color: #555;
+}
+
+div.funbox {
+	width: auto;
+	float: left;
+	clear: both;
+	background-color: #fff;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	-moz-border-radius: 24px;
+	border: 2px #000 solid;
+	border-radius: 24px;
+	position: relative;
+	min-width: 40px;
+	padding: 16px 24px;
+}
+
+div.funbox .tail {
+	background-repeat: no-repeat;
+	background-image: url(http://i.somethingawful.com/images/funbox-9-bottom-arrow.gif);
+	background-position: 0 0;
+	position: absolute;
+	bottom: -29px;
+	left: 24px;
+	width: 27px;
+	height: 44px;
+}
+
+* {
+	text-shadow: none!important;
+}
+
+#forum {
+	border-collapse: collapse;
+}
+
+div.threadbar,#subforums,#forum,#forum td,#filter {
+	border-style: solid;
+	border-width: 1px;
+}
+
+#forum td.replies {
+	text-align: center!important;
+	font: normal normal normal 13px Verdana,Arial,sans-serif!important;
+}
+
+#forum td.views {
+	text-align: center!important;
+	color: #000!important;
+}
+
+#forum td.author {
+	font: normal normal normal 13px Verdana,Arial,sans-serif!important;
+	text-decoration: underline!important;
+}
+
+#subforums td {
+	border: 1px #000 solid!important;
+}
+
+#forum td.icon,#forum td.author,#forum td.views,#forum td.lastpost,#thread li.post,#subforums td.topics,#forum td.votes,#forum.asktell td.icon2,table.standard tr td.altcolor2 {
+	background: #FF80FF;
+}
+
+#thread li.post.even,#subforums,#subforums td,#forum,#forum td,#forum td.star,#forum td.title,#forum td.replies,#forum td.rating,#filter,table#thread tr.even td,#forum.asktell td.icon,#thread.review td,table.standard tr td.altcolor1 {
+	background: #fcf;
+}
+
+/* Threadlist - seen threads */
+#forum tr.seen td.icon,#forum tr.seen td.author,#forum tr.seen td.views,#forum tr.seen td.lastpost {
+	background: #bbccdd;
+}
+#forum tr.seen td.star,#forum tr.seen td.title,#forum tr.seen td.replies,#forum tr.seen td.rating {
+	background: #ddeeff;
+}
+
+tr.altcolor1 td,.altcolor1,tr.altcolor1 td,td.altcolor1 {
+	background-color: #fcf;
+}
+
+tr.altcolor2 td,.altcolor2,tr.altcolor2 td,td.altcolor2 {
+	background-color: #fcc;
+}
+
+a,#content a,a,#content a {
+	color: #403340;
+}
+
+body,a:visited,#content div#mp_bar a,#content div.pages a,#content div.breadcrumbs a,#content div.breadcrumbs a:visited,body,a:visited,#content div#mp_bar a,#content div.pages a,#content div.breadcrumbs a,#content div.breadcrumbs a:visited {
+	color: #000;
+}
+
+#forum,table,div.userinfo,#forum,table,#subforums,div.userinfo {
+	clear: left;
+}
+
+#thread div.title *,.bbc-center {
+	text-align: left;
+}
+
+td.postlinks ul.profilelinks li a,td.postdate a {
+	background: #fff!important;
+}
+
+td.author a,a.author {
+	color: #804080;
+}
+
+div.threadbar.top,div.threadbar.bottom {
+	box-shadow: inset 2px 2px 0 #FFE5FF,inset -2px -2px 0 #805980!important;
+	border: 1px solid #851a51!important;
+}
+
+@-moz-keyframes fyadrotate {
+	from {
+		-moz-transform: rotate(-1deg);
+		transform: rotate(-1deg);
+	}
+
+	to {
+		-moz-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+}
+
+@-webkit-keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		transform: rotate(-1deg);
+	}
+
+	to {
+		-webkit-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+}
+
+@-o-keyframes fyadrotate {
+	from {
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg);
+	}
+
+	to {
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+}
+
+@keyframes fyadrotate {
+	from {
+		-webkit-transform: rotate(-1deg);
+		-moz-transform: rotate(-1deg);
+		-ms-transform: rotate(-1deg);
+		-o-transform: rotate(-1deg);
+		transform: rotate(-1deg);
+	}
+
+	to {
+		-webkit-transform: rotate(1deg);
+		-moz-transform: rotate(1deg);
+		-ms-transform: rotate(1deg);
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+}
+
+a.thread_title:hover, td.author a:hover, td.replies a:hover, td.lastpost a.author:hover, td.icon a.img:hover {
+	-webkit-animation: fyadrotate 0.1s linear infinite alternate;
+	-moz-animation: fyadrotate 0.1s linear infinite alternate;
+	-ms-animation: fyadrotate 0.1s linear infinite alternate;
+	-o-animation: fyadrotate 0.1s linear infinite alternate;
+	animation: fyadrotate 0.1s linear infinite alternate;
+}
+
+/* to address the issue seen in thread https://forums.somethingawful.com/showthread.php?threadid=3853395 */
+table.post tr.seen2 {
+	background-color: #c6daee;
+}
+
+table.post tr.seen1 {
+	background-color: #dbe8f5;
+}
+
+/* override gradient below postdate */
+.altcolor1 td.postdate, .altcolor2 td.postdate, table.post tr.seen1 td.postdate, table.post tr.seen2 td.postdate {
+	background-image: initial;
+	background-color: inherit;
+}
+
+/* make sure post links in showpost wrap to a new line */
+.showpost tbody td.postlinks {
+	display: block;
+}
+
+/* Push the setseen etc. icons away from the page edge */
+td.postdate {
+	margin-left: 5px;
+}
+
+/* sceditor overrides */
+#sabb-editor.sceditor-maximize {
+	background: #fcc;
+}
+
+/* moderator/IKs: replace fat FYAD buttons */
+/* Beecock button shouldn't really shrink.
+@media screen and (max-width: 1337px) {
+	.forum_26 .threadbar img[src="//fi.somethingawful.com/images/buttons/sa-beecock.gif"] {
+		background-image: url("http://i.somethingawful.com/images/sa-beecock-small.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 22px;
+		height: 20px;
+		padding-left: 22px;
+	}
+}
+*/
+@media screen and (max-width: 1240px) {
+	.showthread .threadbar.top li:nth-of-type(7) img[src="https://fi.somethingawful.com/images/trollin.png"] {
+		background-image: url("https://i.somethingawful.com/images/trollin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+	.showthread .threadbar.top li:nth-of-type(8) img[src="https://fi.somethingawful.com/images/bowlin.png"] {
+		background-image: url("https://i.somethingawful.com/images/bowlin.png");
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 70px;
+		height: 20px;
+		padding-left: 70px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	/* Reclaim 4px from the left side of the thread search box */
+	form.threadsearch {
+		margin-left: 0px;
+	}
+	/* Narrow the gap between the top threadbar buttons */
+	.showthread .threadbar.top ul.postbuttons li {
+		margin-right: 9px;
+	}
+}
+@media screen and (max-width: 966px) {
+	/* Hide top post button entirely */
+	.threadbar.top ul.postbuttons li:nth-of-type(7) {
+		display: none;
+	}
+}
+@media screen and (max-width: 886px) {
+	/* Hide top reply button entirely */
+	.threadbar.top ul.postbuttons li:nth-of-type(8) {
+		display: none;
+	}
+}

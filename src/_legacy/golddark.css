@@ -1,0 +1,96 @@
+div.forumbar
+{
+  visibility:hidden;
+  height:0;
+  border:0;
+  padding:0;
+}
+
+#thread table.post
+{
+  border:1px solid #BBB;
+}
+
+#forum tbody tr:last-child td
+{
+  border-bottom:1px solid #7e541d;
+}
+
+#forum.threadlist tr.thread td
+{
+  background-color:#1b1c22;
+}
+
+#forum.threadlist tr.thread.closed td
+{
+  background-color:#1b1c22;
+  opacity:1;
+}
+
+#forum th, div.threadbar, div.forumbar, #forums th, #forums th a, #forums th a:visited, #pm th, #pm th a, #pm th a:visited, #pm th a:hover, #info th, #forum th a, #forum th a:visited, .standard h2, table.standard th, .standard h2 a, .standard h2 a:visited, .getinfo .standard th a, .getinfo .standard th a:visited, .gloryhole table.stats th, .privfolder tfoot tr td
+{
+  background-color:#865d1d;
+}
+
+#forum.threadlist th a
+{
+  background:none;
+}
+
+div#filter
+{
+  background-color:#c8a451;
+  border:1px solid #7e541d;
+}
+
+ul#nav_purchase
+{
+  background-color:#865d1d!important;
+}
+
+td.title div.lastseen {
+  box-shadow: inset 1px 1px 1px rgba(126, 84, 29, .9),inset -1px -1px 1px rgba(126, 84, 29, .9);
+}
+
+#forum td.title div.lastseen a.x, #forum td.title div.lastseen a.count {
+  box-shadow: inset 1px 1px 1px rgba(126, 84, 29, .9),inset -1px -1px 1px rgba(126, 84, 29, .9);
+}
+
+ul#navigation.navigation
+{
+  box-shadow:none;
+}
+
+table#subforums tr.subforum td
+{
+  background-color:#1b1c22;
+}
+
+#subforums tr.subforum td.title a, #forum td.title a, #forum td.lastpost a.author, .online_users, #forum td.author a, .online_users a, #forum td.replies a,a,#nav_purchase a,#thread td.postbody, #thread dl.userinfo, #forum td.replies, #forum td.views, #forum td.author, a:visited, body, #copyright a, .gloryhole div#main_small table.stats td, .online_users div.inner, div.breadcrumbs a:not(:hover), #index a, #index :visited,.breadcrumbs a, .pages a, .pages .disabled, select, .postbody a.quote_link,.forumhome #navigation.navigation a, div#buddylist dl.online a.user,#forum td.title div.lastseen a.x,#subforums tr.subforum td.title a, .letternav li, #something_awful.announcement td.postbody a, input, button, #thread dl.userinfo dt.author.op
+{
+  color: #c8a451;
+}
+
+#subforums tr.subforum td.title a:hover, #forum td.title a:hover, #forum td.lastpost a.author:hover, .online_users a:hover
+{
+  color:#ec592a;
+}
+
+div#copyright
+{
+  color:#585843;
+}
+
+#forum td
+{
+  border: solid 1px #7e541d!important;
+}
+
+input[type="submit"], input[type="reset"], .letternav li, #buddylist dl a.pm, #buddylist dl.offline a.pm, button, div.pages a, div.pages .disabled, .messages_nextprev a, .modqueue #main_full .queue_cmd a, div.breadcrumbs a.index, .modqueue #main_full div.pages a, .modqueue div.process_button input, .privfolder #content form table.standard input, div.pages select, .letternav li a  {
+  box-shadow: inset 1px 1px 1px #c8a451,inset -1px -1px 1px #c8a451,2px 2px 2px rgba(96,96,96,.39);
+}
+
+select, #ac_timemachine select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52.34 54.96' preserveAspectRatio='xMaxYMid'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%231c212a;%7D.cls-2%7Bfill:%23865d1d;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 1%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Artwork'%3E%3Crect class='cls-1' width='52.34' height='54.96'/%3E%3Cpolygon class='cls-2' points='17.7 23.55 26.83 35.33 35.96 23.55 17.7 23.55'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  border-color:#c8a451;
+}

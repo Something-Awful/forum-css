@@ -1,0 +1,216 @@
+body {
+  background-color: #b32229;
+}
+
+body, a {
+  color: #550
+}
+
+a:hover {
+  color: #600
+}
+
+body, a:visited {
+  color: #000
+}
+
+a:active {
+  color: #0f0
+}
+
+#notregistered, #searchboxes {
+  background: none
+}
+
+#forum, table {
+  clear: left
+}
+
+#forum th, #forum th a, div.threadbar, div.forumbar {
+  color: #fff
+}
+
+#thread div.quote {
+  border-color: #aaa
+}
+
+#forum th, div.threadbar, div.forumbar {
+  background: #ad4
+}
+
+#forum td.icon, #forum td.author, #forum td.views, #forum td.lastpost, #thread li.post, #subforums td.topics, #forum td.votes, #forum.asktell td.icon2 {
+  background: #5F4E2F
+}
+
+#forum td.views, #forum td.lastpost {
+  color: #f00;
+  font-family: "courier new", fixed;
+  font-style: italic
+}
+
+#thread li.post.even, #subforums, #subforums td, #forum, #forum td, #filter, table#thread tr.even td, #forum.asktell td.icon, #thread.review td {
+  background: #fff3df
+}
+
+div.threadbar, #subforums, #subforums td, #forum, #forum td, #filter {
+  border: 1px solid #2df
+}
+
+#thread td.postbody {
+  border-top: 2px solid #033
+}
+
+#subforums {
+  clear: left
+}
+
+#thread dl.userinfo dt.author {
+  color: #d2d;
+  font-size: 9px;
+  font-style: italic;
+  letter-spacing: 1.4px
+}
+
+#thread dd.registered {
+  color: #060!important
+}
+
+#flag {
+  margin-bottom: 1em
+}
+
+#forum th {
+  padding: 2px 3px
+}
+
+#thread div.title {
+  font: normal normal normal 10px Verdana, Arial, sans-serif;
+  margin-top: 1em
+}
+
+#thread div.title * {
+  text-align: left
+}
+
+p.signature {
+  border: 0
+}
+
+.funbox {
+  margin-left: 80px
+}
+
+tr.altcolor1 td {
+  background-color: #fff3df
+}
+
+tr.altcolor2 td {
+  background-color: #fcc
+}
+
+table.standard {
+  background: black;
+  border: 1px black solid
+}
+
+table.standard td {
+  border: 1px black solid
+}
+
+.standard h2, table.standard th {
+  background: #ad4;
+  color: white;
+  border: 0
+}
+
+table.standard td {
+  background: #fff3df
+}
+
+table.standard tr td.altcolor1 {
+  background: #fff3df
+}
+
+table.standard tr td.altcolor2 {
+  background: #fcc
+}
+
+.altcolor1, tr.altcolor1 td, td.altcolor1 {
+  background-color: #e3efd1
+}
+
+.altcolor2, tr.altcolor2 td, td.altcolor2 {
+  background-color: #d5ff6f
+}
+
+.postbody table.funbox tr td.complete_shit {
+  background: white
+}
+
+td.postdate {
+  width: 168px
+}
+
+#thread.review td {
+  border-color: #999
+}
+
+#thread.review td {
+  background: none
+}
+
+#thread.review dl {
+  min-height: 60px
+}
+
+#thread.review tr td.userinfo, #thread.review td.postdate {
+  display: table-cell
+}
+
+.bbc-center {
+  text-align: left
+}
+
+#content a {
+  color: #1a2
+}
+
+#content div.pages .curpage {
+  color: #222
+}
+
+#content div#mp_bar a, #content div.pages a, #content div.breadcrumbs a, #content div.breadcrumbs a:visited {
+  color: #000
+}
+
+#content div.breadcrumbs a.bclast, #content div.pages a {
+  border-color: #555
+}
+
+td.postbody div.bbc-block {
+  background-color: #70a0d0;
+  background-color: #fadfff;
+  background-image: url('//fi.somethingawful.com/rfa/rfa-blockbg.png');
+  background-repeat: no-repeat;
+  padding: 4px;
+  padding-left: 160px;
+  border: 5px #65f dotted
+}
+
+td.postbody div.bbc-block h4 {
+  border: 0;
+  padding-top: 6px
+}
+
+ul#navigation {
+  background-image: url('//fi.somethingawful.com/rfa/rfa-header2.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 300px
+}
+
+table.standard tr.postwarning td {
+  background: red;
+  color: yellow;
+  font-weight: bold
+}

@@ -1,0 +1,108 @@
+.searchresults input#query {
+	padding-left: 4px;
+}
+
+.searchresults li.search_result {
+	margin-bottom: 28px;
+}
+
+.searchresults #search_info {
+	border: 1px solid #ADADAD;
+	border-radius: 10px;
+	background: #fafafa none repeat-x;
+	  font-size: 13px;
+    color: #999;
+}
+
+.searchresults .result_number {
+	font-size: 16px;
+	color: #777;
+}
+
+.searchresults .threadlink {
+	font-size: 16px;
+}
+
+.searchresults a.threadtitle {
+	text-decoration: none;
+	color: #2B75BD;
+}
+
+.searchresults a.threadtitle:hover {
+	text-decoration: underline;
+	color: #1F558A;
+}
+
+.searchresults a.threadtitle:visited {
+	text-decoration: underline;
+	color: #1F558A;
+}
+
+.searchresults .hit_info {
+	padding: 4px 0;
+}
+
+.searchresults .hit_info .username {
+	font-weight: bold;
+	padding: 0 4px;
+	color: #CA4A42;
+}
+
+.searchresults .hit_info .forumtitle {
+	font-weight: bold;
+	padding: 0 4px;
+	color: #CA4A42;
+	color: #0E4071;
+}
+
+.searchresults .hit_info {
+	color: #888;
+}
+
+.searchresults .hit_info a {     
+	text-decoration: none;
+}
+
+.searchresults .blurb {
+	padding: 0;
+	margin: 0;
+	border: 0px solid #FFF;
+	background-color: initial;
+	
+	color: #555;
+    font-size: 13px;
+}
+
+.searchresults .blurb em {
+	font-style: normal;
+	color: #333;
+}
+
+.searchresults .pages {
+	padding-top: 0;
+	font-size: 13px;
+}
+
+.searchresults ul.pages li {
+	display: inline-block;
+}
+
+.searchresults ul.pages li.page_number {
+	width: 20px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.searchresults ul.pages li.page_number .this_page {
+	font-weight: bold;
+	color: #111;
+}
+
+.searchresults ul.pages li a {
+	text-decoration: none;
+}
+
+.searchresults ul.pages li a:hover {
+	text-decoration: underline;
+}
+
