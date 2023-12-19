@@ -3879,6 +3879,12 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
   background-color: #c590f5;
 }
 
-.lol-lmao-lmfao {
-  font-size: 20px;
+.postbody {
+  line-height: 20px;
+  font-size: 15px;
+}
+@media (max-width: 640px) {
+  .postbody {
+    font-size: 24px;
+  }
 }

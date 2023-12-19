@@ -1,5 +1,5 @@
-@use 'common/variables.scss';
-@use 'common/grid.scss';
-
 // Import the legacy forums CSS in its entirety
 @use '../_legacy/forums.css';
+
+// Anything else imported will overwrite the legacy CSS
+@use 'thread/post/body';
