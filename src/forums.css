@@ -1,10 +1,6 @@
 body {
   -webkit-font-smoothing: subpixel-antialiased !important;
   text-rendering: optimizeLegibility;
-  text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
 }
 
 div.threadbar,#subforums td,#forum,#forum th,#forum td,#filter,div.forumbar,#thread table.post,#thread td,#forums,#forums th,#forums td,#pm,#pm th,#pm td,#info,#info th,#info td,.searchresults table#main_full,.getinfo table,.privfolder table,.whoposted table.standard,#cpmain .private_messages table.standard
@@ -4357,4 +4353,41 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
 }
 .highlight6 {
 	background-color: #c590f5;
+}
+
+/* MOBILE TEXT ADJUSTMENTS */
+/* These should be redundant after going fully responsive, ignored with the viewport <meta> tag, which we haven't added yet */
+
+/* To remove all base text adjustments, uncomment the following block */
+/* body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+} */
+
+/* Post author name */
+.author {
+  text-size-adjust: 150%;
+  -webkit-text-size-adjust: 150%;
+}
+
+/* Reg date */
+#thread td.userinfo .registered
+{
+  text-size-adjust: 150%;
+  -webkit-text-size-adjust: 150%;
+}
+
+/* Edited by + attachment text  */
+#thread table.post p.editedby span,#thread table.post p.attachment span
+{
+  text-size-adjust: 150%;
+  -webkit-text-size-adjust: 150%;
+}
+
+/* Post content */
+.postbody {
+  text-size-adjust: 180%;
+  -webkit-text-size-adjust: 180%;
 }
