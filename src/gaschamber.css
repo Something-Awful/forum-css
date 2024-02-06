@@ -361,3 +361,13 @@ tr.altcolor1 td {
 tr.altcolor2 td {
 	background-color: #6c0
 }
+
+.collapseInner {
+    background-image: linear-gradient(0deg, #043405 55%, transparent);
+	color: #3f230b;
+}
+
+.expandFade {
+	mask-image: linear-gradient(180deg, #043405 20%, transparent);
+	color: #3f230b;
+}
