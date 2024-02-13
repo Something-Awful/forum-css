@@ -4355,6 +4355,12 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
 	background-color: #c590f5;
 }
 
+.collapse-caret {
+  margin-right: 6px;
+  user-select: none;
+  cursor: pointer;
+}
+
 .collapsableQuote {
   overflow-y: clip;
 }
@@ -4364,63 +4370,12 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
   overflow: hidden;
 }
 
-.collapseContainer {
-  width: 100%;
-  position: sticky;
-  bottom: -2px;
-  margin-top: -50px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-}
-
-.collapseInner {
-  cursor: pointer;
-  height: 50px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  background-image: linear-gradient(0deg, rgb(244, 244, 244) 55%, transparent);
-  display: none;
-}
-
-.collapseButton {
-  width: 120px;
-  padding-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #888;
-  font-weight: 200;
-  font-size: 12px;
-  justify-content: center;
-  text-align: center;
-}
-
 .expandContainer {
   cursor: pointer;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: none;
-}
-
-.expandButton {
-  padding-bottom: 5px;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #888;
-  font-weight: 200;
-  font-size: 12px;
-  justify-content: center;
-  text-align: center;
-}
-
-.expandContractText {
-  user-select: none;
-  color: #888;
-  .arrow {
-    color: #AAA;
-  }
 }
 
 .quoteInner {
@@ -4433,68 +4388,22 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
   mask-position: 5px;
 }
 
-tr.altcolor1 {
-  .collapseInner {
-    background-image: linear-gradient(0deg, #fafafa 55%, transparent);
-  }
-  
-  .expandFade {
+tr.altcolor1 .expandFade {
     mask-image: linear-gradient(180deg, #fafafa 20%, transparent);
   }
-}
 
-tr.altcolor2 {
-  .collapseInner {
-    background-image: linear-gradient(0deg, #f4f4f4 55%, transparent);
-  }
-  
-  .expandFade {
+tr.altcolor2 .expandFade {
     mask-image: linear-gradient(180deg, #f4f4f4 20%, transparent);
   }
+
+tr.seen1 .expandFade {
+    mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
 }
 
-tr.seen1 {
-  .collapseInner {
-    background-image: linear-gradient(0deg, #f5faff 55%, transparent);
-  }
-
-  .expandFade {
+tr.seen2 .expandFade {
     mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
-  }
-  .collapseInner {
-    background-image: linear-gradient(0deg, #f5faff 55%, transparent);
-  }
-
-  .expandFade {
-    mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
-  }
 }
 
-tr.seen2 {
-  .collapseInner {
-    background-image: linear-gradient(0deg, #f5faff 55%, transparent);
-  }
-
-  .expandFade {
-    mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
-  }
-}
-
-.userquoted {
-  .collapseContainer {
-    .collapseInner {
-      background-image: linear-gradient(0deg, #FFFEBA 55%, transparent);
-    }
-  }
-
-  .expandFade {
+.userquoted .expandFade {
     mask-image: linear-gradient(180deg, #FFFEBA 20%, transparent);
-  }
-
-  .expandContractText {
-    color: #000;
-    .arrow {
-      color: #222;
-    }
-  }
 }
