@@ -506,11 +506,6 @@ td.postbody iframe {
 #sabb-editor.sceditor-maximize {
 	background: black;
 }
-
-.collapseInner {
-    background-image: linear-gradient(0deg, #000 55%, transparent);
-	color: #57FF57;
-}
   
 .expandFade {
 	mask-image: linear-gradient(180deg, #000 20%, transparent);
@@ -518,11 +513,6 @@ td.postbody iframe {
 }
 
 tr.altcolor1, tr.altcolor2 {
-	.collapseInner {
-		background-image: linear-gradient(0deg, #000 55%, transparent);
-		color: #57FF57;
-	}
-
 	.expandFade {
 		mask-image: linear-gradient(180deg, #000 20%, transparent);
 		color: #57FF57;
@@ -530,11 +520,6 @@ tr.altcolor1, tr.altcolor2 {
 }
 
 tr.seen1, tr.seen2 {
-	.collapseInner {
-		background-image: linear-gradient(0deg, #114211 55%, transparent);
-		color: #57FF57;
-	}
-
 	.expandFade {
 		mask-image: linear-gradient(180deg, #114211 20%, transparent);
 		color: #57FF57;

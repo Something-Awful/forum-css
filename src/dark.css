@@ -871,62 +871,15 @@ img[src="https://fi.somethingawful.com/images/newbie.gif"] {
 	display: none;
 }
 
-tr.altcolor1 {
-	.collapseInner {
-	  background-image: linear-gradient(0deg, #1b202b 55%, transparent);
-	}
-	
-	.expandFade {
-	  mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
-	}
-  }
-
-tr.altcolor2 {
-	.collapseInner {
-		background-image: linear-gradient(0deg, #1b202b 55%, transparent);
-	}
-
-	.expandFade {
-		mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
-	}
-}
-
-tr.seen1 {
-	.collapseInner {
-		background-image: linear-gradient(0deg, #1b202b 55%, transparent);
-	}
-
-	.expandFade {
-		mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
-	}
-}
-
-tr.seen2 {
-	.collapseInner {
-	  background-image: linear-gradient(0deg, #1b202b 55%, transparent);
-	}
-  
+tr.altcolor1, tr.altcolor2, tr.seen1, tr.seen2 {
 	.expandFade {
 	  mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
 	}
 }
   
 .userquoted {
-	.collapseContainer {
-	  .collapseInner {
-		background-image: linear-gradient(0deg, #81055e 55%, transparent);
-	  }
-	}
-  
 	.expandFade {
 	  mask-image: linear-gradient(180deg, #81055e 20%, transparent);
-	}
-  
-	.expandContractText {
-	  color: #ddd;
-	  .arrow {
-		color: #aaa;
-	  }
 	}
 }
   
