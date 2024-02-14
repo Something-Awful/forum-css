@@ -4359,6 +4359,7 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
   margin-right: 6px;
   user-select: none;
   cursor: pointer;
+  font-style: normal;
 }
 
 .collapsableQuote {
@@ -4368,14 +4369,6 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
 .collapsed {
   max-height: 200px;
   overflow: hidden;
-}
-
-.expandContainer {
-  cursor: pointer;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: none;
 }
 
 .quoteInner {
@@ -4389,21 +4382,21 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
 }
 
 tr.altcolor1 .expandFade {
-    mask-image: linear-gradient(180deg, #fafafa 20%, transparent);
-  }
+  mask-image: linear-gradient(180deg, #fafafa 20%, transparent);
+}
 
 tr.altcolor2 .expandFade {
-    mask-image: linear-gradient(180deg, #f4f4f4 20%, transparent);
-  }
+  mask-image: linear-gradient(180deg, #f4f4f4 20%, transparent);
+}
 
 tr.seen1 .expandFade {
-    mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
+  mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
 }
 
 tr.seen2 .expandFade {
-    mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
+  mask-image: linear-gradient(180deg, #f5faff 20%, transparent);
 }
 
 .userquoted .expandFade {
-    mask-image: linear-gradient(180deg, #FFFEBA 20%, transparent);
+  mask-image: linear-gradient(180deg, #FFFEBA 20%, transparent);
 }
