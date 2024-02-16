@@ -65,3 +65,7 @@ div.breadcrumbs .online_users a:visited:hover {
  div.breadcrumbs a.bclast {
 	color:#ddd;
 }
+
+.collapse-caret {
+	color:#e33;
+}
