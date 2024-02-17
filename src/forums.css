@@ -4356,10 +4356,16 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
 }
 
 .collapse-caret {
+  margin:0;
   margin-right: 6px;
+  color: inherit;
+  font-family: inherit;
   user-select: none;
-  cursor: pointer;
   font-style: normal;
+  background:none;
+  border:none;
+  padding:0;
+  cursor: pointer;
 }
 
 .collapsableQuote {
