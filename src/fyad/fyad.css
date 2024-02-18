@@ -436,16 +436,16 @@ td.postdate {
 
 .expandFade .collapse-caret {
 	animation-name: spin;
-	animation-duration: 400ms;
-	animation-iteration-count: 4;
-	animation-timing-function: linear; 
+	animation-duration: 1200ms;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out; 
 }
 
 @keyframes spin {
     from {
-        transform:rotate(360deg);
+        transform:rotate(0deg);
     }
     to {
-        transform:rotate(0deg);
+        transform:rotate(-1080deg);
     }
 }
