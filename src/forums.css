@@ -4365,6 +4365,7 @@ div.pages select ~ a:last-child, div.pages select ~ a:last-child:hover {
   background:none;
   border:none;
   padding:0;
+  box-shadow: none;
   cursor: pointer;
 }
 

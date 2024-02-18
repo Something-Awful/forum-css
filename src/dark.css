@@ -871,6 +871,12 @@ img[src="https://fi.somethingawful.com/images/newbie.gif"] {
 	display: none;
 }
 
+.collapse-caret:hover {
+	background: none;
+	box-shadow: none;
+	border: none;
+}  
+
 tr.altcolor1, tr.altcolor2, tr.seen1, tr.seen2 {
 	.expandFade {
 	  mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
