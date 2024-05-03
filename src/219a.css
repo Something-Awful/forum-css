@@ -5,7 +5,7 @@
 	border-radius: 0!important
 }
 
-.forum_219 body, .forum_219 tr, .forum_219 th, .forum_219 td, .forum_219 p, .forum_219 li, .forum_219 dd, .forum_219 dt, .forum_219 .breadcrumbs *, .forum_219 .stafflist {
+.forum_219 body, .forum_219 tr, .forum_219 th, .forum_219 td, .forum_219 p, .forum_219 li, .forum_219 dd, .forum_219 dt, .forum_219 .breadcrumbs *, .forum_219 .stafflist, .forum_219 .search-highlighting-warning {
 	font-family: "consolas", "monaco", monospace!important;
 	color: #EACF4C
 }
