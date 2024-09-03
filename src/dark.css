@@ -24,11 +24,11 @@ body {
 
 /* General Tables */
 
-table td,div.standard, table.standard, table.standard td, div.standard dl, div.standard dd, div.standard dt,.member_account_features dl.features,.getinfo table.standard td#thread,.getinfo table.standard td.info,.getinfo table.standard tr:last-child td, .priv_sendprivmsg table#main_full.standard tr:nth-child(2) td, .priv_sendprivmsg table#main_full.standard tr:nth-child(4) td, ul.contactlist, .search_form, .whoposted table.standard td.altcolor1, .whoposted table.standard td.altcolor2, .threads_editthread #content table.standard tr td, #bbindex .tag, #cpmain div.standard table.standard tr td { /*PARENT CELL*/
+table td,div.standard, table.standard, table.standard td, div.standard dl, div.standard dd, div.standard dt,.member_account_features dl.features,.getinfo table.standard td#thread,.getinfo table.standard td.info,.getinfo table.standard tr:last-child td, .priv_sendprivmsg table#main_full.standard tr:nth-child(2) td, .priv_sendprivmsg table#main_full.standard tr:nth-child(4) td, ul.contactlist, .search_form, .whoposted table.standard td.altcolor1, .whoposted table.standard td.altcolor2, .threads_editthread #content table.standard tr td, .bbtable .tag, #cpmain div.standard table.standard tr td { /*PARENT CELL*/
 	background-color:#1b1c22;
 }
 
-#forum th, div.threadbar, div.forumbar, #forums th, #forums th a, #forums th a:visited, #pm th, #pm th a, #pm th a:visited, #pm th a:hover, #info th, #forum th a, #forum th a:visited, .standard h2, table.standard th, .standard h2 a, .standard h2 a:visited, .getinfo .standard th a, .getinfo .standard th a:visited, .gloryhole table.stats th, .privfolder tfoot tr td, #bbindex tr th {
+#forum th, div.threadbar, div.forumbar, #forums th, #forums th a, #forums th a:visited, #pm th, #pm th a, #pm th a:visited, #pm th a:hover, #info th, #forum th a, #forum th a:visited, .standard h2, table.standard th, .standard h2 a, .standard h2 a:visited, .getinfo .standard th a, .getinfo .standard th a:visited, .gloryhole table.stats th, .privfolder tfoot tr td, .bbtable tr th {
 	background-color:#304867;
 }
 
@@ -671,7 +671,7 @@ table.standard th, table.standard td {
 .private_messages h2 a {
 	background-color:transparent;
 }
-.privmsg .post td, #bbindex td {
+.privmsg .post td, .bbtable td {
 	background-color:#13171e!important;
 }
 
@@ -875,17 +875,16 @@ img[src="https://fi.somethingawful.com/images/newbie.gif"] {
 	background: none;
 	box-shadow: none;
 	border: none;
-}  
+}
 
 tr.altcolor1, tr.altcolor2, tr.seen1, tr.seen2 {
 	.expandFade {
 	  mask-image: linear-gradient(180deg, #1b202b 20%, transparent);
 	}
 }
-  
+
 .userquoted {
 	.expandFade {
 	  mask-image: linear-gradient(180deg, #81055e 20%, transparent);
 	}
 }
-  
