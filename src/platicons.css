@@ -259,6 +259,13 @@
 	padding-left:20px!important;
 }
 
+#thread dl.userinfo dt.meltdown-blue
+{
+	background-image:url(https://fi.somethingawful.com/images/svgs/nuclear-blue.svg);
+	background-size: 15px;
+	padding-left:20px!important;
+}
+
 #thread dl.userinfo dt.chome
 {
 	background-image:url(https://fi.somethingawful.com/safs/smilies/e/a/chome.001.gif);
