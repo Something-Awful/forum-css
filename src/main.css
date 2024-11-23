@@ -101,12 +101,13 @@ div.textads_advhere a {
 #searchboxes input.text {
 	width:12em
 }
-#notregistered {
+#unregistered {
 	border:2px solid;
 	text-align:center;
 	border-color:#000;
 	margin:8px 0;
-	padding:6px
+	padding:6px;
+	font-size:20px;
 }
 div.breadcrumbs,#subforums td.title dt,#forum td.lastpost a.author,div.threadbar form.threadsearch label,#thread dl.userinfo dt,#forums td.title a.forum {
 	font-weight:bold
@@ -132,7 +133,7 @@ a:hover {
 a:active {
 	color:#f60
 }
-#notregistered,#searchboxes {
+#unregistered,#searchboxes {
 	background:#eee
 }
 #thread div.quote {
