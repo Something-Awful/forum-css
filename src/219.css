@@ -59,6 +59,33 @@ ul#nav_purchase li, #nav_purchase a, #navigation li a, .navigation li a {
 	color: #57FF57!important
 }
 
+#system {
+	border: none;
+	background-color: #57FF57;
+	color: black;
+	font-family: "consolas", "monaco", monospace;
+}
+
+#system a, #system h1 {
+	color: inherit;
+	font-family: inherit;
+}
+
+#system:hover {
+	animation: 2s step-end infinite system-blink;
+}
+
+@keyframes system-blink {
+	0% {
+		background-color: black;
+		color: #57FF57;
+	}
+	50% {
+		background-color: #57FF57;
+		color: black;
+	}
+}
+
 div.pages a {
 	border: 1px solid #57FF57!important;
 	min-width: 30px!important;
