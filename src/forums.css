@@ -3562,10 +3562,6 @@ img.emoji {
 	display: none;
 }
 
-#something_awful.announcement #content .breadcrumbs ~ br, #something_awful.announcement #content .breadcrumbs ~ b {
-	display: none;
-}
-
 #something_awful.announcement td.userinfo, #something_awful.announcement td.postdate {
 	background-color: #dfdfdf;
 }
