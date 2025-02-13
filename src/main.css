@@ -976,6 +976,18 @@ a.noreg_attachment {
 td.postbody iframe {
 	border:1px solid #34769E
 }
+.bluesky-embed {
+	max-width: 600px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+}
+.bluesky-embed iframe {
+	border-radius: 0.75rem;
+	display: block;
+	flex-grow: 1;
+}
 div.breadcrumbs h1,.navigation li,#nav_purchase li,#searchboxes div,#thread ul.profilelinks li {
 	display:inline
 }
