@@ -281,6 +281,10 @@ p.editedby span, p.attachment span, #copyright, #copyright * {
 	margin: 0
 }
 
+ul.postbuttons li:last-child {
+	display: none;
+}
+
 button.nice {
 	color: #57FF57!important;
 	background-color: transparent;
