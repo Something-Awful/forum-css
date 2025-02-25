@@ -279,6 +279,7 @@ p.editedby span, p.attachment span, #copyright, #copyright * {
 }
 
 .cospop {
+	display: none;
 	background-color: black!important;
 	border: 1px solid #EACF4C!important;
 	cursor: url(https://fi.somethingawful.com/219/cosby/pudding_cursor.png), default;
