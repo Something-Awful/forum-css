@@ -3,6 +3,22 @@ body
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshi.jpg) #cedbf0;
 }
 
+#content::before {
+  clear: both;
+  content: url(https://signavatar.com/79393_v.gif);
+  text-align: center;
+  display: block;
+  position: relative;
+  background-image: url(https://i.imgur.com/t6AO2lM.png);
+  height: 100px;
+  width: 490px;
+  border: 1px #000 solid;
+  background-color: #000;
+  margin: 0 auto;
+  margin-bottom: 13px;
+  overflow: hidden !important;
+}
+
 #thread {
   clear:both;
 }
