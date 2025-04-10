@@ -3,9 +3,8 @@ body
   background:url(//fi.somethingawful.com/images/ddrd-bgYoshi.jpg) #cedbf0;
 }
 
-#content::before {
+#iz_flag {
   clear: both;
-  content: url(https://signavatar.com/79393_v.gif);
   text-align: center;
   display: block;
   position: relative;
