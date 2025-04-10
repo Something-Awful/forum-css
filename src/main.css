@@ -976,12 +976,6 @@ a.noreg_attachment {
 td.postbody iframe {
 	border:1px solid #34769E
 }
-td.postbody .youtube-player {
-	aspect-ratio: 16 / 9;
-	width: 100%;
-	height: auto;
-	max-width: 800px;
-}
 .bluesky-embed {
 	max-width: 600px;
 	width: 100%;
