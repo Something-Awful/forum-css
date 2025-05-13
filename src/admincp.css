@@ -359,7 +359,7 @@ table.legacy.userlog {
   background: no-repeat 4px 4px
 }
 
-.usergroup4, .usergroup144 {
+.userlog .usergroup4, .userlog .usergroup144 {
 	padding-left: 21px;
   background: no-repeat 4px 4px;
 }
