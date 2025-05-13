@@ -367,6 +367,10 @@ table.legacy.userlog {
   background-image: url('https://i.somethingawful.com/core/icon/fsilk/bullet_star_blue.png')
 }
 
+.userlog .username.probation {
+	background-color: #FDF;
+}
+
 .userlog td .tinylinks {
   text-align: right;
   font-family: sans-serif;
