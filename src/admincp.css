@@ -377,7 +377,8 @@ table.legacy.userlog {
 }
 
 .userlog td.username.usergroup144 {
-  background-image: url('https://i.somethingawful.com/core/icon/fsilk/exclamation.png');
+  background-image: url('https://fi.somethingawful.com/images/svgs/permabanned.svg');
+	background-size: 15px;
 }
 
 .userlog .username.probation {
