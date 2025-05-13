@@ -359,12 +359,25 @@ table.legacy.userlog {
   background: no-repeat 4px 4px
 }
 
+.usergroup4, .usergroup144 {
+	padding-left: 21px;
+  background: no-repeat 4px 4px;
+}
+
 .userlog td.username.usergroup6 {
   background-image: url('https://i.somethingawful.com/core/icon/fsilk/bullet_star_red.png')
 }
 
 .userlog td.username.usergroup112 {
   background-image: url('https://i.somethingawful.com/core/icon/fsilk/bullet_star_blue.png')
+}
+
+.userlog td.username.usergroup4 {
+  background-image: url('https://i.somethingawful.com/core/icon/fsilk/delete.png');
+}
+
+.userlog td.username.usergroup144 {
+  background-image: url('https://i.somethingawful.com/core/icon/fsilk/exclamation.png');
 }
 
 .userlog .username.probation {
