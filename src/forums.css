@@ -3048,6 +3048,19 @@ body#something_awful  #copyright {
 	background: #B8B8E6;
 }
 
+/* BYOB food truck thread list entry */
+#forum tr#thread4094045 td.title {
+	background: #ccf;
+}
+
+#forum tr#thread4094045 td.star, #forum tr#thread4094045 td.icon, #forum tr#thread4094045 td.author, #forum tr#thread4094045 td.views,#forum tr#thread4094045 td.lastpost,#forum tr#thread4094045 td.button_remove {
+	background: #b9e7e7;
+}
+
+#forum tr#thread4094045 td.rating, #forum tr#thread4094045 td.replies {
+	background: #B8B8E6;
+}
+
 /* ------------- CP Tweaks --------------------- */
 
 #cpmain .private_messages table td.title, #cpmain #forum td.title a.thread_title, .privfolder #content table tr td.title {
