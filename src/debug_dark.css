@@ -30,10 +30,15 @@ div.debug_table table {
 
 #debug_out th {
 	background-color: #444;
+	color: #ccc;
 }
 
 #debug_out tr:nth-child(2n+1) {
 	background-color: #1b1c22;
+}
+
+#debug_out table.explain tr:nth-child(2n+1) {
+	background-color: #0e0f15;
 }
 
 #debug_out td.type.query {
