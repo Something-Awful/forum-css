@@ -1755,7 +1755,6 @@ ul#usercpnav li a {
 
 .modifyprofile .standard th,.modifyoptions .standard th,.modifypassword .standard h2,.listedit .standard h2,.member_account_features .standard h2,.dictionary_show .standard h2,.gloryhole .standard h2,.banlist .standard h2,.supportmail .standard h2,#main_full th,.getinfo .standard th,.newthread .standard h2,.online_users .standard h2,.priv_sendprivmsg .standard h2,.newreply .standard h2,.editpost .standard h2,.threads_editthread .standard th
 {
-  font-size: 10px;
   font-size: 13px;
   padding-left:10px;
   font-family:Arial;
@@ -2980,7 +2979,7 @@ ul.navigation li a, #nav_purchase a {
 	min-height: 50px;
 }
 
- #forum td.rating, #forums td.title, #forum td.title, #forum th.title,  #forum th.icon,  #forum td.author,  #forum th.author,  #forum th.replies,  #forum th.views,  #forum th a, body#something_awful  #copyright,  #forum td.title .title_pages a,  #forum td.title .title_pages a:hover,  .online_users,  .online_users a, #something_awful form.forum_jump select,  div.threadrate ul.rating_buttons li {
+#forum td.rating, #forums td.title, #forum td.title, #forum th.title,  #forum th.icon,  #forum td.author,  #forum th.author,  #forum th.replies,  #forum th.views,  #forum th a, body#something_awful  #copyright,  #forum td.title .title_pages a,  #forum td.title .title_pages a:hover, #something_awful form.forum_jump select,  div.threadrate ul.rating_buttons li {
 	font-size: 13px;
 }
 
