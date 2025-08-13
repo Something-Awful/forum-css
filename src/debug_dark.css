@@ -26,11 +26,11 @@
 
 div.debug_table table {
 	background-color: black;
+	color: #ccc;
 }
 
 #debug_out th {
 	background-color: #444;
-	color: #ccc;
 }
 
 #debug_out tr:nth-child(2n+1) {
