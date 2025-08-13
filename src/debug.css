@@ -3,9 +3,11 @@
 	top: 0;
 	right: 0;
 	border: 1px solid #ccc;
-	background-color: #efefef;
+	border-bottom-left-radius: 4px;
+	background-color: #ccc;
 	font-size: 10px;
-	z-index: 1000
+	z-index: 1000;
+	filter: drop-shadow(1px 1px 0.2rem rgba(0, 0, 0, 0.5));
 }
 
 #debug div.debug_head {
