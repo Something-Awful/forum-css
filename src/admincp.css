@@ -812,6 +812,10 @@ div.mods li.mod {
 	background-image: url('https://i.somethingawful.com/core/icon/fsilk/table_edit.png')
 }
 
+.menu .files {
+	background-image: url('https://i.somethingawful.com/core/icon/fsilk/folder_image.png')
+}
+
 /* cp homepage */
 .box#stats img {
   margin-left: 16px;
