@@ -1150,3 +1150,6 @@ div.pages span, div.pages a, div.pages select {
 	padding: 6px 8px;
 	font-size: 15px;
 }
+div.pages .disabled {
+	color: #ccc;
+}
