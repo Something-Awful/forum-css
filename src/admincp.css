@@ -1140,7 +1140,7 @@ div.pages a:hover {
 	margin: 6px 4px;
 	padding: 6px 8px;
 }
-div.pages span, div.pages a, div.pages select {
+div.pages span, div.pages a, div.pages select, div.pages form {
 	display: inline-block;
 	background: #eee;
 	border: 1px solid #666;
