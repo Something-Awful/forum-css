@@ -1134,3 +1134,19 @@ table.goonbas td.status.queued {
 table.goonbas td.status.expired {
   background-color: #944
 }
+
+/* get the pages div looking half-decent until we clean up the underlying junk */
+div.pages a:hover {
+	margin: 6px 4px;
+	padding: 6px 8px;
+}
+div.pages span, div.pages a, div.pages select {
+	display: inline-block;
+	background: #eee;
+	border: 1px solid #666;
+	text-align: center;
+	min-width: 24px;
+	margin: 6px 4px;
+	padding: 6px 8px;
+	font-size: 15px;
+}
