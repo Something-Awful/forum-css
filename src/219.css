@@ -208,7 +208,7 @@ ul.profilelinks {
 	box-shadow: 0 0 9px #57FF57!important
 }
 
-.bbc-spoiler.reveal {
+.bbc-spoiler.reveal, .bbc-spoiler.stay {
 	color: #57FF57!important;
 	background-color: transparent!important;
 	box-shadow: none!important
