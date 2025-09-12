@@ -547,3 +547,23 @@ td.postbody iframe {
 #sabb-editor.sceditor-maximize {
 	background: black;
 }
+
+.expandFade {
+	mask-image: linear-gradient(180deg, #000 20%, transparent);
+	color: #EACF4C;
+}
+
+tr.altcolor1, tr.altcolor2 {
+	.expandFade {
+		mask-image: linear-gradient(180deg, #000 20%, transparent);
+		color: #EACF4C;
+	}
+}
+
+tr.seen1, tr.seen2 {
+	.expandFade {
+		/* feel free to submit a pull request with a tweak to this color */
+		mask-image: linear-gradient(180deg, #423911 20%, transparent);
+		color: #EACF4C;
+	}
+}
