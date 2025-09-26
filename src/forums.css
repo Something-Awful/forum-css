@@ -1724,21 +1724,6 @@ ul#usercpnav li a {
   font-size:12px;
 }
 
-.banlist .mqnav .pages
-{
-  margin-top:0;
-  margin-right:-5px;
-  padding:0;
-}
-
-.banlist .mqnav:nth-of-type(2) .pages
-{
-  margin-top:-12px;
-  margin-right:-5px;
-  padding:0;
-  float: none !important;
-}
-
 .modifypassword .standard div.inner
 {
   padding:0 7px 12px;
@@ -3904,9 +3889,13 @@ div.breadcrumbs:nth-child(3) {
 }
 
 
-.banlist .mqnav:nth-of-type(2) .pages {
-	margin: 0 !important;
-	float: none !important;
+.banlist .mqnav .pages {
+	margin: 0;
+	margin-right: 24px;
+	padding: 0;
+}
+.banlist .mqnav .pages.bottom {
+	margin-top: 12px;
 }
 
 .banlist div.inner div[style="padding-left:8px;"] {
