@@ -2216,12 +2216,12 @@ div.postinfo div.save-state a
 	touch-action: manipulation;
 }
 
-.bbc-spoiler img
+.bbc-spoiler img, .bbc-spoiler iframe
 {
   visibility:hidden;
 }
 
-.bbc-spoiler.reveal img,.bbc-spoiler.stay img
+.bbc-spoiler.reveal img,.bbc-spoiler.stay img, .bbc-spoiler.reveal iframe, .bbc-spoiler.stay iframe
 {
   visibility:visible;
 }
