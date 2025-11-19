@@ -2207,7 +2207,11 @@ div.postinfo div.save-state a
   padding-left:8px;
 }
 
-.bbc-spoiler, .bbc-spoiler li, .bbc-spoiler code, .bbc-spoiler pre, .bbc-spoiler blockquote
+div.bbc-spoiler {
+	display: inline-block;
+}
+
+.bbc-spoiler, .bbc-spoiler li
 {
 	background-color:#222;
 	color:rgba(34, 34, 34, 0); /* #2220 */
@@ -2216,14 +2220,12 @@ div.postinfo div.save-state a
 	touch-action: manipulation;
 }
 
-.bbc-spoiler img, .bbc-spoiler iframe
-{
-  visibility:hidden;
+.bbc-spoiler * {
+	visibility:hidden;
 }
-
-.bbc-spoiler.reveal img,.bbc-spoiler.stay img, .bbc-spoiler.reveal iframe, .bbc-spoiler.stay iframe
+.bbc-spoiler.reveal *, .bbc-spoiler.stay *
 {
-  visibility:visible;
+	visibility:visible;
 }
 
 .bbc-spoiler.reveal li, .bbc-spoiler.reveal, .bbc-spoiler.stay, .bbc-spoiler.stay li, .bbc-spoiler.reveal code, .bbc-spoiler.reveal pre, .bbc-spoiler.stay code, .bbc-spoiler.stay pre, .bbc-spoiler.reveal blockquote, .bbc-spoiler.stay blockquote
