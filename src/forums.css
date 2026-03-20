@@ -3779,11 +3779,19 @@ div.breadcrumbs:nth-child(3) {
 	line-height: 34px;
 }
 
- #main_full .smalltext input[name="parseurl"], #main_full .smalltext input[name="bookmark"], #main_full .smalltext input[name="disablesmilies"], #main_full .smalltext input[name="signature"] {
+#main_full .smalltext input[name="parseurl"], #main_full .smalltext input[name="bookmark"], #main_full .smalltext input[name="disablesmilies"], #main_full .smalltext input[name="signature"], #main_full .smalltext input[name="attachmentaction"] {
 	line-height: 13px;
-    height: 13px;
-    vertical-align: middle;
- }
+	height: 13px;
+	vertical-align: middle;
+}
+
+.editnewv1attachment {
+	margin-left: 24px;
+}
+
+input[name="attachmentaction"][value="new"]:not(:checked) ~ .editnewv1attachment {
+	display: none;
+}
 
 .forumdisplay .forumbar ul.postbuttons li {
     display: inline-block;
