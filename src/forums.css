@@ -3782,6 +3782,7 @@ div.breadcrumbs:nth-child(3) {
 #main_full .smalltext input[name="parseurl"], #main_full .smalltext input[name="bookmark"], #main_full .smalltext input[name="disablesmilies"], #main_full .smalltext input[name="signature"], #main_full .smalltext input[name="attachmentaction"] {
 	line-height: 13px;
 	height: 13px;
+	padding: 0;
 	vertical-align: middle;
 }
 
