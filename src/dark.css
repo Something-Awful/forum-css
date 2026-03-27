@@ -526,7 +526,7 @@ input, button {
 	border-radius: 0%;
 }
 
-input[type=submit], .letternav li, #buddylist dl a.pm, #buddylist dl.offline a.pm, button, .pages a, .pages .disabled,.messages_nextprev a {
+input[type=submit], input[type=button], .letternav li, #buddylist dl a.pm, #buddylist dl.offline a.pm, button, .pages a, .pages .disabled,.messages_nextprev a {
 	border:#304867 1px solid;
 }
 table.standard td input[type=radio] {
