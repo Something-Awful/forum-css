@@ -2039,14 +2039,6 @@ h1.topic
   padding-bottom:12px;
 }
 
-/* logged in user row */
-.newthread #content table.standard tr:first-child,.newreply #content table.standard tr:first-child,.editpost #content table.standard tr:first-child,.threads_editthread #content table.standard tr:first-child
-{
-  height:35px;
-  line-height:35px;
-  vertical-align:middle;
-}
-
 .newthread #content table.standard tr td:first-child,.newreply #content table.standard tr td:first-child,.priv_sendprivmsg #content table.standard tr td:first-child,.editpost #content table.standard tr td:first-child,.threads_editthread #content table.standard tr td:first-child
 {
   min-width:180px;
@@ -3218,12 +3210,6 @@ div.breadcrumbs a.up:hover span
 #subforums tr.subforum td.title a:hover,.bbc-spoiler:hover a:link,.bbc-spoiler:hover a:visited,.bbc-spoiler:hover a:active,.bbc-spoiler:hover a:link
 {
   color:#B05042;
-}
-
-.threads_editthread #content table#main_wide.standard tr:nth-child(2) td,.newthread #content table.standard tr:first-child td,.newreply #content table.standard tr:first-child td,.editpost #content table.standard tr:first-child td
-{
-  padding-top:0;
-  padding-bottom:0;
 }
 
 .threads_editthread #content table#main_wide.standard table.thread-modnotes tr td:first-child,.gloryhole #main_small table.stats tr td.rank
