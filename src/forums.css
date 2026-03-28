@@ -2039,7 +2039,8 @@ h1.topic
   padding-bottom:12px;
 }
 
-.newthread #content table.standard tr:first-child,.newreply #content table.standard tr:first-child,.threads_editthread #content table.standard tr:first-child
+/* logged in user row */
+.newthread #content table.standard tr:first-child,.newreply #content table.standard tr:first-child,.editpost #content table.standard tr:first-child,.threads_editthread #content table.standard tr:first-child
 {
   height:35px;
   line-height:35px;
