@@ -3220,7 +3220,7 @@ div.breadcrumbs a.up:hover span
   color:#B05042;
 }
 
-.threads_editthread #content table#main_wide.standard tr:nth-child(2) td,.newthread #content table.standard tr:first-child td,.newreply #content table.standard tr:first-child td
+.threads_editthread #content table#main_wide.standard tr:nth-child(2) td,.newthread #content table.standard tr:first-child td,.newreply #content table.standard tr:first-child td,.editpost #content table.standard tr:first-child td
 {
   padding-top:0;
   padding-bottom:0;
