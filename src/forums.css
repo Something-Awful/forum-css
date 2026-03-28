@@ -1972,7 +1972,7 @@ h1.topic
   padding-bottom:12px;
 }
 
-.searchresults #main_full tr a, .banlist #main_full td a, .newthread #main_full a, .newreply #main_full a, .editpost #main_full a, .modqueue #main_full a
+.searchresults #main_full tr a, .banlist #main_full td a, .newthread #main_full a, .newreply #main_full a, .editpost #main_full a, .modalert #main_full td:first-child a, .modqueue #main_full a
 {
   border:0;
   text-decoration:underline;
@@ -1986,7 +1986,7 @@ h1.topic
   padding:0;
 }
 
-.searchresults #main_full tr a:hover, .banlist #main_full table.standard td a, .newthread #main_full a:hover, .newreply #main_full a:hover, .editpost #main_full a:hover, .modqueue #main_full a:hover
+.searchresults #main_full tr a:hover, .banlist #main_full table.standard td a, .newthread #main_full a:hover, .newreply #main_full a:hover, .editpost #main_full a:hover, .modalert #main_full td:first-child a:hover, .modqueue #main_full a:hover
 {
   background-color:inherit;
 }
@@ -2039,14 +2039,17 @@ h1.topic
   padding-bottom:12px;
 }
 
-.newthread #content table.standard tr td:first-child,.newreply #content table.standard tr td:first-child,.priv_sendprivmsg #content table.standard tr td:first-child,.editpost #content table.standard tr td:first-child,.threads_editthread #content table.standard tr td:first-child
+.newthread #content table.standard tr td:first-child,.newreply #content table.standard tr td:first-child,.priv_sendprivmsg #content table.standard tr td:first-child,.editpost #content table.standard tr td:first-child,
+.modalert #content table.standard tr td:first-child,
+.threads_editthread #content table.standard tr td:first-child
 {
   min-width:180px;
   max-width:180px;
   width:180px;
 }
 
-.newthread #content table.standard tr td:first-child a, .newreply #content table.standard tr td:first-child a, .editpost #content table.standard tr td:first-child a
+/* resets links in posting forms */
+.newthread #content table.standard tr td:first-child a, .newreply #content table.standard tr td:first-child a, .editpost #content table.standard tr td:first-child a, .modalert #content table.standard tr td:first-child a
 {
   white-space:normal;
   display:inline;
