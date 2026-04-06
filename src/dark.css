@@ -508,7 +508,7 @@ input[type=submit]:hover, input[type=reset]:hover, .modqueue #main_full .queue_c
 	box-shadow:inset 1px 1px 1px #65a1ee,inset -1px -1px 1px #65a1ee,2px 2px 2px rgba(96,96,96,.39);
 }
 
-input[type=submit], input[type=reset], .letternav li, #buddylist dl a.pm, #buddylist dl.offline a.pm, button, div.pages a, div.pages .disabled,.messages_nextprev a, .modqueue #main_full .queue_cmd a, div.breadcrumbs a.index, .modqueue #main_full div.pages a, .modqueue div.process_button input, .privfolder #content form table.standard input {
+input[type=submit], input[type=button], input[type=reset], .letternav li, #buddylist dl a.pm, #buddylist dl.offline a.pm, button, div.pages a, div.pages .disabled,.messages_nextprev a, .modqueue #main_full .queue_cmd a, div.breadcrumbs a.index, .modqueue #main_full div.pages a, .modqueue div.process_button input, .privfolder #content form table.standard input {
 	border:#304867 1px solid;
 	box-shadow: inset 1px 1px 1px #65a1ee,inset -1px -1px 1px #65a1ee,2px 2px 2px rgba(96,96,96,.39);
 }
