@@ -297,6 +297,8 @@ table#modqueue tr.header th {
 	padding: 2px 4px 4px 4px;
 	margin-bottom: 4px;
 	font-size: 15px;
+	/* future site of CSS var for standard text line height */
+	line-height: 1.4em;
 	color: #444;
 	border: 1px solid #d6d6df;
 	border-radius: 3px;
